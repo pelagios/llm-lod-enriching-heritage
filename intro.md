@@ -44,8 +44,9 @@
 
 The workshop explored the transformative potential of combining Large Language Models (LLMs) and Linked Open Data (LOD) to enrich cultural heritage metadata in ways that foster FAIR usage. The workshop also provided a forum for knowledge exchange amongst participants with experience in Cultural Heritage standards, LOD, LLMs and Named Entity Recognition, and explicitly engaged with the challenges presented by validation, bias, and the ethical processing of heritage data. The workshop made the problem space of working with Named Entities more tractable by dividing it into three core processes: Recognition, Disambiguation, and Relations, each explored at a specific stage of the workshop.
 
-## FAQs
-### What's a recipe?
+<h2>FAQs</h2>
+<h3>What's a recipe?</h3>
+
 You can think of 'recipes' as a set of instructions for creating a specific thing with a set of ingredients. Recipes can be bundled together into 'cookbooks'.
 
 We're imagining users who are interested in experimenting with recipes that demonstrate what is possible and potentially valuable for Culturual Heritage contexts when combinging LOD and LLMs. Less technically-oriented users may consider browsing the recipes to provide adaptable inspiration to share with funding bodies, technical and collections colleagues. Developers may be interested in mining the cookbook for ideas and adaptable code elements.
