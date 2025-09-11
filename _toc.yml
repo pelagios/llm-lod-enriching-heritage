@@ -31,6 +31,8 @@ parts:
         sections:
           - file: notebooks/data_preparation/data_preparation
             title: Data & Preparation
+          - file: notebooks/data_preparation/docling_demo
+            title: Text Extraction from PDFs with Docling
       - file: notebooks/tasks/tasks
         title: Tasks
         sections:

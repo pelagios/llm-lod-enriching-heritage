@@ -22,7 +22,7 @@
   <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 20px;">
     <div><strong>Diana Maynard</strong><br><em>University of Sheffield</em></div>
     <div><strong>Chiara Palladino</strong><br><em>Durham University</em></div>
-    <div><strong>Sebastian Peeters</strong><br><em>University of Twente</em></div>
+    <div><strong>Sebastiaan Peeters</strong><br><em>University of Twente</em></div>
     <div><strong>Nina Claudia Rastinger</strong><br><em>Austrian Academy of Sciences</em></div>
   </div>
   <!-- Third row: 5 people -->
