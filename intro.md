@@ -2,6 +2,8 @@
 
 This cookbook explores the transformative potential of combining Large Language Models (LLMs) and Linked Open Data (LOD) to enrich cultural heritage metadata and foster FAIR (Findable, Accessible, Interoperable, Reusable) usage.
 
+We're imagining users who are interested in experimenting with recipes that demonstrate what is possible and potentially valuable for Culturual Heritage contexts when combinging LOD and LLMs. Less technically-oriented users may consider browsing the recipes to provide adaptable inspiration to share with funding bodies, technical and collections colleagues. Developers may be interested in mining the cookbook for ideas and adaptable code elements.
+
 # FAQs
 ## What's a recipe?
 You can think of 'recipes' as a set of instructions for creating a specific thing with a set of ingredients. Recipes can be bundled together into 'cookbooks'.
