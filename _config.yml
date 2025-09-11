@@ -8,7 +8,7 @@ parse:
 # Information about where the book exists on the web
 repository:
   url: https://github.com/pelagios/llm-lod-enriching-heritage/tree/main
-  branch: main  # Which branch of the repository should be used when creating links (optional)
+  branch: main
 html:
   use_edit_page_button: true
   use_issues_button: true
