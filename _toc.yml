@@ -2,12 +2,17 @@ format: jb-book
 root: intro
 
 parts:
+  - caption: Scenarios
+    numbered: True
+    chapters:
+      - file: scenarios/intro
+        title: Introduction
+      - file: scenarios/scenario_1
+        title: Head of Digital Innovation
+
   - caption: Core Concepts
     numbered: True  # Only applies to chapters in Part 1.
     chapters:
-      - file: scenarios/scenario_1
-        title: Head of Digital Innovation
-      # Concepts
       - file: concepts/lod
         title: Linked Open Data
       - file: concepts/llms
