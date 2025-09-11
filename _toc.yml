@@ -1,0 +1,27 @@
+format: jb-book
+root: intro
+
+parts:
+  - caption: Core Concepts
+    numbered: True  # Only applies to chapters in Part 1.
+    chapters:
+      - file: notebooks/concepts/lod
+        title: Linked Open Data
+      - file: notebooks/concepts/llms
+        title: Large Language Models
+      - file: notebooks/concepts/ner
+        title: Named Entity Recognition
+      - file: notebooks/concepts/disambiguation
+        title: Entity Disambiguation
+      - file: notebooks/concepts/relationship
+        title: Relationship Extraction
+
+  - caption: LLM Recipes
+    numbered: True  # Only applies to chapters in Part 1.
+    chapters:
+    - file: notebooks/llm/ner
+      title: Named Entity Recognition
+    - file: notebooks/llm/disambiguation
+      title: Entity Disambiguation
+
+

@@ -1,0 +1,18 @@
+# Book settings
+title: LLM and LOD Workshop Recipes
+author: William J.B. Mattingly
+execute:
+  execute_notebooks: 'off'
+parse:
+  myst_extended_syntax: true
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/wjbmattingly/llm-lod-recipes # Online location of your book
+  branch: main  # Which branch of the repository should be used when creating links (optional)
+html:
+  use_edit_page_button: true
+  use_issues_button: true
+  use_repository_button: true
+  use_multitoc_numbering: false
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
