@@ -27,9 +27,9 @@ parts:
   - caption: LLM Recipes
     numbered: True
     chapters:
-      - file: data_preparation
+      - file: notebooks/data_preparation
         title: Data & Preparation
-      - file: tasks/tasks
+      - file: notebooks/tasks/tasks
         title: Tasks
         sections:
           - file: notebooks/tasks/ner
