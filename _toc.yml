@@ -5,7 +5,7 @@ parts:
   - caption: Core Concepts
     numbered: True  # Only applies to chapters in Part 1.
     chapters:
-      - file: scenarios/head_of_digital_innovation
+      - file: scenarios/scenario_1
         title: Head of Digital Innovation
       # Concepts
       - file: concepts/lod
