@@ -29,6 +29,9 @@ parts:
     chapters:
       - file: notebooks/data_preparation
         title: Data & Preparation
+        sections:
+          - file: notebooks/data_preparation/data_preparation
+            title: Data & Preparation
       - file: notebooks/tasks/tasks
         title: Tasks
         sections:
