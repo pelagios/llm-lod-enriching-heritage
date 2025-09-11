@@ -1,4 +1,4 @@
-<h2><center>Enriching Digital Heritage with LLMs and Linked Open Data</center></h2>
+# <p style="text-align: center">Enriching Digital Heritage with LLMs and Linked Open Data</h2>
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 20px auto; text-align: center; max-width: 800px;">
   <div><strong>Gethin Rees</strong><br><em>King's College London</em></div>
