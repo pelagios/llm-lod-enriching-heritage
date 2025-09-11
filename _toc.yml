@@ -11,25 +11,30 @@ parts:
         title: Head of Digital Innovation
 
   - caption: Core Concepts
-    numbered: True  # Only applies to chapters in Part 1.
+    numbered: True
     chapters:
-      - file: concepts/lod
-        title: Linked Open Data
-      - file: concepts/llms
-        title: Large Language Models
-      - file: concepts/ner
-        title: Named Entity Recognition
-      - file: concepts/disambiguation
-        title: Entity Disambiguation
-      - file: concepts/relationship
-        title: Relationship Extraction
+    - file: concepts/lod
+      title: Linked Open Data
+    - file: concepts/llms
+      title: Large Language Models
+    - file: concepts/ner
+      title: Named Entity Recognition
+    - file: concepts/disambiguation
+      title: Entity Disambiguation
+    - file: concepts/relationship
+      title: Relationship Extraction
 
   - caption: LLM Recipes
-    numbered: True  # Only applies to chapters in Part 1.
+    numbered: True
     chapters:
-    - file: notebooks/llm/ner
-      title: Named Entity Recognition
-    - file: notebooks/llm/disambiguation
-      title: Entity Disambiguation
+      - file: data
+        title: Data & Preparation
+      - file: tasks
+        title: Tasks
+        sections:
+        - file: notebooks/tasks/ner
+          title: Named Entity Recognition
+        - file: notebooks/tasks/disambiguation
+          title: Entity Disambiguation
 
 
