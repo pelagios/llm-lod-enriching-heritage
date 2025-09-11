@@ -26,19 +26,36 @@ parts:
 
   - caption: LLM Recipes
     chapters:
-      - file: notebooks/data_preparation/data
+      - file: notebooks/data_preparation/intro
         title: Data & Preparation
         sections:
           - file: notebooks/data_preparation/data_preparation
             title: Data & Preparation
           - file: notebooks/data_preparation/docling_demo
             title: Text Extraction from PDFs with Docling
-      - file: notebooks/tasks/tasks
+
+      - file: notebooks/tasks/intro
         title: Tasks
         sections:
           - file: notebooks/tasks/ner
             title: Named Entity Recognition
           - file: notebooks/tasks/disambiguation
             title: Entity Disambiguation
+
+      - file: notebooks/evaluation/intro
+        title: Evaluation
+        sections:
+          - file: notebooks/evaluation/evaluation
+            title: Evaluation
+
+      - file: notebooks/applications/intro
+        title: Applications
+        sections:
+          - file: notebooks/applications/disambiguation_map
+            title: Disambiguation Map
+          - file: notebooks/applications/eval_visualisation
+            title: Visualising Evaluation
+          - file: notebooks/applications/kg_visualisation
+            title: Visualising Knowledge Graphs
 
 
