@@ -1,5 +1,14 @@
 <h1 style="text-align: center">Enriching Digital Heritage with LLMs and Linked Open Data</h1>
 
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 20px auto; text-align: center; max-width: 800px;">
+  <div><strong>Gethin Rees</strong><br><em>King's College London</em></div>
+  <div><strong>Arno Bosse</strong><br><em>KNAW HuC</em></div>
+  <div><strong>Rossana Damiano</strong><br><em>University of Turin</em></div>
+  <div><strong>Leif Isaksen</strong><br><em>University of Exeter</em></div>
+  <div><strong>Tariq Yousef</strong><br><em>University of Southern Denmark</em></div>
+  <div><strong>Elton Barker</strong><br><em>The Open University</em></div>
+</div>
+
 <div style="margin: 20px auto; text-align: center; max-width: 900px;">
   <!-- First row: 5 people -->
   <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 15px; margin-bottom: 20px;">
