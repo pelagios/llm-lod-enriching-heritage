@@ -2,13 +2,11 @@
 
 This cookbook explores the transformative potential of combining Large Language Models (LLMs) and Linked Open Data (LOD) to enrich cultural heritage metadata and foster FAIR (Findable, Accessible, Interoperable, Reusable) usage.
 
-## Workshop Organizers
+# FAQs
+## What's a recipe?
+You can think of 'recipes' as a set of instructions for creating a specific thing with a set of ingredients. Recipes can be bundled together into 'cookbooks'.
 
-- **Arno Bosse** - WP lead for Infrastructure, Globalise project, Digital Infrastructure Dept., KNAW HuC, NL
-- **Rossana Damiano** - Assoc. Prof. of Computer Science, Dept. of Informatics, U. of Turin, IT
-- **Leif Isaksen** - Prof. of Digital Humanities, Digital Humanities Lab, University of Exeter, UK
-- **Gethin Rees** - Lead Curator, Digital Mapping, British Library, UK - Main Contact
-- **Tariq Yousef** - Asst. Prof. of Data Science, Dept. of Maths & Computer Sci., U. of Southern Denmark, DK
+In this case, we've created recipes for people who work with cultural heritage collections to show something of what's possible with AI and linked open data.
 
 ## Research Challenge
 Cultural Heritage (CH) collections represent one of Europe's greatest assets, but their metadata faces significant challenges:
@@ -54,3 +52,13 @@ This workshop explores the transformative potential of combining LLMs and LOD to
 ### Geographic Focus
 
 We use **geographic Named Entities** as our principal case study, drawing on the experience of the **Pelagios Network** - a community dedicated to developing efficient LOD practices for cultural heritage with emphasis on geographic aspects.
+
+
+
+## Workshop Organizers
+
+- **Arno Bosse** - WP lead for Infrastructure, Globalise project, Digital Infrastructure Dept., KNAW HuC, NL
+- **Rossana Damiano** - Assoc. Prof. of Computer Science, Dept. of Informatics, U. of Turin, IT
+- **Leif Isaksen** - Prof. of Digital Humanities, Digital Humanities Lab, University of Exeter, UK
+- **Gethin Rees** - Lead Curator, Digital Mapping, British Library, UK - Main Contact
+- **Tariq Yousef** - Asst. Prof. of Data Science, Dept. of Maths & Computer Sci., U. of Southern Denmark, DK
