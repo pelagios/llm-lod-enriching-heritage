@@ -27,14 +27,14 @@ parts:
   - caption: LLM Recipes
     numbered: True
     chapters:
-      - file: data
+      - file: data_preparation
         title: Data & Preparation
-      - file: tasks
+      - file: tasks/tasks
         title: Tasks
         sections:
-        - file: notebooks/tasks/ner
-          title: Named Entity Recognition
-        - file: notebooks/tasks/disambiguation
-          title: Entity Disambiguation
+          - file: notebooks/tasks/ner
+            title: Named Entity Recognition
+          - file: notebooks/tasks/disambiguation
+            title: Entity Disambiguation
 
 
