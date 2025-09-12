@@ -68,6 +68,5 @@ parts:
     chapters:
       - file: about
         title: About the Workshop
-    chapters:
       - file: faqs
         title: FAQs
