@@ -47,6 +47,8 @@ parts:
   - caption: Glossary
     numbered: True
     chapters:
+    - file: concepts/intro
+      title: Introduction
     - file: concepts/lod
       title: Linked Open Data
     - file: concepts/llms
