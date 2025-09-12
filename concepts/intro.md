@@ -1,4 +1,4 @@
-# Introduction
+# Introduction to Core Concpts
 This section introduces the foundational concepts that underpin the tools, recipes, and applications in this cookbook. Understanding these core ideas will help you see where value can be added, which capabilities are feasible, and how to approach implementation.
 
 Here are the central concepts we will cover:
