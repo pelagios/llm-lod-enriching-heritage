@@ -10,20 +10,6 @@ parts:
       - file: scenarios/scenario_1
         title: Head of Digital Innovation
 
-  - caption: Core Concepts
-    numbered: True
-    chapters:
-    - file: concepts/lod
-      title: Linked Open Data
-    - file: concepts/llms
-      title: Large Language Models
-    - file: concepts/ner
-      title: Named Entity Recognition
-    - file: concepts/disambiguation
-      title: Entity Disambiguation
-    - file: concepts/relationship
-      title: Relationship Extraction
-
   - caption: LLM Recipes
     chapters:
       - file: notebooks/data_preparation/intro
@@ -58,4 +44,16 @@ parts:
           - file: notebooks/applications/kg_visualisation
             title: Visualising Knowledge Graphs
 
-
+  - caption: Glossary
+    numbered: True
+    chapters:
+    - file: concepts/lod
+      title: Linked Open Data
+    - file: concepts/llms
+      title: Large Language Models
+    - file: concepts/ner
+      title: Named Entity Recognition
+    - file: concepts/disambiguation
+      title: Entity Disambiguation
+    - file: concepts/relationship
+      title: Relationship Extraction
