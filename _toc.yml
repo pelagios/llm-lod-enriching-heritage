@@ -10,7 +10,7 @@ parts:
       - file: scenarios/scenario_1
         title: A GLAM collection manager
 
-  - caption: Recipes
+  - caption: AI Recipes
     numbered: True
     chapters:
       - file: notebooks/data_preparation/intro
