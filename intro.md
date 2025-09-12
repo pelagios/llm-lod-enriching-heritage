@@ -1,4 +1,4 @@
-# <p style="text-align: center">Enriching Digital Heritage with LLMs and Linked Open Data</h2>
+# <p style="text-align: center">The Cultural Heritage Connectivity Cookbook (2025 Edition)</h2>
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 20px auto; text-align: center; max-width: 800px;">
   <div><strong>Gethin Rees</strong><br><em>King's College London</em></div>
@@ -41,8 +41,6 @@
     <div><strong>Margherita Fantoli</strong><br><em>Catholic University of Leuven</em></div>
   </div>
 </div>
-
-The workshop explored the transformative potential of combining Large Language Models (LLMs) and Linked Open Data (LOD) to enrich cultural heritage metadata in ways that foster FAIR usage. The workshop also provided a forum for knowledge exchange amongst participants with experience in Cultural Heritage standards, LOD, LLMs and Named Entity Recognition, and explicitly engaged with the challenges presented by validation, bias, and the ethical processing of heritage data. The workshop made the problem space of working with Named Entities more tractable by dividing it into three core processes: Recognition, Disambiguation, and Relations, each explored at a specific stage of the workshop.
 
 <h3>FAQs</h2>
 <h4>What's a recipe?</h3>
