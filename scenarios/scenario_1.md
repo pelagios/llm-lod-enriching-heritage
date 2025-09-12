@@ -1,4 +1,4 @@
-# A museum collection manager
+# A GLAM collection manager
 The following scenario is based on the Head of Digital Innovation at a museum or gallery whose primary role is to secure funding and develop a strategic vision, not to write code. This individual needs to articulate the value of NER to a non-technical audience, outline a clear project plan, and demonstrate how this work directly supports the institution's mission.
 
 The museum is launching a new exhibit called "Echoes of History" to create a dynamic, interconnected experience for visitors. This exhibit will use Named Entity Recognition (NER) tools to reveal hidden relationships between the museum's own collection and artifacts, events, and people in the wider world. The goal is to showcase how these tools can identify, clarify, and link entities to a broader global narrative, enriching the visitor's understanding of each piece.
