@@ -26,8 +26,10 @@ parts:
         sections:
           - file: notebooks/tasks/ner
             title: Named Entity Recognition
-          - file: notebooks/tasks/disambiguation
-            title: Entity Disambiguation
+          - file: notebooks/tasks/disambiguation-candidates
+            title: Entity Disambiguation with Candidates
+          - file: notebooks/tasks/disambiguation-web
+            title: Entity Disambiguation Tool Calling
 
       - file: notebooks/evaluation/intro
         title: Evaluation
