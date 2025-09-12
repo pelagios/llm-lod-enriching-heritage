@@ -15,7 +15,7 @@
     <div><strong>Khalid Al Khatib</strong><br><em>Rijksuniversiteit Groningen</em></div>
     <div><strong>Anne Chen</strong><br><em>Bard College</em></div>
     <div><strong>Enrico Daga</strong><br><em>The Open University</em></div>
-    <div><strong>Stephen Gadd</strong><br><em>Docuracy</em></div>
+    <div><strong>Stephen Gadd</strong><br><em>University of Pittsburgh</em></div>
     <div><strong>William Mattingly</strong><br><em>Yale</em></div>
   </div>
   <!-- Second row: 4 people -->
