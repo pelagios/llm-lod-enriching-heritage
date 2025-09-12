@@ -42,11 +42,19 @@
   </div>
 </div>
 
-<h3>FAQs</h2>
-<h4>What's a recipe?</h3>
+<h2>Introduction</h2>
+The depth and diversity of Cultural Heritage collections are recognised as invaluable for enriching lives, fostering social and cultural cohesion, and acting as a valuable economic resource. Yet making full use of those collections and the individual records within them is still hampered by several interrelated problems:
+1.	digital catalogue metadata exists for only a small proportion of CH collections;
+2.	where it exists, it is often sparse, unstructured and contains varying forms of bias;
+3.	where structured, it is often not aligned with external authorities.
 
-You can think of 'recipes' as a set of instructions for creating a specific thing with a set of ingredients. Recipes can be bundled together into 'cookbooks'.
+This means that the richness of such collections is obscured, hindering both discovery of individual objects and linking between different resources.
 
-We are imagining users who are interested in experimenting with recipes that demonstrate what is possible and potentially valuable for Culturual Heritage contexts when combinging LOD and LLMs. Less technically-oriented users may consider browsing the recipes to provide adaptable inspiration to share with funding bodies, technical and collections colleagues. Developers may be interested in mining the cookbook for ideas and adaptable code elements.
+To address these issues, CH institutions have embraced the FAIR principles of Findability, Accessibility, Interoperability and Reusability. Linked Open Data (LOD) technologies like the CIDOC-CRM have proven an effective mechanism for identifying, disambiguating and linking key entities, such as place, people, objects and events, but require large investment in time, resources and expertise. More recently, transformer-based AI Large Language Models (LLMs) have demonstrated a remarkable capacity to interpret and contextualise natural language, thereby making them easy to use, but their probabilistic and variable outputs make integration with other CH infrastructure unstable and unpredictable.
 
-In this case, we've created recipes for people who work with cultural heritage collections to show something of what's possible with AI and linked open data.
+The following cookbook sets out different recipes, derived from LOD and LLM technologies, for enabling CH institutions to enrich their metadata at scale. We envisage two user profiles of the cookbook. One user will be a collections manager who is interested in making use of digital technologies for enriching their objects, but won't necessarily have the technical expertise to do this for themselves. The second user will have more technical proficiency, who will be able to use our recipes as an inspiration or basis for their own work.
+
+The cookbook has the following structure.
+
+A final note: this work is very much of the moment, which is September 2025. Given the rapid pace of technological change, particularly in LLM, we anticipate that the specific tools and methods that we outline here will not be cutting edge in a year. In other words, the recipes should *not* be considered a ready to go implementation, best practice forever, or to be maintained beyond this moment. That said, we believe that these simple-to-follow recipes can be easily adapted to different scenarios, updated by new technologies, and extended for greater coverage.
+
