@@ -11,6 +11,7 @@ parts:
         title: Head of Digital Innovation
 
   - caption: LLM Recipes
+    numbered: True
     chapters:
       - file: notebooks/data_preparation/intro
         title: Data & Preparation
@@ -25,8 +26,10 @@ parts:
         sections:
           - file: notebooks/tasks/ner
             title: Named Entity Recognition
-          - file: notebooks/tasks/disambiguation
-            title: Entity Disambiguation
+          - file: notebooks/tasks/disambiguation-candidates
+            title: Entity Disambiguation with Candidates
+          - file: notebooks/tasks/disambiguation-web
+            title: Entity Disambiguation Tool Calling
 
       - file: notebooks/evaluation/intro
         title: Evaluation
@@ -59,3 +62,11 @@ parts:
       title: Entity Disambiguation
     - file: concepts/relationship
       title: Relationship Extraction
+
+  - caption: About
+    numbered: False
+    chapters:
+      - file: about
+        title: About the Workshop
+      - file: faqs
+        title: FAQs
