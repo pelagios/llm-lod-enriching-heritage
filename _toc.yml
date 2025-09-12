@@ -59,3 +59,9 @@ parts:
       title: Entity Disambiguation
     - file: concepts/relationship
       title: Relationship Extraction
+
+  - caption: About
+    numbered: False
+    chapters:
+      - file: about
+        title: About the Cookbook
