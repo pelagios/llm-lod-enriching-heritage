@@ -11,6 +11,7 @@ parts:
         title: Head of Digital Innovation
 
   - caption: LLM Recipes
+    numbered: True
     chapters:
       - file: notebooks/data_preparation/intro
         title: Data & Preparation
