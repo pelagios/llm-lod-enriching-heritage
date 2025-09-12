@@ -67,4 +67,7 @@ parts:
     numbered: False
     chapters:
       - file: about
-        title: About the Cookbook
+        title: About the Workshop
+    chapters:
+      - file: faqs
+        title: FAQs
