@@ -3,23 +3,23 @@ This section introduces the foundational concepts that underpin the tools, recip
 
 Here are the central concepts we will cover:
 
-**Linked Open Data**  
+**[Linked Open Data](#lod)**  
   *What it is:* the principles, formats, and best practices.  
   *Why it matters:* LOD enables interoperability among heritage datasets, and supports enriching content by linking entities (e.g. people, places, events) across sources.
 
-**Large Language Models**  
+**[Large Language Models](#llms)**  
   *What they are:* how LLMs are trained, and what kinds of tasks they can perform (generation, classification, summarization, etc.).  
   *Caveats:* limitations and biases to watch out for.
 
-**Named Entity Recognition (NER)**  
+**[Named Entity Recognition (NER)](#ner)**  
   The process of identifying salient entities (names of people, places, dates, etc.) in unstructured text.  
   Helps structure heritage data and make it linkable.
 
-**Entity Disambiguation**  
+**[Entity Disambiguation](#disambiguation)**  
   Once entities are recognized, how do we determine *which* real-world entity each mention refers to?  
   Involves mapping to candidate entities in LOD resources, handling ambiguity, and ensuring accuracy.
 
-**Relationship Extraction**  
+**[Relationship Extraction](#relationship)**  
   Going beyond isolated entities: identifying how entities are connected (e.g. *artist created artwork*, *place located in region*).  
   These relationships can be encoded in graphs or knowledge bases.
 

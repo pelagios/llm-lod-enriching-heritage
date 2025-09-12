@@ -1,5 +1,6 @@
 # Book settings
 title: Cultural Heritage Connectivity Cookbook (2025 Edition)
+logo: 'assets/pelagios-logo.png'
 author:
 execute:
   execute_notebooks: 'off'
