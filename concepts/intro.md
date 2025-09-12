@@ -3,7 +3,7 @@ This section introduces the foundational concepts that underpin the tools, recip
 
 Here are the central concepts we will cover:
 
-**Linked Open Data**  
+**[Linked Open Data](#lod)**  
   *What it is:* the principles, formats, and best practices.  
   *Why it matters:* LOD enables interoperability among heritage datasets, and supports enriching content by linking entities (e.g. people, places, events) across sources.
 
