@@ -7,7 +7,7 @@ parse:
   myst_extended_syntax: true
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/pelagios/llm-lod-enriching-heritage/tree/main
+  url: https://github.com/pelagios/llm-lod-enriching-heritage
   branch: main
 html:
   use_edit_page_button: true
