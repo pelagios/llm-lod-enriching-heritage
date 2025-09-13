@@ -1,4 +1,4 @@
-<h1 style="text-align: center">Enriching Digital Heritage with LLMs and Linked Open Data</h1>
+<h1 style="text-align: center">The Cultural Heritage AI Cookbook (2025 Edition)</h1>
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin: 20px auto; text-align: center; max-width: 800px;">
   <div><strong>Gethin Rees</strong><br><em>King's College London</em></div>
