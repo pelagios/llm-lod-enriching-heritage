@@ -43,7 +43,7 @@
 </div>
 
 
-<h2>What, Who, How</h2>
+<h2>Why, Who, What, How</h2>
 The depth and diversity of Cultural Heritage collections are recognised as invaluable for enriching lives, fostering social and cultural cohesion, and acting as a valuable economic resource. Yet making full use of those collections and the individual records within them remains hampered by a series of interrelated problems:
 1.	digital catalogue metadata tend to exist for only a small proportion of CH collections;
 2.	where it exists, it is often sparse, unstructured and contains varying forms of bias;
