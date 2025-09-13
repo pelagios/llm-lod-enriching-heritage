@@ -69,6 +69,6 @@ parts:
       - file: about
         title: About the Workshop
       - file: awesome_list_resources
-        title: Awesome Lorentz List of Resources
+        title: Awesome List of Resources
       - file: faqs
         title: FAQs
