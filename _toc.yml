@@ -68,6 +68,8 @@ parts:
     chapters:
       - file: about
         title: About the Workshop
+      - file: glam_manager_scenario
+        title: GLAM Manager Scenario
       - file: awesome_list_resources
         title: Awesome List of Resources
       - file: faqs
