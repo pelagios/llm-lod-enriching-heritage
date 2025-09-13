@@ -2,13 +2,6 @@ format: jb-book
 root: intro
 
 parts:
-  - caption: Scenarios
-    numbered: True
-    chapters:
-      - file: scenarios/intro
-        title: Introduction
-      - file: scenarios/scenario_1
-        title: A GLAM collection manager
 
   - caption: AI Recipes
     numbered: True
