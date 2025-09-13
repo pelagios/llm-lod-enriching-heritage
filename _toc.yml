@@ -63,7 +63,7 @@ parts:
     - file: concepts/relationship
       title: Relationship Extraction
 
-  - caption: About
+  - caption: Additional Information
     numbered: False
     chapters:
       - file: about
