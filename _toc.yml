@@ -2,6 +2,15 @@ format: jb-book
 root: intro
 
 parts:
+ - caption: Why, Who, What, How
+    numbered: False
+    chapters:
+      - file: challenge
+        title: The Challenge
+      - file: proposition
+        title: The Proposition
+      - file: caveat
+        title: The Caveat
 
   - caption: AI Recipes
     numbered: True
