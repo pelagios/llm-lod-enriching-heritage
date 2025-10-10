@@ -59,7 +59,10 @@ def mark_entities_in_text(texts_input, entities):
     for entity in reversed(entities):
         entity_label = entity["label"] if entity["label"] in COLORS.keys() else "OTHER"
         if "wikidata_id" in entity:
-            texts_input = texts_input[:entity["end_char"]] + f"<sup>{entity['wikidata_id']['id']}</sup>" + texts_input[entity["end_char"]:]
+            label_text = entity['wikidata_id']['id']
+            if "link" in entity and "gpt-4o-mini" in entity["link"]:
+                label_text += "," + entity["link"]["gpt-4o-mini"][0]
+            texts_input = texts_input[:entity["end_char"]] + f"<sup>{label_text}</sup>" + texts_input[entity["end_char"]:]
         texts_input = texts_input[:entity["end_char"]] + "</span>" + texts_input[entity["end_char"]:]
         texts_input = (texts_input[:entity["start_char"]] + 
                       f"<span style=\"border: 1px solid black; color: {COLORS[entity_label]};\">" + 
