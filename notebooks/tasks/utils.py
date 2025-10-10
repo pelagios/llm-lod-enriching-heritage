@@ -30,6 +30,7 @@ CHAR_PACKAGE = "📦"
 CHAR_SUCCESS = "✅"
 CHAR_FAILURE = "❌"
 COLORS = {"PERSON": "red", "LOCATION": "green", "OTHER": "blue"}
+LOCATION_ALTERNATIVES = ["PLACE"]
 
 
 def squeal(text=None):
@@ -57,6 +58,7 @@ def check_google_colab():
 def mark_entities_in_text(texts_input, entities):
     """Convert the text to HTML with colored antities and return these"""
     for entity in reversed(entities):
+        entity["label"] = "LOCATION" if entity["label"] in LOCATION_ALTERNATIVES else entity["label"]
         entity_label = entity["label"] if entity["label"] in COLORS.keys() else "OTHER"
         if "wikidata_id" in entity:
             label_text = entity['wikidata_id']['id']
