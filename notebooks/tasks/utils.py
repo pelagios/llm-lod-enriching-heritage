@@ -64,7 +64,7 @@ def mark_entities_in_text(texts_input, entities):
         entity["label"] = "LOCATION" if entity["label"] in LOCATION_ALTERNATIVES else entity["label"]
         entity_label = entity["label"] if entity["label"] in COLORS.keys() else "OTHER"
         if "wikidata_id" in entity:
-            label_text = entity['wikidata_id']['id']
+            label_text = entity['wikidata_id'][list(entity['wikidata_id'].keys())[0]]
             if "link" in entity and "gpt-4o-mini" in entity["link"]:
                 label_text += "," + entity["link"]["gpt-4o-mini"][0]
             texts_input = texts_input[:entity["end_char"]] + f"<sup>{label_text}</sup>" + texts_input[entity["end_char"]:]
@@ -125,8 +125,7 @@ def get_openai_api_key():
         except:
             pass
     if not openai_api_key:
-        print(f"{CHAR_FAILURE} no openai_api_key found!")
-        return ""
+        raise(Exception(f"{CHAR_FAILURE} no openai_api_key found!"))
     return openai_api_key
 
 
@@ -137,12 +136,8 @@ def connect_to_openai(openai_api_key):
 
 def process_text_with_gpt(openai_client, model, prompt):
     """Send text to OpenAI via prompt and return results"""
-    try:
-        response = openai_client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}]
-        )
-        return response.choices[0].message.content
-    except:
-        print(f"{CHAR_FAILURE} GPT call failed")
-        return []
+    response = openai_client.chat.completions.create(
+        model=model,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    return response.choices[0].message.content
