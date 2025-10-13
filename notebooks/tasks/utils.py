@@ -13,6 +13,13 @@ except:
     pass
 
 
+CHAR_PACKAGE = "📦"
+CHAR_SUCCESS = "✅"
+CHAR_FAILURE = "❌"
+COLORS = {"PERSON": "red", "LOCATION": "green", "OTHER": "blue"}
+LOCATION_ALTERNATIVES = ["PLACE"]
+
+
 def safe_import(package_name):
     """Import a package;. If it missing, download it first"""
     try:
@@ -26,13 +33,6 @@ def safe_import(package_name):
 
 langid = safe_import("langid")
 openai = safe_import("openai")
-
-
-CHAR_PACKAGE = "📦"
-CHAR_SUCCESS = "✅"
-CHAR_FAILURE = "❌"
-COLORS = {"PERSON": "red", "LOCATION": "green", "OTHER": "blue"}
-LOCATION_ALTERNATIVES = ["PLACE"]
 
 
 def squeal(text=None):
