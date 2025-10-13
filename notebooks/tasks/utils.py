@@ -82,14 +82,13 @@ def save_results(texts, key, in_colab):
     with open(output_file_name, "w", encoding="utf-8") as output_file:
         print(json_string, end="", file=output_file)
         output_file.close()
-        if in_colab:
-            try:
-                files.download(output_file_name)
-                print(f"️{CHAR_SUCCESS} Downloaded preprocessed texts to file {output_file_name}")
-            except:
-                print(f"️{CHAR_FAILURE} Downloading preprocessed texts failed!")
-        else:
-            print(f"️{CHAR_SUCCESS} Saved preprocessed texts to file {output_file_name}")
+        print(f"️{CHAR_SUCCESS} Saved preprocessed texts to file {output_file_name}")
+    if in_colab:
+        try:
+            files.download(output_file_name)
+            print(f"️{CHAR_SUCCESS} Downloaded preprocessed texts to file {output_file_name}")
+        except:
+            print(f"️{CHAR_FAILURE} Downloading preprocessed texts failed!")
 
 
 def extract_entities_from_ner_input(texts_input):
