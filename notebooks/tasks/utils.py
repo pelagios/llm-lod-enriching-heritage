@@ -4,6 +4,7 @@ import importlib
 from IPython.display import clear_output, display, HTML
 import json
 import os
+import regex
 import subprocess
 import sys
 from typing import List, Dict, Any, Tuple, Optional
@@ -74,21 +75,21 @@ def mark_entities_in_text(texts_input, entities):
     return texts_input
 
 
-def save_results(texts, key, in_colab):
-    """Save preprocessed texts in a json file"""
-    json_string = json.dumps(texts, ensure_ascii=False, indent=2)
+def save_data_to_json_file(json_data, file_name, in_colab):
+    """Save json data in a json file; download it when working in Google Colab"""
+    json_string = json.dumps(json_data, ensure_ascii=False, indent=2)
     hash = hashlib.sha1(json_string.encode("utf-8")).hexdigest()
-    output_file_name = f"output_{key}{hash}.json"
-    with open(output_file_name, "w", encoding="utf-8") as output_file:
+    file_name = regex.sub(".json$", f"_{hash}.json", file_name)
+    with open(file_name, "w", encoding="utf-8") as output_file:
         print(json_string, end="", file=output_file)
         output_file.close()
-        print(f"️{CHAR_SUCCESS} Saved preprocessed texts to file {output_file_name}")
+        print(f"️{CHAR_SUCCESS} Saved data to file {file_name}")
     if in_colab:
         try:
-            files.download(output_file_name)
-            print(f"️{CHAR_SUCCESS} Downloaded preprocessed texts to file {output_file_name}")
+            files.download(file_name)
+            print(f"️{CHAR_SUCCESS} Downloaded data file {file_name}")
         except:
-            print(f"️{CHAR_FAILURE} Downloading preprocessed texts failed!")
+            print(f"️{CHAR_FAILURE} Downloading data file {file_name} failed!")
 
 
 def extract_entities_from_ner_input(texts_input):
@@ -110,14 +111,6 @@ def read_json_file(file_name):
         json_data = json.load(infile)
         infile.close()
     return json_data
-
-
-def write_json_file(file_name, json_data):
-    """Write json data to a file with the specified name"""
-    json_string = json.dumps(json_data, ensure_ascii=False, indent=2)
-    with open(file_name, "w") as outfile:
-        print(json_string, end="", file=outfile)
-        outfile.close()
 
 
 def get_openai_api_key():
