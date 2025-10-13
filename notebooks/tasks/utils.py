@@ -98,6 +98,11 @@ def extract_entities_from_ner_input(texts_input):
             for index, text in enumerate(texts_input) for entity in text["entities"]]
 
 
+def detect_text_language(text: str) -> Dict[str, Any]:
+    """Detect language text is written in and return id of the language"""
+    return langid.classify(text)[0]
+    
+    
 def read_json_file(file_name):
     """Read a json file and return its contents"""
     with open(file_name, "r") as infile:
