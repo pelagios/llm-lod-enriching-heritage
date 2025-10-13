@@ -115,7 +115,7 @@ def read_json_file(file_name):
 
 def get_openai_api_key():
     """Extract OpenAI API key from environment or file and return it"""
-    dotenv_load_dotenv()
+    dotenv.load_dotenv()
     openai_api_key = os.getenv("OPENAI_API_KEY")
     if not openai_api_key:
         try:
