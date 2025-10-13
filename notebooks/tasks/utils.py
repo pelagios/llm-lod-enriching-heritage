@@ -23,6 +23,7 @@ def safe_import(package_name):
         return importlib.import_module(package_name)
 
 
+langid = safe_import("langid")
 openai = safe_import("openai")
 
 
