@@ -1,10 +1,8 @@
-from dotenv import load_dotenv
 import hashlib
 import importlib
 from IPython.display import clear_output, display, HTML
 import json
 import os
-import regex
 import subprocess
 import sys
 from typing import List, Dict, Any, Tuple, Optional
@@ -32,8 +30,10 @@ def safe_import(package_name):
         return importlib.import_module(package_name)
 
 
+dotenv = safe_import("dotenv")
 langid = safe_import("langid")
 openai = safe_import("openai")
+regex = safe_import("regex")
 
 
 def squeal(text=None):
@@ -115,7 +115,7 @@ def read_json_file(file_name):
 
 def get_openai_api_key():
     """Extract OpenAI API key from environment or file and return it"""
-    load_dotenv()
+    dotenv_load_dotenv()
     openai_api_key = os.getenv("OPENAI_API_KEY")
     if not openai_api_key:
         try:
