@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import hashlib
 import importlib
-from IPython.display import clear_output, display
+from IPython.display import clear_output, display, HTML
 import json
 import os
 import subprocess
