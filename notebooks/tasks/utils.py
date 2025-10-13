@@ -132,7 +132,7 @@ def get_openai_api_key():
         except:
             pass
     if not openai_api_key:
-        print(f"{utils.CHAR_FAILURE} no openai_api_key found!")
+        print(f"{CHAR_FAILURE} no openai_api_key found!")
         return ""
     return openai_api_key
 
@@ -151,5 +151,5 @@ def process_text_with_gpt(openai_client, model, prompt):
         )
         return response.choices[0].message.content
     except:
-        print(f"{utils.CHAR_FAILURE} GPT call failed")
+        print(f"{CHAR_FAILURE} GPT call failed")
         return []
