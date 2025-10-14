@@ -1,12 +1,12 @@
-iname: Sync intro.md -> README.md (all folders)
+name: Sync intro.md -> README.md (all folders)
 
 on:
   workflow_dispatch:
   push:
     paths:
-      - '**/intro.md'      # trigger when any intro.md changes anywhere
+      - '**/intro.md'
     branches:
-      - main               # adjust if your default branch is different
+      - main  # <-- adjust to your default branch
 
 jobs:
   sync:
@@ -18,33 +18,40 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Copy intro.md to README.md in every folder
+      - name: Debug: show branch, tree, and any intro.md
+        shell: bash
+        run: |
+          set -euxo pipefail
+          echo "REF: $GITHUB_REF  SHA: $GITHUB_SHA"
+          echo "Checked-out branch (may be detached HEAD):"
+          git branch --show-current || true
+          pwd
+          ls -la
+          echo "Tracked intro.md via git:"
+          git ls-files '**/intro.md' || true
+          echo "All intro.md via find:"
+          find . -type f -name 'intro.md' -print || true
+
+      - name: Copy intro.md to README.md alongside each file
         shell: bash
         run: |
           set -euo pipefail
-          # list tracked intro.md files anywhere in the repo
-          mapfile -t files < <(git ls-files '**/intro.md' || true)
+          mapfile -t files < <(find . -type f -name 'intro.md' -print)
           if [ ${#files[@]} -eq 0 ]; then
-            echo "No intro.md files found."
+            echo "No intro.md files found anywhere."
             exit 0
           fi
 
-          changed=0
           for f in "${files[@]}"; do
             dir="$(dirname "$f")"
             dest="$dir/README.md"
             echo "Syncing: $f -> $dest"
             cp "$f" "$dest"
-            # stage the file (handles new or modified)
             git add "$dest"
-            changed=1
           done
 
-          if [ $changed -eq 0 ]; then
-            echo "Nothing to stage."
-          fi
-
       - name: Commit if staged changes exist
+        shell: bash
         run: |
           if git diff --cached --quiet; then
             echo "No changes to commit."
@@ -54,3 +61,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Sync README.md files from intro.md"
           git push
+
