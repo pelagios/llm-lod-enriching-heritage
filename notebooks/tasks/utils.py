@@ -3,6 +3,7 @@ import importlib
 from IPython.display import clear_output, display, HTML
 import json
 import os
+import polars as pl
 import subprocess
 import sys
 from typing import List, Dict, Any, Tuple, Optional
@@ -149,3 +150,17 @@ def process_text_with_gpt(openai_client, model, prompt):
         messages=[{"role": "user", "content": prompt}]
     )
     return response.choices[0].message.content
+
+
+def save_entities_as_table(file_name, texts_output):
+    entities_table = []
+    for text_id, text in enumerate(texts_output):
+        for entity in text["entities"]:
+            entities_table.append({key: entity[key] for key in ["text", "label", "start_char", "end_char"]})
+            entities_table[-1]["text_id"] = text_id
+            if "wikidata_id" in entity:
+                entities_table[-1]["wikidata_id"] = entity["wikidata_id"][list(entity["wikidata_id"].keys())[0]]
+            if "link" in entity:
+                entities_table[-1]["link"] = entity["link"][list(entity["link"].keys())[0]]
+    pl.DataFrame(entities_table).write_csv(file_name)
+    print(f"️{CHAR_SUCCESS} Saved data to file {file_name}")
