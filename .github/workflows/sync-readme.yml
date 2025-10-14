@@ -1,15 +1,24 @@
 name: Sync intro.md -> README.md
+
 on:
+  workflow_dispatch:        # ✅ allows manual "Run workflow"
   push:
     paths:
       - intro.md
-    branches: [ main ]
+    branches:
+      - main                # or your default branch name
+
 jobs:
   sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write       # ✅ needed to push README.md back
     steps:
       - uses: actions/checkout@v4
-      - run: cp intro.md README.md
+
+      - name: Copy intro.md to README.md
+        run: cp intro.md README.md
+
       - name: Commit if changed
         run: |
           if ! git diff --quiet -- README.md; then
