@@ -1,0 +1,21 @@
+name: Sync intro.md -> README.md
+on:
+  push:
+    paths:
+      - intro.md
+    branches: [ main ]
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cp intro.md README.md
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet -- README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "Update README.md from intro.md"
+            git push
+          fi
