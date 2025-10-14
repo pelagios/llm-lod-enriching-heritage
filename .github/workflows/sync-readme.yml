@@ -1,30 +1,56 @@
-name: Sync intro.md -> README.md
+iname: Sync intro.md -> README.md (all folders)
 
 on:
-  workflow_dispatch:        # ✅ allows manual "Run workflow"
+  workflow_dispatch:
   push:
     paths:
-      - intro.md
+      - '**/intro.md'      # trigger when any intro.md changes anywhere
     branches:
-      - main                # or your default branch name
+      - main               # adjust if your default branch is different
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # ✅ needed to push README.md back
+      contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Copy intro.md to README.md
-        run: cp intro.md README.md
-
-      - name: Commit if changed
+      - name: Copy intro.md to README.md in every folder
+        shell: bash
         run: |
-          if ! git diff --quiet -- README.md; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git commit -m "Update README.md from intro.md"
-            git push
+          set -euo pipefail
+          # list tracked intro.md files anywhere in the repo
+          mapfile -t files < <(git ls-files '**/intro.md' || true)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No intro.md files found."
+            exit 0
           fi
+
+          changed=0
+          for f in "${files[@]}"; do
+            dir="$(dirname "$f")"
+            dest="$dir/README.md"
+            echo "Syncing: $f -> $dest"
+            cp "$f" "$dest"
+            # stage the file (handles new or modified)
+            git add "$dest"
+            changed=1
+          done
+
+          if [ $changed -eq 0 ]; then
+            echo "Nothing to stage."
+          fi
+
+      - name: Commit if staged changes exist
+        run: |
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync README.md files from intro.md"
+          git push
