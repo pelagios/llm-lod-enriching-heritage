@@ -113,6 +113,14 @@ def read_json_file(file_name):
     return json_data
 
 
+def write_json_file(file_name, json_data):
+    """Write json data to a file with the specified name"""
+    json_string = json.dumps(json_data, ensure_ascii=False, indent=2)
+    with open(file_name, "w") as outfile:
+        print(json_string, end="", file=outfile)
+        outfile.close()
+
+
 def get_openai_api_key():
     """Extract OpenAI API key from environment or file and return it"""
     dotenv.load_dotenv()
