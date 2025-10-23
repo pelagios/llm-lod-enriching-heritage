@@ -134,6 +134,12 @@ def get_openai_api_key():
         except:
             pass
     if not openai_api_key:
+        try:
+            from google.colab import userdata
+            openai_api_key = userdata.get('OPENAI_API_KEY')
+        except:
+            pass
+    if not openai_api_key:
         raise(Exception(f"{CHAR_FAILURE} no openai_api_key found!"))
     return openai_api_key
 
