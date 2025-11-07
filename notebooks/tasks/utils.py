@@ -199,19 +199,21 @@ def install_ollama():
             time.sleep(1)
     else:
         raise RuntimeError(f"{CHAR_FAILURE} Ollama server did not start")
-    if not has_gpu():
-        print(f"{CHAR_FAILURE} Warning: no GPU found! On Colab you may want to switch Runtime to: T4 GPU")
     time.sleep(3)
 
 
 def import_ollama_module():
     """import Ollama module in Python"""
     try:
+        if not has_gpu():
+            print(f"{CHAR_FAILURE} Warning: no GPU found! On Colab you may want to switch Runtime to: T4 GPU")
         return importlib.import_module("ollama")
     except Exception as e:
         install_ollama()
         subprocess.check_call([sys.executable, "-m", "pip", "install", "ollama"])
         importlib.invalidate_caches()
+        if not has_gpu():
+            print(f"{CHAR_FAILURE} Warning: no GPU found! On Colab you may want to switch Runtime to: T4 GPU")
         return importlib.import_module("ollama")
 
 
