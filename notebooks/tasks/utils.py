@@ -4,8 +4,11 @@ from IPython.display import clear_output, display, HTML
 import json
 import os
 import polars as pl
+import requests
+import regex
 import subprocess
 import sys
+import time
 from typing import List, Dict, Any, Tuple, Optional
 try:
     from google.colab import files
@@ -59,15 +62,15 @@ def check_google_colab():
         return False
 
 
-def mark_entities_in_text(texts_input, entities):
+def mark_entities_in_text(texts_input, entities, linking_model=""):
     """Convert the text to HTML with colored antities and return these"""
     for entity in reversed(entities):
         entity["label"] = "LOCATION" if entity["label"] in LOCATION_ALTERNATIVES else entity["label"]
         entity_label = entity["label"] if entity["label"] in COLORS.keys() else "OTHER"
         if "wikidata_id" in entity:
             label_text = entity['wikidata_id'][list(entity['wikidata_id'].keys())[0]]
-            if "link" in entity and "gpt-4o-mini" in entity["link"]:
-                label_text += "," + entity["link"]["gpt-4o-mini"][0]
+            if "link" in entity and linking_model in entity["link"]:
+                label_text += "," + regex.sub(r"^(\d+).*$", r"\1", entity["link"][linking_model])
             texts_input = texts_input[:entity["end_char"]] + f"<sup>{label_text}</sup>" + texts_input[entity["end_char"]:]
         texts_input = texts_input[:entity["end_char"]] + "</span>" + texts_input[entity["end_char"]:]
         texts_input = (texts_input[:entity["start_char"]] + 
@@ -170,3 +173,94 @@ def save_entities_as_table(file_name, texts_output):
                 entities_table[-1]["link"] = entity["link"][list(entity["link"].keys())[0]]
     pl.DataFrame(entities_table).write_csv(file_name)
     print(f"️{CHAR_SUCCESS} Saved data to file {file_name}")
+
+
+def has_gpu() -> bool:
+    """check if there is a gpu available, otherwise runs will take a lot of time"""
+    try:
+        subprocess.run(["nvidia-smi"], stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL, check=True)
+        return True
+    except:
+        return False
+
+
+def install_ollama():
+    """install Ollama, start it as a server and check if it is running"""
+    print(f"{CHAR_PACKAGE} Installing ollama")
+    subprocess.run("curl -fsSL https://ollama.com/install.sh | sh", shell=True, check=True)
+    os.environ["OLLAMA_MODELS"] = "/content/.ollama/models"
+    server = subprocess.Popen(["ollama", "serve"], env=os.environ.copy())
+    for _ in range(60):
+        try:
+            requests.get("http://127.0.0.1:11434/api/tags", timeout=1)
+            print(f"{CHAR_SUCCESS} Ollama server is up")
+            break
+        except Exception:
+            time.sleep(1)
+    else:
+        raise RuntimeError(f"{CHAR_FAILURE} Ollama server did not start")
+    time.sleep(3)
+
+
+def import_ollama_module():
+    """import Ollama module in Python"""
+    try:
+        if not has_gpu():
+            print(f"{CHAR_FAILURE} Warning: no GPU found! On Colab you may want to switch Runtime to: T4 GPU")
+        return importlib.import_module("ollama")
+    except Exception as e:
+        install_ollama()
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "ollama"])
+        importlib.invalidate_caches()
+        if not has_gpu():
+            print(f"{CHAR_FAILURE} Warning: no GPU found! On Colab you may want to switch Runtime to: T4 GPU")
+        return importlib.import_module("ollama")
+
+
+def install_ollama_model(model, ollama):
+    """install a Ollama model, if it is not installed already"""
+    if model not in [m["model"] for m in ollama.list().get("models")]:
+        prefix = f"Downloading model {model}: "
+        counter = 0
+        for chunk in ollama.pull(model=model, stream=True):
+            if 'status' in chunk:
+                counter += 1
+                squeal(prefix + chunk['status'] + f" {counter}")
+
+
+def process_text_with_ollama(model, prompt, ollama):
+    response = ollama.generate(
+        model=model,
+        prompt=prompt
+    )
+    return response["response"]
+
+
+target_labels=["PERSON", "LOCATION"]
+NER_CACHE_FILE = "ner_cache.json"
+
+def ollama_run(model, texts_input, make_prompt, in_colab):
+    ner_cache = read_json_file(NER_CACHE_FILE)
+    texts_output = []
+    for index, text in enumerate(texts_input):
+        if text in ner_cache and model in ner_cache[text]:
+            squeal(f"Retrieving entities for text {index + 1} from cache for model {model}")
+            texts_output.append(ner_cache[text][model])
+        else:
+            if "ollama" in sys.modules:
+                ollama = importlib.import_module("ollama")
+            else:
+                ollama = import_ollama_module()
+            install_ollama_model(model, ollama)
+            squeal(f"Processing text {index + 1} with model {model}")
+            prompt = make_prompt(text, target_labels)
+            ollama_response = process_text_with_ollama(model, prompt, ollama)
+            texts_output.append(ollama_response)
+            if text not in ner_cache:
+                ner_cache[text] = {}
+            ner_cache[text][model] = ollama_response
+            write_json_file(NER_CACHE_FILE, ner_cache)
+    print("Finished processing")
+    save_data_to_json_file(ner_cache, file_name=NER_CACHE_FILE, in_colab=in_colab)
+    return texts_output

@@ -2587,5 +2587,157 @@
       "id": "Q107193373",
       "description": "family name"
     }
+  ],
+  "Tom": [
+    {
+      "id": "Q3354498",
+      "description": "male given name"
+    },
+    {
+      "id": "Q1238720",
+      "description": "book in a series, typically identified sequentially (e.g. Volume 3)"
+    },
+    {
+      "id": "Q37211490",
+      "description": "family name"
+    },
+    {
+      "id": "Q312255",
+      "description": "Dutch astronomer (1925–2011)"
+    },
+    {
+      "id": "Q16282141",
+      "description": "male given name"
+    },
+    {
+      "id": "Q17644435",
+      "description": "male given name"
+    },
+    {
+      "id": "Q1272055",
+      "description": "male given name"
+    }
+  ],
+  "Egyptian Museum": [
+    {
+      "id": "Q201219",
+      "description": "museum in Cairo"
+    },
+    {
+      "id": "Q254156",
+      "description": "part of the Neues Museum, collection of Ancient Egyptian artifacts"
+    },
+    {
+      "id": "Q3868354",
+      "description": "museum in Milan, Italy"
+    },
+    {
+      "id": "Q254134",
+      "description": "museum in Leipzig, Germany"
+    },
+    {
+      "id": "Q112645257",
+      "description": "Museum in Curitiba, Paraná, Brazil"
+    },
+    {
+      "id": "Q11694517",
+      "description": "archaeological museum in Barcelona, Spain"
+    },
+    {
+      "id": "Q21100575",
+      "description": "parchment leaf from Egypt, preserved in the Berlin State Museums, inv. no. 13296"
+    }
+  ],
+  "New York": [
+    {
+      "id": "Q1384",
+      "description": "state of the United States of America"
+    },
+    {
+      "id": "Q60",
+      "description": "most populous city in the United States"
+    },
+    {
+      "id": "Q9684",
+      "description": "American daily newspaper (founded 1851)"
+    },
+    {
+      "id": "Q2431664",
+      "description": "scientific journal"
+    },
+    {
+      "id": "Q204220",
+      "description": "Major League Soccer franchise in Harrison, New Jersey, USA"
+    },
+    {
+      "id": "Q11299",
+      "description": "borough of New York City, New York, United States"
+    },
+    {
+      "id": "Q49210",
+      "description": "private university in New York City"
+    }
+  ],
+  "Statuette of the goddess Satet": [
+    {
+      "id": "Q117395192",
+      "description": "bronze figurine of the Egyptian Late Period, 722–332 BCE, in the collection of Museo Egizio, Turin, Italy (Cat.515)"
+    }
+  ],
+  "Bronze": [
+    {
+      "id": "Q34095",
+      "description": "metal alloy"
+    },
+    {
+      "id": "Q15889643",
+      "description": "third-place medal awarded to Olympic Games participants"
+    },
+    {
+      "id": "Q64224578",
+      "description": "family name"
+    },
+    {
+      "id": "Q11761",
+      "description": "prehistoric period and age studied in archaeology, part of the Holocene Epoch"
+    },
+    {
+      "id": "Q671229",
+      "description": "UK independent record label"
+    },
+    {
+      "id": "Q154874",
+      "description": "viral disease"
+    },
+    {
+      "id": "Q4390114",
+      "description": "object primarily consisting of bronze"
+    }
+  ],
+  "Late Period": [
+    {
+      "id": "Q621917",
+      "description": "time period of Ancient Egypt"
+    },
+    {
+      "id": "Q737648",
+      "description": "Kushite rule in Egypt during the third intermediate period"
+    },
+    {
+      "id": "Q115898804",
+      "description": "room in the Museo Egizio in Turin"
+    },
+    {
+      "id": "Q50672770",
+      "description": "scientific article published in October 2007"
+    },
+    {
+      "id": "Q96174285",
+      "description": "scientific article published on 03 June 2020"
+    },
+    {
+      "id": "Q73699542",
+      "description": "scientific article published on 01 January 1954"
+    }
   ]
 }

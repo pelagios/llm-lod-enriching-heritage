@@ -1,17 +1,20 @@
 {
   "Anubis": {
     "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
-      "gpt-4o-mini": "1"
+      "gpt-4o-mini": "1",
+      "qwen3:0.6b": "1"
     }
   },
   "Sekhmet": {
     "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
-      "gpt-4o-mini": "1"
+      "gpt-4o-mini": "1",
+      "qwen3:0.6b": "6"
     }
   },
   "Thebes": {
     "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
-      "gpt-4o-mini": "7."
+      "gpt-4o-mini": "7.",
+      "qwen3:0.6b": "6"
     },
     "Book of the Dead of Aaner, priest of Mut. Cyperus papyrus. Third Intermediate Period, 21st Dynasty (1076-944 BC). Thebes.. Drovetti collection (1824). C. 1771": {
       "gpt-4o-mini": "7"
@@ -25,7 +28,8 @@
   },
   "Amenhotep III": {
     "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
-      "gpt-4o-mini": "5"
+      "gpt-4o-mini": "5",
+      "qwen3:0.6b": "5. the entity is a person that in power during the period of the creation of the artefact"
     },
     "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
       "gpt-4o-mini": "5"
@@ -1140,6 +1144,24 @@
     },
     "Anthropoid coffin with remains of a painted decoration. Wood. Ptolemaic Period - Roman Period (332 BC-AD 395). Tebtynis ?. Anti and Bagnani excavations (1930-1935). S. 19691": {
       "gpt-4o-mini": "9"
+    }
+  },
+  "Tom": {
+    "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
+      "qwen3:0.6b": "11"
+    },
+    "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
+      "qwen3:0.6b": "6"
+    }
+  },
+  "Egyptian Museum": {
+    "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
+      "qwen3:0.6b": "6"
+    }
+  },
+  "New York": {
+    "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
+      "qwen3:0.6b": "6"
     }
   }
 }

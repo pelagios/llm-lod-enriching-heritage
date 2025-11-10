@@ -1,12 +1,4 @@
 {
-  "Anubis": {
-    "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
-      "gpt-4o-mini": {
-        "id": "Q47534",
-        "description": "Egyptian deity of mummification and the afterlife, usually depicted as a man with a canine head"
-      }
-    }
-  },
   "Sekhmet": {
     "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
       "gpt-4o-mini": {
@@ -134,6 +126,9 @@
       "gpt-4o-mini": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
+      },
+      "qwen3:0.6b": {
+        "qwen3:0.6b": "[{'id': 'Q101038772', 'description': 'family name'}]"
       }
     },
     "Statuette of the god Apis. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 0815": {
@@ -2030,6 +2025,32 @@
       "gpt-4o-mini": {
         "id": "Q106632612",
         "description": "family name"
+      }
+    }
+  },
+  "Anubis": {
+    "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
+      "gpt-4o-mini": {
+        "id": "Q47534",
+        "description": "Egyptian deity of mummification and the afterlife, usually depicted as a man with a canine head"
+      }
+    }
+  },
+  "Tom": {
+    "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
+      "qwen3:0.6b": {
+        "id": "Q1238720",
+        "description": "book in a series, typically identified sequentially (e.g. Volume 3)",
+        "model": "qwen3:0.6b"
+      }
+    }
+  },
+  "Egyptian Museum": {
+    "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
+      "qwen3:0.6b": {
+        "id": "Q201219",
+        "description": "museum in Cairo",
+        "model": "qwen3:0.6b"
       }
     }
   }
