@@ -1,21 +1,38 @@
 {
   "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
-    "gpt-4o-mini": "Statuette of the god [Anubis](PERSON). Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115"
+    "gpt-4o-mini": "Statuette of the god [Anubis](PERSON). Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115",
+    "llama3.2:1b": "[Tom](PERSON) went to [New York](PLACE). \n[Statuette](PHOTO) of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115.",
+    "tinyllama": "[Tom] traveled to [New York].\n\nAnnotations:\n[\"PERSON\", \"LOCATION\"]\n\nResult:\nStatuette of the god Anubis. Bronze. Late Period (722-332 BC). Acquired before 1882. C. 115",
+    "llama3.1:8b": "**Object: Statuette of the god Anubis**\n### Description\n* **Type**: Statuette\n* **God/Deity**: [Anubis](PERSON)\n* **Material**: Bronze\n* **Period**: Late Period (722-332 BC)\n\n### Provenance\n* **Acquisition Date**: Before 1882\n* **Collection ID**: C. 115",
+    "qwen3:8b": "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115",
+    "qwen3:0.6b": "[Tom](PERSON) went to [Egyptian Museum](LOCATION)."
   },
   "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
-    "gpt-4o-mini": "[Sekhmet](PERSON) was a goddess. [Thebes](LOCATION) is referenced. The object is made of granodiorite and belongs to the Drovetti collection (1824). It dates back to the New Kingdom, 18th Dynasty, during the reign of [Amenhotep III](PERSON) (1390-1353 BC)."
+    "gpt-4o-mini": "[Sekhmet](PERSON) was a goddess. [Thebes](LOCATION) is referenced. The object is made of granodiorite and belongs to the Drovetti collection (1824). It dates back to the New Kingdom, 18th Dynasty, during the reign of [Amenhotep III](PERSON) (1390-1353 BC).",
+    "llama3.2:1b": "[Tom] (PERSON) went to [New York] (LOCATION)\n\n[Statue of the goddess Sekhmet]\nGranodiorite\n[New Kingdom], 18th Dynasty, reign of Amenhotep III (1390-1353 BC)\nThebes.. Drovetti collection (1824). C. 256",
+    "tinyllama": "",
+    "llama3.1:8b": "**Statue**\n==========\n\n* **Type**: Statue\n* **Material**: Granodiorite\n* **Period**: New Kingdom, 18th Dynasty\n* **Reign of**: Amenhotep III (1390-1353 BC)\n* **Location**: Thebes\n* **Collection**: Drovetti collection (1824)\n* **Inventory Number**: C. 256\n\n**Entities**\n------------\n\n* [Amenhotep III](PERSON) - Ruler, 18th Dynasty, New Kingdom\n* [Thebes](LOCATION) - Ancient city, Egypt",
+    "qwen3:8b": "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of [Amenhotep III](PERSON) (1390-1353 BC). [Thebes](LOCATION).. [Drovetti](PERSON) collection (1824). C. 256",
+    "qwen3:0.6b": "[Tom](PERSON) went to [New York](PLACE)."
   },
   "Statuette of the goddess Bastet. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 271": {
-    "gpt-4o-mini": "Statuette of the goddess [Bastet](PERSON). Bronze. Late Period (722-332 BC).. [Drovetti](PERSON) collection (1824). C. 271"
+    "gpt-4o-mini": "Statuette of the goddess [Bastet](PERSON). Bronze. Late Period (722-332 BC).. [Drovetti](PERSON) collection (1824). C. 271",
+    "llama3.2:1b": "[Tom](PERSON) in [Drovetti collection](LOCATION).\n  \n[Statuette of the goddess Bastet](OBJECT). \n Bronze. Late Period (722-332 BC). \n Drovetti collection (1824). C 271.",
+    "tinyllama": "In",
+    "llama3.1:8b": "**Object:** Statuette of the goddess Bastet\n**Material:** Bronze\n**Period:** Late Period (722-332 BC)\n**Collection:** Drovetti collection (1824)\n**Inventory Number:** C. 271",
+    "qwen3:0.6b": "[]"
   },
   "Amulet depicting the god Harpocrates": {
-    "gpt-4o-mini": "[Harpocrates](PERSON)"
+    "gpt-4o-mini": "[Harpocrates](PERSON)",
+    "qwen3:0.6b": "[]"
   },
   "Statuette of the goddess Satet. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 515": {
-    "gpt-4o-mini": "Statuette of the goddess [Satet](PERSON). Bronze. Late Period (722-332 BC). Drovetti collection (1824). C. 515"
+    "gpt-4o-mini": "Statuette of the goddess [Satet](PERSON). Bronze. Late Period (722-332 BC). Drovetti collection (1824). C. 515",
+    "qwen3:0.6b": "- [Drovetti collection](LOCATION) (1824).  \n- [Statuette of the goddess Satet](OBJECT).  \n- [Bronze](ATTRIBUTE) and [Late Period](TIME)."
   },
   "Statue of the god Bes. Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1882. C. 638": {
-    "gpt-4o-mini": "[Statue](LOCATION) of the god [Bes](PERSON). Limestone. [Ptolemaic](LOCATION) Period - [Roman](LOCATION) Period (332 BC - AD 395).. Acquired before 1882. C. 638"
+    "gpt-4o-mini": "[Statue](LOCATION) of the god [Bes](PERSON). Limestone. [Ptolemaic](LOCATION) Period - [Roman](LOCATION) Period (332 BC - AD 395).. Acquired before 1882. C. 638",
+    "qwen3:0.6b": "- [Statue](ARTIST) of the god Bes. Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1882. C. 638  \n\n[LOCATION](MUSEUM) – Torino, Egypt. [PERSON](AUTHOR) – ? (name not provided)."
   },
   "Magic stela of Horus on crocodiles. Limestone. Late Period - Ptolemaic Period (722-30 BC).. Drovetti collection (1824). C. 775": {
     "gpt-4o-mini": "Magic stela of [Horus](PERSON) on crocodiles. Limestone. Late Period - Ptolemaic Period (722-30 BC).. Drovetti collection (1824). C. 775"

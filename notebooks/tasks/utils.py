@@ -62,15 +62,15 @@ def check_google_colab():
         return False
 
 
-def mark_entities_in_text(texts_input, entities):
+def mark_entities_in_text(texts_input, entities, linking_model=""):
     """Convert the text to HTML with colored antities and return these"""
     for entity in reversed(entities):
         entity["label"] = "LOCATION" if entity["label"] in LOCATION_ALTERNATIVES else entity["label"]
         entity_label = entity["label"] if entity["label"] in COLORS.keys() else "OTHER"
         if "wikidata_id" in entity:
             label_text = entity['wikidata_id'][list(entity['wikidata_id'].keys())[0]]
-            if "link" in entity and "gpt-4o-mini" in entity["link"]:
-                label_text += "," + entity["link"]["gpt-4o-mini"][0]
+            if "link" in entity and linking_model in entity["link"]:
+                label_text += "," + regex.sub(r"^(\d+).*$", r"\1", entity["link"][linking_model])
             texts_input = texts_input[:entity["end_char"]] + f"<sup>{label_text}</sup>" + texts_input[entity["end_char"]:]
         texts_input = texts_input[:entity["end_char"]] + "</span>" + texts_input[entity["end_char"]:]
         texts_input = (texts_input[:entity["start_char"]] + 
@@ -187,6 +187,7 @@ def has_gpu() -> bool:
 
 def install_ollama():
     """install Ollama, start it as a server and check if it is running"""
+    print(f"{CHAR_PACKAGE} Installing ollama")
     subprocess.run("curl -fsSL https://ollama.com/install.sh | sh", shell=True, check=True)
     os.environ["OLLAMA_MODELS"] = "/content/.ollama/models"
     server = subprocess.Popen(["ollama", "serve"], env=os.environ.copy())
@@ -220,12 +221,12 @@ def import_ollama_module():
 def install_ollama_model(model, ollama):
     """install a Ollama model, if it is not installed already"""
     if model not in [m["model"] for m in ollama.list().get("models")]:
-        print(f"Downloading model {model}...")
+        prefix = f"Downloading model {model}: "
         counter = 0
         for chunk in ollama.pull(model=model, stream=True):
             if 'status' in chunk:
                 counter += 1
-                squeal(chunk['status'] + f" {counter}")
+                squeal(prefix + chunk['status'] + f" {counter}")
 
 
 def process_text_with_ollama(model, prompt, ollama):
@@ -247,12 +248,12 @@ def ollama_run(model, texts_input, make_prompt, in_colab):
             squeal(f"Retrieving entities for text {index + 1} from cache for model {model}")
             texts_output.append(ner_cache[text][model])
         else:
-            squeal(f"Processing text {index + 1} with model {model}")
             if "ollama" in sys.modules:
                 ollama = importlib.import_module("ollama")
             else:
                 ollama = import_ollama_module()
             install_ollama_model(model, ollama)
+            squeal(f"Processing text {index + 1} with model {model}")
             prompt = make_prompt(text, target_labels)
             ollama_response = process_text_with_ollama(model, prompt, ollama)
             texts_output.append(ollama_response)

@@ -1,23 +1,9 @@
 {
-  "Anubis": {
-    "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
-      "gpt-4o-mini": {
-        "id": "Q47534",
-        "description": "Egyptian deity of mummification and the afterlife, usually depicted as a man with a canine head"
-      },
-      "qwen3:0.6b": {
-        "qwen3:0.6b": "{\"id\": \"Q47534\"}"
-      }
-    }
-  },
   "Sekhmet": {
     "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
       "gpt-4o-mini": {
         "id": "Q146104",
         "description": "Egyptian deity"
-      },
-      "qwen3:0.6b": {
-        "qwen3:0.6b": "[{'id': 'Q146104', 'description': 'Egyptian deity'}]"
       }
     }
   },
@@ -26,9 +12,6 @@
       "gpt-4o-mini": {
         "id": "Q101583",
         "description": "ancient Egyptian city"
-      },
-      "qwen3:0.6b": {
-        "qwen3:0.6b": "```json\n[\n  {\"id\": \"Q5760\", \"description\": \"ancient Egyptian city\"}\n]\n```"
       }
     },
     "Book of the Dead of Aaner, priest of Mut. Cyperus papyrus. Third Intermediate Period, 21st Dynasty (1076-944 BC). Thebes.. Drovetti collection (1824). C. 1771": {
@@ -55,9 +38,6 @@
       "gpt-4o-mini": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      },
-      "qwen3:0.6b": {
-        "qwen3:0.6b": "[{'id': 'Q96185335', 'description': 'Facsimile, Anen (TT 120), Amenhotep III, Queen Tiye, kiosk by Nina de Garis Davies (MET, 33.8.8)'}]  \n[{'id': 'Q96185392', 'description': 'Facsimile, Anen, TT 226, Amenhotep III, Mutemwia by Nina de Garis Davies (MET, 15.5.1)'}]"
       }
     },
     "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
@@ -138,9 +118,6 @@
       "gpt-4o-mini": {
         "id": "Q129106",
         "description": "Egyptian cat deity"
-      },
-      "qwen3:0.6b": {
-        "qwen3:0.6b": "[]"
       }
     }
   },
@@ -2048,6 +2025,32 @@
       "gpt-4o-mini": {
         "id": "Q106632612",
         "description": "family name"
+      }
+    }
+  },
+  "Anubis": {
+    "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
+      "gpt-4o-mini": {
+        "id": "Q47534",
+        "description": "Egyptian deity of mummification and the afterlife, usually depicted as a man with a canine head"
+      }
+    }
+  },
+  "Tom": {
+    "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
+      "qwen3:0.6b": {
+        "id": "Q1238720",
+        "description": "book in a series, typically identified sequentially (e.g. Volume 3)",
+        "model": "qwen3:0.6b"
+      }
+    }
+  },
+  "Egyptian Museum": {
+    "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
+      "qwen3:0.6b": {
+        "id": "Q201219",
+        "description": "museum in Cairo",
+        "model": "qwen3:0.6b"
       }
     }
   }
