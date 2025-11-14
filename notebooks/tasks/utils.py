@@ -222,9 +222,9 @@ def import_ollama_module(arch='mac'):
             print(f"{CHAR_FAILURE} Warning: no GPU found! On Colab you may want to switch Runtime to: T4 GPU")
         return importlib.import_module("ollama")
     except Exception as e:
-        if arch=='mac':
+        if torch.backends.mps.is_available():
             install_ollama_mac()
-        elif arch=='linux':
+        elif torch.cuda.is_available():
             install_ollama_linux()
         subprocess.check_call([sys.executable, "-m", "pip", "install", "ollama"])
         importlib.invalidate_caches()
