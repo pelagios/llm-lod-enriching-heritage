@@ -35,8 +35,7 @@
   },
   "Statue of the god Bes. Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1882. C. 638": {
     "gpt-4o-mini": "[Statue](LOCATION) of the god [Bes](PERSON). Limestone. [Ptolemaic](LOCATION) Period - [Roman](LOCATION) Period (332 BC - AD 395).. Acquired before 1882. C. 638",
-    "qwen3:0.6b": "- [Statue](ARTIST) of the god Bes. Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1882. C. 638  \n\n[LOCATION](MUSEUM) – Torino, Egypt. [PERSON](AUTHOR) – ? (name not provided).",
-    "qwen3:8b": "# Statue of the god Bes\n\n- **Material**: Limestone\n- **Period**: Ptolemaic Period - Roman Period (332 BC - AD 395)\n- **Acquisition**: Acquired before 1882\n- **C. 638**"
+    "qwen3:0.6b": "- [Statue](ARTIST) of the god Bes. Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1882. C. 638  \n\n[LOCATION](MUSEUM) – Torino, Egypt. [PERSON](AUTHOR) – ? (name not provided)."
   },
   "Magic stela of Horus on crocodiles. Limestone. Late Period - Ptolemaic Period (722-30 BC).. Drovetti collection (1824). C. 775": {
     "gpt-4o-mini": "Magic stela of [Horus](PERSON) on crocodiles. Limestone. Late Period - Ptolemaic Period (722-30 BC).. Drovetti collection (1824). C. 775"

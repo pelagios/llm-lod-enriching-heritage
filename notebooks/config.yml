@@ -1,0 +1,26 @@
+museum:
+  name: egizio
+  file_name: input_em.csv
+  data_source: EMT
+  id_column_name: Inventory Number
+  text_column_name: Description
+  labels:
+    - PERSON
+    - LOCATION
+
+global:
+  architecture: mac
+  model_name: qwen3:8b
+  max_processed: !!int 5
+  sleep_time: !!int 10
+  user_agent: "Pelagios/0.0 (https://github.com/pelagios/; e.tjongkimsang@esciencecenter.nl) generic-library/0.0"
+
+utils:
+  ner_cache_file: ner_cache.json
+  disambiguation_cache_wikidata: disambiguation_cache_wikidata.json
+  disambiguation_cache_llm: disambiguation_cache_llm.json
+  link_cache_file: linking_cache.json
+  label_colors:
+    PERSON: red
+    LOCATION: green
+

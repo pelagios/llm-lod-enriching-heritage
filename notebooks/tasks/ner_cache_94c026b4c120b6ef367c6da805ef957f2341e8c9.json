@@ -21,22 +21,21 @@
     "tinyllama": "In",
     "llama3.1:8b": "**Object:** Statuette of the goddess Bastet\n**Material:** Bronze\n**Period:** Late Period (722-332 BC)\n**Collection:** Drovetti collection (1824)\n**Inventory Number:** C. 271",
     "qwen3:0.6b": "[]",
-    "qwen3:8b": "**Statuette of the goddess Bastet. Bronze. Late Period (722-332 BC).. [Drovetti](PERSON) collection (1824). C. 271**"
+    "qwen3:8b": "Statuette of the goddess Bastet. Bronze. Late Period (722-332 BC).. [Drovetti](PERSON) collection (1824). C. 271"
   },
   "Amulet depicting the god Harpocrates": {
     "gpt-4o-mini": "[Harpocrates](PERSON)",
     "qwen3:0.6b": "[]",
-    "qwen3:8b": "Amulet depicting the [god Harpocrates](PERSON)"
+    "qwen3:8b": "Amulet depicting the god Harpocrates"
   },
   "Statuette of the goddess Satet. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 515": {
     "gpt-4o-mini": "Statuette of the goddess [Satet](PERSON). Bronze. Late Period (722-332 BC). Drovetti collection (1824). C. 515",
     "qwen3:0.6b": "- [Drovetti collection](LOCATION) (1824).  \n- [Statuette of the goddess Satet](OBJECT).  \n- [Bronze](ATTRIBUTE) and [Late Period](TIME).",
-    "qwen3:8b": "**Statuette of the goddess Satet. Bronze. Late Period (722-332 BC).** [Drovetti](PERSON) collection (1824). C. 515"
+    "qwen3:8b": "Statuette of the goddess Satet. Bronze. Late Period (722-332 BC).. [Drovetti](PERSON) collection (1824). C. 515"
   },
   "Statue of the god Bes. Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1882. C. 638": {
     "gpt-4o-mini": "[Statue](LOCATION) of the god [Bes](PERSON). Limestone. [Ptolemaic](LOCATION) Period - [Roman](LOCATION) Period (332 BC - AD 395).. Acquired before 1882. C. 638",
-    "qwen3:0.6b": "- [Statue](ARTIST) of the god Bes. Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1882. C. 638  \n\n[LOCATION](MUSEUM) – Torino, Egypt. [PERSON](AUTHOR) – ? (name not provided).",
-    "qwen3:8b": "# Statue of the god Bes\n\n- **Material**: Limestone\n- **Period**: Ptolemaic Period - Roman Period (332 BC - AD 395)\n- **Acquisition**: Acquired before 1882\n- **C. 638**"
+    "qwen3:0.6b": "- [Statue](ARTIST) of the god Bes. Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1882. C. 638  \n\n[LOCATION](MUSEUM) – Torino, Egypt. [PERSON](AUTHOR) – ? (name not provided)."
   },
   "Magic stela of Horus on crocodiles. Limestone. Late Period - Ptolemaic Period (722-30 BC).. Drovetti collection (1824). C. 775": {
     "gpt-4o-mini": "Magic stela of [Horus](PERSON) on crocodiles. Limestone. Late Period - Ptolemaic Period (722-30 BC).. Drovetti collection (1824). C. 775"

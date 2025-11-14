@@ -6,10 +6,18 @@ import os
 import polars as pl
 import requests
 import regex
+import shutil
 import subprocess
 import sys
 import time
+import torch
 from typing import List, Dict, Any, Tuple, Optional
+import yaml
+
+with open('../config.yml') as yaml_file:
+    data = yaml.safe_load(yaml_file)
+
+
 try:
     from google.colab import files
 except:
@@ -19,7 +27,7 @@ except:
 CHAR_PACKAGE = "📦"
 CHAR_SUCCESS = "✅"
 CHAR_FAILURE = "❌"
-COLORS = {"PERSON": "red", "LOCATION": "green", "OTHER": "blue"}
+COLORS = data['utils']['label_colors']
 LOCATION_ALTERNATIVES = ["PLACE"]
 
 
@@ -176,6 +184,10 @@ def save_entities_as_table(file_name, texts_output):
 
 
 def has_gpu() -> bool:
+    """Return True if CUDA (NVIDIA) or MPS (Apple Silicon) is available."""
+    return torch.cuda.is_available() or torch.backends.mps.is_available()
+
+'''def has_gpu() -> bool:
     """check if there is a gpu available, otherwise runs will take a lot of time"""
     try:
         subprocess.run(["nvidia-smi"], stdout=subprocess.DEVNULL,
@@ -183,9 +195,9 @@ def has_gpu() -> bool:
         return True
     except:
         return False
+'''
 
-
-def install_ollama():
+def install_ollama_linux():
     """install Ollama, start it as a server and check if it is running"""
     print(f"{CHAR_PACKAGE} Installing ollama")
     subprocess.run("curl -fsSL https://ollama.com/install.sh | sh", shell=True, check=True)
@@ -203,20 +215,66 @@ def install_ollama():
     time.sleep(3)
 
 
-def import_ollama_module():
+def import_ollama_module(arch='mac'):
     """import Ollama module in Python"""
     try:
         if not has_gpu():
             print(f"{CHAR_FAILURE} Warning: no GPU found! On Colab you may want to switch Runtime to: T4 GPU")
         return importlib.import_module("ollama")
     except Exception as e:
-        install_ollama()
+        if arch=='mac':
+            install_ollama_mac()
+        elif arch=='linux':
+            install_ollama_linux()
         subprocess.check_call([sys.executable, "-m", "pip", "install", "ollama"])
         importlib.invalidate_caches()
         if not has_gpu():
             print(f"{CHAR_FAILURE} Warning: no GPU found! On Colab you may want to switch Runtime to: T4 GPU")
         return importlib.import_module("ollama")
 
+
+def install_ollama_mac():
+    """Install Ollama on macOS, start the server, and verify it is running."""
+
+    print("📦 Installing Ollama (macOS)")
+
+    # Check if Homebrew exists (best way to install on mac)
+    brew_path = shutil.which("brew")
+
+    try:
+        if brew_path:
+            # Install via Homebrew
+            subprocess.run(["brew", "install", "ollama"], check=True)
+        else:
+            # Fallback: use the official mac installer script
+            subprocess.run(
+                ["curl", "-fsSL", "https://ollama.com/install.sh"],
+                check=True,
+                stdout=subprocess.PIPE
+            )
+            subprocess.run("sh install.sh", shell=True, check=True)
+    except Exception as e:
+        print(f"{CHAR_FAILURE} Failed to install Ollama:", e)
+        raise
+
+    # Start the server
+    print("▶️ Starting ollama server…")
+    server = subprocess.Popen(["ollama", "serve"])
+
+    # Wait for the API to come up
+    for _ in range(60):
+        try:
+            requests.get("http://127.0.0.1:11434/api/tags", timeout=1)
+            print(f"{CHAR_SUCCESS} Ollama server is running")
+            break
+        except Exception:
+            time.sleep(1)
+    else:
+        server.terminate()
+        raise RuntimeError(f"{CHAR_FAILURE} Ollama server did not start")
+
+    time.sleep(1)
+    return server
 
 def install_ollama_model(model, ollama):
     """install a Ollama model, if it is not installed already"""
@@ -237,8 +295,8 @@ def process_text_with_ollama(model, prompt, ollama):
     return response["response"]
 
 
-target_labels=["PERSON", "LOCATION"]
-NER_CACHE_FILE = "ner_cache.json"
+target_labels= data['museum']['labels']
+NER_CACHE_FILE = data['utils']['ner_cache_file']
 
 def ollama_run(model, texts_input, make_prompt, in_colab):
     ner_cache = read_json_file(NER_CACHE_FILE)
