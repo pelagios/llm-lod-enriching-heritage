@@ -1,0 +1,2786 @@
+[
+  [
+    {
+      "text": "Anubis",
+      "start": 21,
+      "end": 27,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q47534",
+        "description": "Egyptian deity of mummification and the afterlife, usually depicted as a man with a canine head"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Sekhmet",
+      "start": 22,
+      "end": 29,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q146104",
+        "description": "Egyptian deity"
+      }
+    },
+    {
+      "text": "Amenhotep III",
+      "start": 81,
+      "end": 94,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Thebes",
+      "start": 111,
+      "end": 117,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q101583",
+        "description": "ancient Egyptian city"
+      }
+    },
+    {
+      "text": "Drovetti",
+      "start": 120,
+      "end": 128,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Bastet",
+      "start": 25,
+      "end": 31,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q129106",
+        "description": "Egyptian cat deity"
+      }
+    },
+    {
+      "text": "Drovetti",
+      "start": 68,
+      "end": 76,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Harpocrates",
+      "start": 25,
+      "end": 36,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q787492",
+        "description": "God-child in Egyptian mythology"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Satet",
+      "start": 25,
+      "end": 30,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q843206",
+        "description": "ancient Egyptian goddess"
+      }
+    },
+    {
+      "text": "Drovetti",
+      "start": 67,
+      "end": 75,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Bes",
+      "start": 18,
+      "end": 21,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q188931",
+        "description": "Egyptian deity"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Horus",
+      "start": 15,
+      "end": 20,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q84122",
+        "description": "Egyptian sky deity"
+      }
+    },
+    {
+      "text": "Drovetti",
+      "start": 92,
+      "end": 100,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Apis",
+      "start": 21,
+      "end": 25,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q208150",
+        "description": "sacred bull in Egyptian mythology"
+      }
+    },
+    {
+      "text": "Drovetti",
+      "start": 62,
+      "end": 70,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [],
+  [
+    {
+      "text": "Amenhotep I.",
+      "start": 15,
+      "end": 27,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157966",
+        "description": "second Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 81,
+      "end": 95,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Drovetti",
+      "start": 98,
+      "end": 106,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Meh",
+      "start": 9,
+      "end": 12,
+      "gold_label": "PERSON"
+    },
+    {
+      "text": "Ramesses II",
+      "start": 54,
+      "end": 65,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1523",
+        "description": "Egyptian third pharaoh of the Nineteenth Dynasty"
+      }
+    },
+    {
+      "text": "Re",
+      "start": 86,
+      "end": 88,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1252904",
+        "description": "ancient Egyptian solar deity"
+      }
+    },
+    {
+      "text": "Heliopolis",
+      "start": 93,
+      "end": 103,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q191687",
+        "description": "city of ancient Egypt"
+      }
+    },
+    {
+      "text": "Ramesses II",
+      "start": 172,
+      "end": 183,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1523",
+        "description": "Egyptian third pharaoh of the Nineteenth Dynasty"
+      }
+    },
+    {
+      "text": "Merenptah",
+      "start": 199,
+      "end": 208,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q158043",
+        "description": "fourth pharaoh of the 19th Dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Abydos",
+      "start": 228,
+      "end": 234,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q192268",
+        "description": "city in ancient Egypt"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Huy",
+      "start": 19,
+      "end": 22,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q5951403",
+        "description": "ancient Egyptian high priest"
+      }
+    },
+    {
+      "text": "Amun - Re",
+      "start": 26,
+      "end": 33,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q481554",
+        "description": "ancient Egyptian deity"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 88,
+      "end": 102,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Drovetti",
+      "start": 105,
+      "end": 113,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Aaner",
+      "start": 20,
+      "end": 25,
+      "gold_label": "PERSON"
+    },
+    {
+      "text": "Mut",
+      "start": 37,
+      "end": 40,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q14215956",
+        "description": "town in the Egyptian depression of el-Dakhla"
+      }
+    },
+    {
+      "text": "Thebes",
+      "start": 114,
+      "end": 120,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q101583",
+        "description": "ancient Egyptian city"
+      }
+    },
+    {
+      "text": "Drovetti",
+      "start": 123,
+      "end": 131,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Iuefankh",
+      "start": 20,
+      "end": 28,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "",
+        "description": "antico egizio (human)"
+      }
+    },
+    {
+      "text": "Thebes",
+      "start": 78,
+      "end": 84,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q101583",
+        "description": "ancient Egyptian city"
+      }
+    },
+    {
+      "text": "Drovetti",
+      "start": 90,
+      "end": 98,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Tamutmutef",
+      "start": 10,
+      "end": 20,
+      "gold_label": "PERSON"
+    },
+    {
+      "text": "Thebes",
+      "start": 88,
+      "end": 94,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q101583",
+        "description": "ancient Egyptian city"
+      }
+    },
+    {
+      "text": "Drovetti",
+      "start": 101,
+      "end": 109,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [],
+  [
+    {
+      "text": "Asiatic",
+      "start": 26,
+      "end": 33,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q48",
+        "description": "biggest continent in the world"
+      }
+    }
+  ],
+  [],
+  [],
+  [
+    {
+      "text": "Mesmeni",
+      "start": 34,
+      "end": 41,
+      "gold_label": "PERSON"
+    }
+  ],
+  [
+    {
+      "text": "Horemakhbit",
+      "start": 10,
+      "end": 21,
+      "gold_label": "PERSON"
+    },
+    {
+      "text": "Deir el - Bahari",
+      "start": 87,
+      "end": 101,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q373909",
+        "description": "archaeological site"
+      }
+    },
+    {
+      "text": "Drovetti",
+      "start": 121,
+      "end": 129,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Khonsu",
+      "start": 10,
+      "end": 16,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q190521",
+        "description": "Egyptian deity"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 71,
+      "end": 85,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Drovetti",
+      "start": 62,
+      "end": 70,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Tuthmosis III",
+      "start": 35,
+      "end": 48,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157899",
+        "description": "sixth Egyptian Pharaoh of the Eighteenth Dynasty"
+      }
+    },
+    {
+      "text": "Djehuty",
+      "start": 147,
+      "end": 154,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q912046",
+        "description": "general under the ancient Egyptian king Thutmose III (reigned 1479–1425 BC) in the 18th Dynasty, main hero of the tale of the tale \"The Taking of Joppa\""
+      }
+    },
+    {
+      "text": "Tuthmosi III",
+      "start": 213,
+      "end": 225,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157899",
+        "description": "sixth Egyptian Pharaoh of the Eighteenth Dynasty"
+      }
+    },
+    {
+      "text": "Drovetti",
+      "start": 245,
+      "end": 253,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Amennakht",
+      "start": 13,
+      "end": 22,
+      "gold_label": "PERSON"
+    },
+    {
+      "text": "Drovetti",
+      "start": 83,
+      "end": 91,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Wadjren",
+      "start": 22,
+      "end": 29,
+      "gold_label": "PERSON"
+    }
+  ],
+  [
+    {
+      "text": "Cyprus",
+      "start": 55,
+      "end": 61,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q229",
+        "description": "Mediterranean island country in West Asia"
+      }
+    }
+  ],
+  [],
+  [
+    {
+      "text": "Amenemope",
+      "start": 19,
+      "end": 28,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q2844817",
+        "description": "ancient Egyptian writer"
+      }
+    },
+    {
+      "text": "Horemheb",
+      "start": 103,
+      "end": 111,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157995",
+        "description": "final pharaoh of the 18th dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Saqqara",
+      "start": 128,
+      "end": 135,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q192134",
+        "description": "village in Giza Governorate, Egypt"
+      }
+    },
+    {
+      "text": "Drovetti",
+      "start": 142,
+      "end": 150,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      }
+    }
+  ],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+    {
+      "text": "Near Eastern",
+      "start": 17,
+      "end": 29,
+      "gold_label": "LOCATION"
+    },
+    {
+      "text": "Attis",
+      "start": 34,
+      "end": 39,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q262016",
+        "description": "Phrygian and Greek mythological figure"
+      }
+    }
+  ],
+  [],
+  [],
+  [
+    {
+      "text": "Tamit",
+      "start": 161,
+      "end": 166,
+      "gold_label": "LOCATION"
+    },
+    {
+      "text": "Egyptian Nubia",
+      "start": 168,
+      "end": 182,
+      "gold_label": "LOCATION"
+    }
+  ],
+  [],
+  [
+    {
+      "text": "Tamit",
+      "start": 94,
+      "end": 99,
+      "gold_label": "LOCATION"
+    },
+    {
+      "text": "Egyptian Nubia",
+      "start": 101,
+      "end": 115,
+      "gold_label": "LOCATION"
+    },
+    {
+      "text": "Nubia",
+      "start": 192,
+      "end": 197,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q135028",
+        "description": "region along the Nile river, which is located in northern Sudan and southern Egypt"
+      }
+    }
+  ],
+  [],
+  [],
+  [
+    {
+      "text": "Nefertum",
+      "start": 25,
+      "end": 33,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q464227",
+        "description": "Egyptian deity"
+      }
+    }
+  ],
+  [],
+  [
+    {
+      "text": "Schiaparelli",
+      "start": 88,
+      "end": 100,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Schiaparelli",
+      "start": 95,
+      "end": 107,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Schiaparelli",
+      "start": 94,
+      "end": 106,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Asyut",
+      "start": 104,
+      "end": 109,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q29962",
+        "description": "City in Egypt"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 129,
+      "end": 141,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Inheretnakht",
+      "start": 9,
+      "end": 21,
+      "gold_label": "PERSON"
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 108,
+      "end": 120,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Heliopolis",
+      "start": 81,
+      "end": 91,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q191687",
+        "description": "city of ancient Egypt"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 94,
+      "end": 106,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Hammamiya",
+      "start": 86,
+      "end": 95,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1604678",
+        "description": "human settlement"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 98,
+      "end": 110,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Valley of the Queens",
+      "start": 67,
+      "end": 87,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q260386",
+        "description": "ancient Egyptian necropolis"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 90,
+      "end": 102,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "African",
+      "start": 37,
+      "end": 44,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q15",
+        "description": "continent"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 151,
+      "end": 165,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 168,
+      "end": 180,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Deir el - Medina",
+      "start": 144,
+      "end": 158,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 161,
+      "end": 173,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Deir el - Medina",
+      "start": 64,
+      "end": 78,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 81,
+      "end": 93,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Deir el - Medina",
+      "start": 74,
+      "end": 88,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 91,
+      "end": 103,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Deir el - Medina",
+      "start": 65,
+      "end": 79,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 82,
+      "end": 94,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Deir el - Medina",
+      "start": 72,
+      "end": 86,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 89,
+      "end": 101,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Asyut",
+      "start": 86,
+      "end": 91,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q29962",
+        "description": "City in Egypt"
+      }
+    },
+    {
+      "text": "Djefahapi",
+      "start": 118,
+      "end": 127,
+      "gold_label": "PERSON"
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 137,
+      "end": 149,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Asyut",
+      "start": 87,
+      "end": 92,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q29962",
+        "description": "City in Egypt"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 95,
+      "end": 107,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Amenhotep II",
+      "start": 76,
+      "end": 88,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Tuthmosis IV",
+      "start": 90,
+      "end": 102,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Amenhotep III",
+      "start": 107,
+      "end": 120,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 137,
+      "end": 151,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Tomb of Kha",
+      "start": 153,
+      "end": 164,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q744424",
+        "description": "ancient Egyptian tomb"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 174,
+      "end": 186,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Amenhotep II",
+      "start": 87,
+      "end": 99,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Tuthmosis IV",
+      "start": 101,
+      "end": 113,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Amenhotep III",
+      "start": 118,
+      "end": 131,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 148,
+      "end": 162,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Tomb of Kha",
+      "start": 164,
+      "end": 175,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q744424",
+        "description": "ancient Egyptian tomb"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 185,
+      "end": 197,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Amenhotep II",
+      "start": 81,
+      "end": 93,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Tuthmosis IV",
+      "start": 95,
+      "end": 107,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Amenhotep III",
+      "start": 112,
+      "end": 125,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 142,
+      "end": 156,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Tomb of Kha",
+      "start": 158,
+      "end": 169,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q744424",
+        "description": "ancient Egyptian tomb"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 179,
+      "end": 191,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Amenhotep II",
+      "start": 71,
+      "end": 83,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Tuthmosis IV",
+      "start": 85,
+      "end": 97,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Amenhotep III",
+      "start": 102,
+      "end": 115,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 132,
+      "end": 146,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Tomb of Kha",
+      "start": 148,
+      "end": 159,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q744424",
+        "description": "ancient Egyptian tomb"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 169,
+      "end": 181,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Amenhotep II",
+      "start": 65,
+      "end": 77,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Tuthmosis IV",
+      "start": 79,
+      "end": 91,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Amenhotep III",
+      "start": 96,
+      "end": 109,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 126,
+      "end": 140,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Tomb of Kha",
+      "start": 142,
+      "end": 153,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q744424",
+        "description": "ancient Egyptian tomb"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 163,
+      "end": 175,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Amenhotep II",
+      "start": 54,
+      "end": 66,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Tuthmosis IV",
+      "start": 68,
+      "end": 80,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Amenhotep III",
+      "start": 85,
+      "end": 98,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 115,
+      "end": 129,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Tomb of Kha",
+      "start": 131,
+      "end": 142,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q744424",
+        "description": "ancient Egyptian tomb"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 152,
+      "end": 164,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Amenhotep II",
+      "start": 108,
+      "end": 120,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Tuthmosis IV",
+      "start": 122,
+      "end": 134,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Amenhotep III",
+      "start": 139,
+      "end": 152,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 169,
+      "end": 183,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Tomb of Kha",
+      "start": 185,
+      "end": 196,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q744424",
+        "description": "ancient Egyptian tomb"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 206,
+      "end": 218,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Amenhotep II",
+      "start": 69,
+      "end": 81,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Tuthmosis IV",
+      "start": 83,
+      "end": 95,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Amenhotep III",
+      "start": 100,
+      "end": 113,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 130,
+      "end": 144,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Tomb of Kha",
+      "start": 146,
+      "end": 157,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q744424",
+        "description": "ancient Egyptian tomb"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 167,
+      "end": 179,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Kha",
+      "start": 16,
+      "end": 19,
+      "gold_label": "PERSON"
+    },
+    {
+      "text": "Amenhotep II",
+      "start": 93,
+      "end": 105,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Tuthmosis IV",
+      "start": 107,
+      "end": 119,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Amenhotep III",
+      "start": 124,
+      "end": 137,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 154,
+      "end": 168,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Tomb of Kha",
+      "start": 170,
+      "end": 181,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q744424",
+        "description": "ancient Egyptian tomb"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 191,
+      "end": 203,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Amenhotep II",
+      "start": 77,
+      "end": 89,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Tuthmosis IV",
+      "start": 91,
+      "end": 103,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Amenhotep III",
+      "start": 108,
+      "end": 121,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 138,
+      "end": 152,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Tomb of Kha",
+      "start": 154,
+      "end": 165,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q744424",
+        "description": "ancient Egyptian tomb"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 175,
+      "end": 187,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Amenhotep II",
+      "start": 92,
+      "end": 104,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Tuthmosis IV",
+      "start": 106,
+      "end": 118,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Amenhotep III",
+      "start": 123,
+      "end": 136,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 153,
+      "end": 167,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Tomb of Kha",
+      "start": 169,
+      "end": 180,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q744424",
+        "description": "ancient Egyptian tomb"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 190,
+      "end": 202,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Amenhotep II",
+      "start": 55,
+      "end": 67,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Tuthmosis IV",
+      "start": 69,
+      "end": 81,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    },
+    {
+      "text": "Amenhotep III",
+      "start": 86,
+      "end": 99,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 116,
+      "end": 130,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Tomb of Kha",
+      "start": 132,
+      "end": 143,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q744424",
+        "description": "ancient Egyptian tomb"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 153,
+      "end": 165,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Sesostris I",
+      "start": 56,
+      "end": 67,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q18763",
+        "description": "pharaoh of Egypt"
+      }
+    },
+    {
+      "text": "Asyut",
+      "start": 84,
+      "end": 89,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q29962",
+        "description": "City in Egypt"
+      }
+    },
+    {
+      "text": "Tomb of Shemes",
+      "start": 91,
+      "end": 105,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q134283912",
+        "description": "ancient egyptian tomb in Asyut, Egypt"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 108,
+      "end": 120,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Asyut",
+      "start": 68,
+      "end": 73,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q29962",
+        "description": "City in Egypt"
+      }
+    },
+    {
+      "text": "Tomb of Minhotep",
+      "start": 75,
+      "end": 91,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q134283924",
+        "description": "ancient egyptian tomb in Asyut, Egypt"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 94,
+      "end": 106,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Asyut",
+      "start": 68,
+      "end": 73,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q29962",
+        "description": "City in Egypt"
+      }
+    },
+    {
+      "text": "Tomb of Minhotep",
+      "start": 75,
+      "end": 91,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q134283924",
+        "description": "ancient egyptian tomb in Asyut, Egypt"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 94,
+      "end": 106,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Menna",
+      "start": 59,
+      "end": 64,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q6817163",
+        "description": "ancient Egyptian scribe"
+      }
+    },
+    {
+      "text": "Ramesses III",
+      "start": 113,
+      "end": 125,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1528",
+        "description": "Egyptian pharaoh of the 20th dynasty"
+      }
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 142,
+      "end": 156,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 159,
+      "end": 171,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Deir el - Medina",
+      "start": 74,
+      "end": 88,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 91,
+      "end": 103,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Nespayherhat",
+      "start": 10,
+      "end": 22,
+      "gold_label": "PERSON"
+    },
+    {
+      "text": "Deir el - Medina",
+      "start": 97,
+      "end": 111,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 114,
+      "end": 126,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Asyut",
+      "start": 109,
+      "end": 114,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q29962",
+        "description": "City in Egypt"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 117,
+      "end": 129,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Gebelein",
+      "start": 89,
+      "end": 97,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 100,
+      "end": 112,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Gebelein",
+      "start": 90,
+      "end": 98,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 101,
+      "end": 113,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Tuthmosis III",
+      "start": 40,
+      "end": 53,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157899",
+        "description": "sixth Egyptian Pharaoh of the Eighteenth Dynasty"
+      }
+    },
+    {
+      "text": "Hathor",
+      "start": 66,
+      "end": 72,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q133343",
+        "description": "major goddess in ancient Egyptian religion"
+      }
+    },
+    {
+      "text": "Gebelein",
+      "start": 86,
+      "end": 94,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Tuthmosis III",
+      "start": 125,
+      "end": 138,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q157899",
+        "description": "sixth Egyptian Pharaoh of the Eighteenth Dynasty"
+      }
+    },
+    {
+      "text": "Gebelein",
+      "start": 155,
+      "end": 163,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Hathor",
+      "start": 175,
+      "end": 181,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q133343",
+        "description": "major goddess in ancient Egyptian religion"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 207,
+      "end": 219,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Gebelein",
+      "start": 68,
+      "end": 76,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Iti",
+      "start": 86,
+      "end": 89,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      }
+    },
+    {
+      "text": "Neferu",
+      "start": 94,
+      "end": 100,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q849695",
+        "description": "Egyptian queen consort"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 103,
+      "end": 115,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Gebelein",
+      "start": 70,
+      "end": 78,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Iti",
+      "start": 88,
+      "end": 91,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      }
+    },
+    {
+      "text": "Neferu",
+      "start": 96,
+      "end": 102,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q849695",
+        "description": "Egyptian queen consort"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 105,
+      "end": 117,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Gebelein",
+      "start": 7,
+      "end": 15,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Iti",
+      "start": 25,
+      "end": 28,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      }
+    },
+    {
+      "text": "Neferu",
+      "start": 33,
+      "end": 39,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q849695",
+        "description": "Egyptian queen consort"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 42,
+      "end": 54,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Gebelein",
+      "start": 71,
+      "end": 79,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Iti",
+      "start": 89,
+      "end": 92,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      }
+    },
+    {
+      "text": "Neferu",
+      "start": 97,
+      "end": 103,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q849695",
+        "description": "Egyptian queen consort"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 106,
+      "end": 118,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Gebelein",
+      "start": 52,
+      "end": 60,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Iti",
+      "start": 87,
+      "end": 90,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      }
+    },
+    {
+      "text": "Neferu",
+      "start": 95,
+      "end": 101,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q849695",
+        "description": "Egyptian queen consort"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 104,
+      "end": 116,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Gebelein",
+      "start": 59,
+      "end": 67,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Iti",
+      "start": 77,
+      "end": 80,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      }
+    },
+    {
+      "text": "Neferu",
+      "start": 85,
+      "end": 91,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q849695",
+        "description": "Egyptian queen consort"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 94,
+      "end": 106,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Gebelein",
+      "start": 60,
+      "end": 68,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Iti",
+      "start": 78,
+      "end": 81,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      }
+    },
+    {
+      "text": "Neferu",
+      "start": 86,
+      "end": 92,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q849695",
+        "description": "Egyptian queen consort"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 95,
+      "end": 107,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Gebelein",
+      "start": 70,
+      "end": 78,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Iti",
+      "start": 88,
+      "end": 91,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      }
+    },
+    {
+      "text": "Neferu",
+      "start": 96,
+      "end": 102,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q849695",
+        "description": "Egyptian queen consort"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 105,
+      "end": 117,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Ini",
+      "start": 9,
+      "end": 12,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q325744",
+        "description": "Egyptian pharaoh"
+      }
+    },
+    {
+      "text": "Gebelein",
+      "start": 78,
+      "end": 86,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Northern Cemetery",
+      "start": 88,
+      "end": 105,
+      "gold_label": "LOCATION"
+    },
+    {
+      "text": "Tomb of Ini",
+      "start": 107,
+      "end": 118,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q125489574",
+        "description": "ancient Egyptian tomb in Gebelein, Egypt"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 121,
+      "end": 133,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Gebelein",
+      "start": 58,
+      "end": 66,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Tomba Grande",
+      "start": 69,
+      "end": 81,
+      "gold_label": "LOCATION"
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 85,
+      "end": 97,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Iti",
+      "start": 15,
+      "end": 18,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      }
+    },
+    {
+      "text": "Gebelein",
+      "start": 113,
+      "end": 121,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Iti",
+      "start": 131,
+      "end": 134,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      }
+    },
+    {
+      "text": "Neferu",
+      "start": 139,
+      "end": 145,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q849695",
+        "description": "Egyptian queen consort"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 148,
+      "end": 160,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Gebelein",
+      "start": 137,
+      "end": 145,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Iti",
+      "start": 155,
+      "end": 158,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      }
+    },
+    {
+      "text": "Neferu",
+      "start": 163,
+      "end": 169,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q849695",
+        "description": "Egyptian queen consort"
+      }
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 172,
+      "end": 184,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Perim",
+      "start": 18,
+      "end": 23,
+      "gold_label": "PERSON"
+    },
+    {
+      "text": "Shepset",
+      "start": 28,
+      "end": 35,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q84959355",
+        "description": "ancient Egyptian princess"
+      }
+    },
+    {
+      "text": "Gebelein",
+      "start": 89,
+      "end": 97,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      }
+    },
+    {
+      "text": "Perim",
+      "start": 110,
+      "end": 115,
+      "gold_label": "PERSON"
+    },
+    {
+      "text": "Schiaparelli",
+      "start": 118,
+      "end": 130,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Fayum",
+      "start": 83,
+      "end": 88,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q203299",
+        "description": "city in Egypt"
+      }
+    },
+    {
+      "text": "Hawara",
+      "start": 90,
+      "end": 96,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q26237",
+        "description": "necropolis in Faiyum Governorate, Egypt"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Schiaparelli",
+      "start": 138,
+      "end": 150,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q1356829",
+        "description": "Italian egyptologist (1856-1928)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Akhenaten",
+      "start": 56,
+      "end": 65,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q81794",
+        "description": "Egyptian pharaoh in 18th Dynasty"
+      }
+    },
+    {
+      "text": "Munich",
+      "start": 96,
+      "end": 102,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1726",
+        "description": "capital and most populous city of Bavaria, Germany"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Tebtynis",
+      "start": 58,
+      "end": 66,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1500580",
+        "description": "archaeological site in the Egyptian depression of el-Faiyum"
+      }
+    },
+    {
+      "text": "Anti",
+      "start": 69,
+      "end": 73,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q3659000",
+        "description": "Italian archaeologist (1889-1961)"
+      }
+    },
+    {
+      "text": "Bagnani",
+      "start": 78,
+      "end": 85,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q21524761",
+        "description": "Italian-born Canadian classical archaeologist and historian (1900-1985)"
+      }
+    }
+  ],
+  [
+    {
+      "text": "Tebtynis",
+      "start": 111,
+      "end": 119,
+      "gold_label": "LOCATION",
+      "wikidata_id": {
+        "id": "Q1500580",
+        "description": "archaeological site in the Egyptian depression of el-Faiyum"
+      }
+    },
+    {
+      "text": "Anti",
+      "start": 123,
+      "end": 127,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q3659000",
+        "description": "Italian archaeologist (1889-1961)"
+      }
+    },
+    {
+      "text": "Bagnani",
+      "start": 132,
+      "end": 139,
+      "gold_label": "PERSON",
+      "wikidata_id": {
+        "id": "Q21524761",
+        "description": "Italian-born Canadian classical archaeologist and historian (1900-1985)"
+      }
+    }
+  ]
+]
