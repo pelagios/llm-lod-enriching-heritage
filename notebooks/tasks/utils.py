@@ -40,6 +40,7 @@ dotenv = safe_import("dotenv")
 langid = safe_import("langid")
 openai = safe_import("openai")
 regex = safe_import("regex")
+tabulate = safe_import("tabulate")
 
 
 def squeal(text=None):
@@ -451,11 +452,14 @@ def show_scores(labels=LABELS):
     """Extract relevant evaluation scores from the output file of the scorer and show them"""
     hipe_scores = read_json_file(os.path.join(SCORER_DIR, HIPE_MACHINE_FILE))
     print(colored("HIPE Analysis", attrs=["bold"]))
-    for label in labels:
-        print(f"{label:>8}:", {key: round(100*value, 1) 
-              for key, value in hipe_scores['NE-COARSE-LIT']['TIME-ALL']['LED-ALL'][label]['exact'].items() 
-              if key in ['P_micro', 'R_micro', 'F1_micro']})
-
+    data = [[round(100*value, 1)
+             for key, value in hipe_scores['NE-COARSE-LIT']['TIME-ALL']['LED-ALL'][label]['exact'].items() 
+             if regex.search("micro", key)] for label in labels]
+    data = [[labels[row_index]] + row for row_index, row in enumerate(data)]
+    headers = ["Label"] + [key
+                           for key, value in hipe_scores['NE-COARSE-LIT']['TIME-ALL']['LED-ALL'][labels[0]]['exact'].items()
+                           if regex.search("micro", key)]
+    print(tabulate.tabulate(data, headers=headers, tablefmt="fancy_grid"))
 
 
 def load_hipe_scorer():
@@ -485,3 +489,131 @@ def insert_machine_entities_in_tokens(input_data):
     return text_tokens
     
 
+def add_gold_linking_entities_to_text_tokens(text_tokens, gold_entities):
+    text_tokens_text_id = 0
+    text_tokens_token_id = 0
+    for gold_entities_text in gold_entities:
+        for gold_entity in gold_entities_text:
+            while text_tokens[text_tokens_text_id][text_tokens_token_id]["start"] < gold_entity["start"]:
+                text_tokens[text_tokens_text_id][text_tokens_token_id]["wikidata_id"] = "_"
+                text_tokens_token_id += 1
+                if text_tokens_token_id >= len(text_tokens[text_tokens_text_id]):
+                    break
+            while text_tokens_token_id < len(text_tokens[text_tokens_text_id]) and text_tokens[text_tokens_text_id][text_tokens_token_id]["end"] <= gold_entity["end"]:
+                if "wikidata_id" not in gold_entity:
+                    text_tokens[text_tokens_text_id][text_tokens_token_id]["wikidata_id"] = "_"
+                else:
+                   text_tokens[text_tokens_text_id][text_tokens_token_id]["wikidata_id"] = gold_entity["wikidata_id"]["id"]
+                text_tokens_token_id += 1
+        while text_tokens_token_id < len(text_tokens[text_tokens_text_id]):
+            text_tokens[text_tokens_text_id][text_tokens_token_id]["wikidata_id"] = "_"
+            text_tokens_token_id += 1
+        text_tokens_text_id += 1
+        text_tokens_token_id = 0
+    return text_tokens
+
+
+def get_char_offsets_of_entities_linking(text_id, text, raw_entities):
+    """lookup list of entities in original text and return list with character offsets"""
+    cleaned_entities = []
+    for raw_entity in raw_entities:
+        char_offsets = get_char_offsets_of_entity(text, raw_entity["text"])
+        if not char_offsets:
+            print(f"raw entity not found in text! text_id: {text_id}; entity: {raw_entity['text']}")
+            continue
+        cleaned_entities.extend([char_offset | {"text": raw_entity["text"], "wikidata_id": raw_entity["wikidata_id"]} 
+                               for char_offset in char_offsets])
+    return cleaned_entities
+
+
+def get_machine_entities(file_name):
+    linking_json = read_json_file(file_name)
+    machine_entities = []
+    for text_id, text in enumerate(linking_json):
+        cleaned_entities = get_char_offsets_of_entities_linking(text_id, text["text_cleaned"], text["entities"])
+        cleaned_entities = remove_overlapping_entities(sorted(cleaned_entities, 
+                                                              key=lambda entity: (entity["start_char"], 
+                                                                                  -entity["end_char"])))
+        for cleaned_entity in cleaned_entities:
+            cleaned_entity["start"] = cleaned_entity.pop("start_char")
+            cleaned_entity["end"] = cleaned_entity.pop("end_char")
+        machine_entities.append(cleaned_entities)
+    return machine_entities
+
+
+HIPE_MACHINE_FILE = "HIPE_machine.txt"
+HIPE_GOLD_FILE = "HIPE_gold.txt"
+
+
+def save_linking_data_to_file(text_tokens, data_column_name, file_name):
+    """Save the data for evaluation to a single specified file"""
+    with open(file_name, "w") as hipe_file:
+        print("TOKEN\tNE-COARSE-LIT\tNE-COARSE-METO\tNEL-LIT\tNEL-METO\tMISC", file=hipe_file)
+        for text in text_tokens:
+            sent_id = 0
+            for token in text:
+                if token["sent_id"] != sent_id:
+                    print("-\tO\tO\t_\t_\tO", file=hipe_file)
+                    sent_id = token["sent_id"]
+                if "wikidata_id" not in token:
+                    token["wikidata_id"] = {"id": "_", "description": ""}
+                print(token["text"], token[data_column_name], token[data_column_name], 
+                                     token["wikidata_id"], token["wikidata_id"], "O", sep="\t", file=hipe_file)
+            print("-\tO\tO\t_\t_\tO", file=hipe_file)
+        hipe_file.close()
+
+
+SCORER_DIR = "HIPE-scorer"
+
+
+def evaluate_linking(text_tokens_gold, text_tokens_machine, clef_evaluation):
+    """Evaluate the data present in text tokens: save them, run the scorer and show the results"""
+    BASE_DIR = os.getcwd()
+    save_linking_data_to_file(text_tokens_gold, "gold_tag", HIPE_GOLD_FILE)
+    save_linking_data_to_file(text_tokens_machine, "machine_tag", HIPE_MACHINE_FILE)
+    os.chdir(os.path.join(BASE_DIR, SCORER_DIR))
+    run_scorer(clef_evaluation,
+               args={"--ref": os.path.join("..", HIPE_GOLD_FILE),
+                     "--pred": os.path.join("..", HIPE_MACHINE_FILE),
+                     "--task": "nel",
+                     "--outdir": "."})
+    os.chdir(BASE_DIR)
+    show_scores_linking()
+
+
+def show_scores_linking(labels=["ALL"]):
+    """Extract relevant evaluation scores from the output file of the scorer and show them"""
+    hipe_scores = read_json_file(os.path.join(SCORER_DIR, HIPE_MACHINE_FILE))
+    print(colored("HIPE Analysis", attrs=["bold"]))
+    data = [[round(100*value, 1) 
+             for key, value in hipe_scores['1']['NEL-LIT']['TIME-ALL']['LED-ALL'][label]['exact'].items() 
+             if regex.search("micro", key)] for label in labels]
+    data = [[labels[row_index]] + row for row_index, row in enumerate(data)]
+    headers = ["Label"] + [key
+                           for key, value in hipe_scores['1']['NEL-LIT']['TIME-ALL']['LED-ALL'][labels[0]]['exact'].items()
+                           if regex.search("micro", key)]
+    print(tabulate.tabulate(data, headers=headers, tablefmt="fancy_grid"))
+
+
+def add_char_offsets_to_processed_entities(processed_entities):
+    """Add missing character offsets to machine entities and return in datastructure per text"""
+    machine_entities = []
+    for entity in processed_entities:
+        char_offsets = get_char_offsets_of_entities(entity["text_id"], 
+                                                    entity["text"], 
+                                                    [{"text": entity["entity_text"], 
+                                                            "label": "PERSON"}])
+        while len(machine_entities) <= entity["text_id"]:
+            machine_entities.append([])
+        for char_offset in char_offsets:
+            machine_entities[entity["text_id"]].append(entity | {"start_char": char_offset["start_char"],
+                                                                 "end_char": char_offset["end_char"]})
+    cleaned_entities = [remove_overlapping_entities(sorted(entities,
+                                                    key=lambda entity: (entity["start_char"],
+                                                                        -entity["end_char"])))
+                        for entities in machine_entities]
+    for entities in cleaned_entities:
+        for entity in entities:
+            entity["start"] = entity.pop("start_char")
+            entity["end"] = entity.pop("end_char")
+    return cleaned_entities
