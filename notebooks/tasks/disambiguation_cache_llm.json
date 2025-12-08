@@ -1,0 +1,3418 @@
+{
+  "Sekhmet": {
+    "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
+      "gpt-4o-mini": {
+        "id": "Q146104",
+        "description": "Egyptian deity"
+      }
+    }
+  },
+  "Thebes": {
+    "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
+      "gpt-4o-mini": {
+        "id": "Q101583",
+        "description": "ancient Egyptian city"
+      },
+      "qwen3:8b": {
+        "id": "Q101583",
+        "description": "ancient Egyptian city",
+        "model": "qwen3:8b"
+      }
+    },
+    "Book of the Dead of Aaner, priest of Mut. Cyperus papyrus. Third Intermediate Period, 21st Dynasty (1076-944 BC). Thebes.. Drovetti collection (1824). C. 1771": {
+      "gpt-4o-mini": {
+        "id": "Q101583",
+        "description": "ancient Egyptian city"
+      },
+      "qwen3:8b": {
+        "id": "Q101583",
+        "description": "ancient Egyptian city",
+        "model": "qwen3:8b"
+      }
+    },
+    "Book of the Dead of Iuefankh. Cyperus papyrus. Ptolemaic period (332-30 BC).. Thebes (?). Drovetti collection (1824). C. 1791": {
+      "gpt-4o-mini": {
+        "id": "Q101583",
+        "description": "ancient Egyptian city"
+      },
+      "qwen3:8b": {
+        "id": "Q101583",
+        "description": "ancient Egyptian city",
+        "model": "qwen3:8b"
+      }
+    },
+    "Coffin of Tamutmutef. Wood. Third Intermediate Period, 21st-22nd Dynasty (1076-746 BC). Thebes (?).. Drovetti collection (1824). C. 2228/1": {
+      "gpt-4o-mini": {
+        "id": "Q101583",
+        "description": "ancient Egyptian city"
+      },
+      "qwen3:8b": {
+        "id": "Q101583",
+        "description": "ancient Egyptian city",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Amenhotep III": {
+    "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bowl containing fishes dried in salt. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8321": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Decorated ware. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8368": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Basket. Wood, vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8424": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Inner coffin of Kha. Wood, stucco, gold, bronze, glass. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8429": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Tunic with multicolored borders. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8530": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Kohl tube with linen stopper. Vegetable fibers, linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8606": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Loincloth. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8613/10": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      }
+    }
+  },
+  "Bastet": {
+    "Statuette of the goddess Bastet. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 271": {
+      "gpt-4o-mini": {
+        "id": "Q129106",
+        "description": "Egyptian cat deity"
+      }
+    }
+  },
+  "Drovetti": {
+    "Statuette of the goddess Bastet. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 271": {
+      "gpt-4o-mini": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      },
+      "qwen3:0.6b": {
+        "qwen3:0.6b": "[{'id': 'Q101038772', 'description': 'family name'}]"
+      },
+      "qwen3:8b": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar",
+        "model": "qwen3:8b"
+      }
+    },
+    "Statuette of the god Apis. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 0815": {
+      "gpt-4o-mini": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      },
+      "qwen3:8b": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar",
+        "model": "qwen3:8b"
+      }
+    },
+    "Ointment jar with the cartouche of Tuthmosis III and an indication of its capacity, probably from the grave-goods of the overseer of foreign lands Djehuty. Calcite (alabaster). New Kingdom, 18th Dynasty, reign of Tuthmosi III (1458-1425 a.C.).. Drovetti ": {
+      "gpt-4o-mini": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar"
+      },
+      "qwen3:8b": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar",
+        "model": "qwen3:8b"
+      }
+    },
+    "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
+      "qwen3:8b": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar",
+        "model": "qwen3:8b"
+      }
+    },
+    "Statuette of the goddess Satet. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 515": {
+      "qwen3:8b": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar",
+        "model": "qwen3:8b"
+      }
+    },
+    "Magic stela of Horus on crocodiles. Limestone. Late Period - Ptolemaic Period (722-30 BC).. Drovetti collection (1824). C. 775": {
+      "qwen3:8b": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar",
+        "model": "qwen3:8b"
+      }
+    },
+    "Cult statue of Amenhotep I. Limestone. New Kingdom, 19th Dynasty (1292–1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1372": {
+      "qwen3:8b": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar",
+        "model": "qwen3:8b"
+      }
+    },
+    "Stela dedicated by Huy to Amun-Re. Limestone. New Kingdom, 19th Dynasty (1292-1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1607": {
+      "qwen3:8b": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar",
+        "model": "qwen3:8b"
+      }
+    },
+    "Book of the Dead of Aaner, priest of Mut. Cyperus papyrus. Third Intermediate Period, 21st Dynasty (1076-944 BC). Thebes.. Drovetti collection (1824). C. 1771": {
+      "qwen3:8b": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar",
+        "model": "qwen3:8b"
+      }
+    },
+    "Coffin of Tamutmutef. Wood. Third Intermediate Period, 21st-22nd Dynasty (1076-746 BC). Thebes (?).. Drovetti collection (1824). C. 2228/1": {
+      "qwen3:8b": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar",
+        "model": "qwen3:8b"
+      }
+    },
+    "Shabti of Horemakhbit. Faience. Third Intermediate Period, 21st Dynasty (1076-944 BC). Deir el-Bahari, Second Cachette.. Drovetti collection (1824). C. 2724/a": {
+      "qwen3:8b": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar",
+        "model": "qwen3:8b"
+      }
+    },
+    "Male statue. Wood. New Kingdom, 19th Dynasty (1292-1190 BC).. Drovetti collection (1824). C. 3100": {
+      "qwen3:8b": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar",
+        "model": "qwen3:8b"
+      }
+    },
+    "Dummy jar of Amennakht. Limestone. New Kingdom, 19th-20th Dynasty (1292-1076 BC).. Drovetti collection (1824). C. 3325": {
+      "qwen3:8b": {
+        "id": "Q822895",
+        "description": "Italian diplomat, explorer and scholar",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Harpocrates": {
+    "Amulet depicting the god Harpocrates": {
+      "gpt-4o-mini": {
+        "id": "Q787492",
+        "description": "God-child in Egyptian mythology"
+      },
+      "qwen3:8b": {
+        "id": "Q787492",
+        "description": "God-child in Egyptian mythology",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Satet": {
+    "Statuette of the goddess Satet. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 515": {
+      "gpt-4o-mini": {
+        "id": "Q843206",
+        "description": "ancient Egyptian goddess"
+      }
+    }
+  },
+  "Statue": {
+    "Statue of the god Bes. Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1882. C. 638": {
+      "gpt-4o-mini": {
+        "id": "Q179700",
+        "description": "sculpture primarily conceived as a representational figure"
+      }
+    }
+  },
+  "Bes": {
+    "Statue of the god Bes. Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1882. C. 638": {
+      "gpt-4o-mini": {
+        "id": "Q37776",
+        "description": "commune in Doubs, France"
+      }
+    }
+  },
+  "Ptolemaic": {
+    "Statue of the god Bes. Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1882. C. 638": {
+      "gpt-4o-mini": {
+        "id": "Q2320005",
+        "description": "Hellenistic kingdom in ancient Egypt from 305 to 30 BC"
+      }
+    }
+  },
+  "Roman": {
+    "Statue of the god Bes. Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1882. C. 638": {
+      "gpt-4o-mini": {
+        "id": "Q218",
+        "description": "country in Southeast Europe"
+      }
+    },
+    "Statuette of the Near Eastern god Attis, god of fertility, wearing a Phrygian cap. Baked clay. Roman Period (30 BC-AD 395).. Acquired before 1888. C. 7238": {
+      "gpt-4o-mini": {
+        "id": "Q218",
+        "description": "country in Southeast Europe"
+      }
+    }
+  },
+  "Horus": {
+    "Magic stela of Horus on crocodiles. Limestone. Late Period - Ptolemaic Period (722-30 BC).. Drovetti collection (1824). C. 775": {
+      "gpt-4o-mini": {
+        "id": "Q84122",
+        "description": "Egyptian sky deity"
+      },
+      "qwen3:8b": {
+        "id": "Q84122",
+        "description": "Egyptian sky deity",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Apis": {
+    "Statuette of the god Apis. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 0815": {
+      "gpt-4o-mini": {
+        "id": "None",
+        "description": "Egyptian sky deity"
+      }
+    }
+  },
+  "wedjat-eye": {
+    "Amulet depicting the wedjat-eye": {
+      "gpt-4o-mini": {
+        "id": "Q116419933",
+        "description": "amulet, Wedjat eye at the Metropolitan Museum of Art (MET, O.C.2887)"
+      }
+    }
+  },
+  "Amenhotep I": {
+    "Cult statue of Amenhotep I. Limestone. New Kingdom, 19th Dynasty (1292–1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1372": {
+      "gpt-4o-mini": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157966",
+        "description": "second Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Deir el-Medina": {
+    "Cult statue of Amenhotep I. Limestone. New Kingdom, 19th Dynasty (1292–1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1372": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Stela dedicated by Huy to Amun-Re. Limestone. New Kingdom, 19th Dynasty (1292-1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1607": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Shabti of Khonsu. Wood. New Kingdom, 19th-20th Dynasty (1292-1076 BC). Deir el-Medina.. Acquired before 1882. C. 2737 v.n. 915": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Painted ostracon with the head of an African man with short curly hair and an earring. Limestone, black ink. New Kingdom, 20th Dynasty (1186–1069 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6295": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Illustrated ostracon showing animals performing the parody of a religious procession. Limestone. New Kingdom, 19th-20th Dynasty (1292-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6333": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Jar. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6994": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Decorated jar. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7013": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bowl. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7074": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Brush. Vegetable fibers. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7660": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bowl containing fishes dried in salt. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8321": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Decorated ware. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8368": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Basket. Wood, vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8424": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Inner coffin of Kha. Wood, stucco, gold, bronze, glass. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8429": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Tunic with multicolored borders. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8530": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Kohl tube with linen stopper. Vegetable fibers, linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8606": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Loincloth. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8613/10": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      }
+    },
+    "Hieratic ostracon with a testimony in court by the workman Menna. Limestone. New Kingdom, 20th Dynasty, reign of Ramesses III (1187-1157 BC). Deir el-Medina.. Schiaparelli excavations (1909-1912). S. 9611 = CGT 57381": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Two chisels. Wood, bronze. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1909-1912). S. 09964 e 09965": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    },
+    "Shabti of Nespayherhat. Baked clay. Third Intermediate Period, 21st- 22nd Dynasty (1076-746 BC). Deir el-Medina.. Schiaparelli excavations (1909). S. 10437": {
+      "gpt-4o-mini": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings"
+      },
+      "qwen3:8b": {
+        "id": "Q750212",
+        "description": "ancient Egyptian village in the Valley of the Kings",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Ramesses II": {
+    "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor": {
+      "gpt-4o-mini": {
+        "id": "Q1523",
+        "description": "Egyptian third pharaoh of the Nineteenth Dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q1523",
+        "description": "Egyptian third pharaoh of the Nineteenth Dynasty",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Re": {
+    "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor": {
+      "gpt-4o-mini": {
+        "id": "Q20148490",
+        "description": "family name"
+      }
+    }
+  },
+  "Heliopolis": {
+    "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor": {
+      "gpt-4o-mini": {
+        "id": "Q191687",
+        "description": "city of ancient Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q191687",
+        "description": "city of ancient Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Cosmetic palette. Limestone. Predynastic Period, Naqada IIC-IIIA (3500-3200 BC). Heliopolis.. Schiaparelli excavations (1906). S. 4034/1": {
+      "gpt-4o-mini": {
+        "id": "Q191687",
+        "description": "city of ancient Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q191687",
+        "description": "city of ancient Egypt",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Abydos": {
+    "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor": {
+      "gpt-4o-mini": {
+        "id": "Q192268",
+        "description": "city in ancient Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q192268",
+        "description": "city in ancient Egypt",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Huy": {
+    "Stela dedicated by Huy to Amun-Re. Limestone. New Kingdom, 19th Dynasty (1292-1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1607": {
+      "gpt-4o-mini": {
+        "id": "Q110831390",
+        "description": "male given name"
+      },
+      "qwen3:8b": {
+        "id": "Q110831390",
+        "description": "male given name",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Amun-Re": {
+    "Stela dedicated by Huy to Amun-Re. Limestone. New Kingdom, 19th Dynasty (1292-1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1607": {
+      "gpt-4o-mini": {
+        "id": "Q58373",
+        "description": "Egyptian and Berber deity"
+      }
+    }
+  },
+  "Book of the Dead of Aaner": {
+    "Book of the Dead of Aaner, priest of Mut. Cyperus papyrus. Third Intermediate Period, 21st Dynasty (1076-944 BC). Thebes.. Drovetti collection (1824). C. 1771": {
+      "gpt-4o-mini": {
+        "id": "Q117398410",
+        "description": "papyurs of the Twenty–first Dynasty of Egypt (Egyptian Third Intermediate Period), 1076–944 BCE, in the collection of Museo Egizio, Turin, Italy (Cat.1771)"
+      }
+    }
+  },
+  "Mut": {
+    "Book of the Dead of Aaner, priest of Mut. Cyperus papyrus. Third Intermediate Period, 21st Dynasty (1076-944 BC). Thebes.. Drovetti collection (1824). C. 1771": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "papyurs of the Twenty–first Dynasty of Egypt (Egyptian Third Intermediate Period), 1076–944 BCE, in the collection of Museo Egizio, Turin, Italy (Cat.1771)"
+      }
+    }
+  },
+  "Cyperus": {
+    "Book of the Dead of Aaner, priest of Mut. Cyperus papyrus. Third Intermediate Period, 21st Dynasty (1076-944 BC). Thebes.. Drovetti collection (1824). C. 1771": {
+      "gpt-4o-mini": {
+        "id": "Q161224",
+        "description": "genus of plants"
+      }
+    }
+  },
+  "Book of the Dead of Iuefankh": {
+    "Book of the Dead of Iuefankh. Cyperus papyrus. Ptolemaic period (332-30 BC).. Thebes (?). Drovetti collection (1824). C. 1791": {
+      "gpt-4o-mini": {
+        "id": "Q117398419",
+        "description": "papyurs of the Egyptian Hellenistic period, 332–30 BCE, in the collection of Museo Egizio, Turin, Italy (Cat.1791)"
+      }
+    }
+  },
+  "Cyperus papyrus": {
+    "Book of the Dead of Iuefankh. Cyperus papyrus. Ptolemaic period (332-30 BC).. Thebes (?). Drovetti collection (1824). C. 1791": {
+      "gpt-4o-mini": {
+        "id": "Q158808",
+        "description": "species of aquatic flowering plant"
+      }
+    }
+  },
+  "Ptolemaic period": {
+    "Book of the Dead of Iuefankh. Cyperus papyrus. Ptolemaic period (332-30 BC).. Thebes (?). Drovetti collection (1824). C. 1791": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "species of aquatic flowering plant"
+      }
+    }
+  },
+  "Drovetti collection": {
+    "Book of the Dead of Iuefankh. Cyperus papyrus. Ptolemaic period (332-30 BC).. Thebes (?). Drovetti collection (1824). C. 1791": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "ancient Egyptian city"
+      }
+    }
+  },
+  "Tamutmutef": {
+    "Coffin of Tamutmutef. Wood. Third Intermediate Period, 21st-22nd Dynasty (1076-746 BC). Thebes (?).. Drovetti collection (1824). C. 2228/1": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "ancient Egyptian city"
+      }
+    }
+  },
+  "Ptolemaic Period": {
+    "Fragment of a mummy mask decorated with a mummification scene. Cartonnage. Ptolemaic Period (332-30 BC).. Acquired before 1882. C. 2250": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "ancient Egyptian city"
+      }
+    },
+    "Coffin for a fish, containing mummy. Wood, organic remains. Ptolemaic Period (332-30 BC).. Acquired before 1882. C. 2393/1": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "peninsula in Western Asia"
+      }
+    },
+    "Loom weight. Baked clay. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1888. C. 6391": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "village in Giza Governorate, Egypt"
+      }
+    },
+    "Mold for amulets depicting the benu bird (phoenix). Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1888. C. 7067": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "inner organ for the circulation of blood"
+      }
+    }
+  },
+  "Asiatic": {
+    "Mummy soles picturing two Asiatic prisoners, symbolizing the trampling of the enemy. Linen. Late Period (722-332 BC).. Acquired before 1882. C. 2328": {
+      "gpt-4o-mini": {
+        "id": "Q51614",
+        "description": "peninsula in Western Asia"
+      }
+    }
+  },
+  "25th Dynasty": {
+    "Shabti-box. Wood. Late Period, 25th Dynasty (722-664 BC). . Acquired before 1882. C. 2441": {
+      "gpt-4o-mini": {
+        "id": "Q737648",
+        "description": "Kushite rule in Egypt during the third intermediate period"
+      }
+    }
+  },
+  "Mesmeni": {
+    "Shabti of the construction worker Mesmeni. Baked clay. New Kingdom, 20th Dynasty (1190-1076 BC).. Acquired before 1882. C. 2646": {
+      "gpt-4o-mini": {
+        "id": "None",
+        "description": "Kushite rule in Egypt during the third intermediate period"
+      }
+    }
+  },
+  "New Kingdom": {
+    "Shabti of the construction worker Mesmeni. Baked clay. New Kingdom, 20th Dynasty (1190-1076 BC).. Acquired before 1882. C. 2646": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Male statue. Wood. New Kingdom, 19th Dynasty (1292-1190 BC).. Drovetti collection (1824). C. 3100": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Dummy jar of Amennakht. Limestone. New Kingdom, 19th-20th Dynasty (1292-1076 BC).. Drovetti collection (1824). C. 3325": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Lid of canopic jar of Wadjren, overseer of the two granaries. Baked clay. New Kingdom, 18th Dynasty, ca. 1450-1400 BC.. Acquired before 1882. C. 3459/b": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Shabti. Alabaster. New Kingdom (1539-1076 BC).. Museo Kircheriano (1896). S. 166": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Jar. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6994": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Decorated jar. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7013": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Bowl. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7074": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Brush. Vegetable fibers. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7660": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Hieratic ostracon with a testimony in court by the workman Menna. Limestone. New Kingdom, 20th Dynasty, reign of Ramesses III (1187-1157 BC). Deir el-Medina.. Schiaparelli excavations (1909-1912). S. 9611 = CGT 57381": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Talatat. Limestone. New Kingdom, 18th Dynasty, reign of Akhenaten (1353-1336 BC).. Purchased in Munich (1970), gift of the Turin Rotary Club. S. 18143": {
+      "gpt-4o-mini": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      }
+    },
+    "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
+      "qwen3:8b": {
+        "id": "Q180568",
+        "description": "period from 1550 to 1077 BC in ancient Egypt",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "20th Dynasty": {
+    "Shabti of the construction worker Mesmeni. Baked clay. New Kingdom, 20th Dynasty (1190-1076 BC).. Acquired before 1882. C. 2646": {
+      "gpt-4o-mini": {
+        "id": "Q583501",
+        "description": "Period from 1189 to 1077 BCE"
+      }
+    }
+  },
+  "Horemakhbit": {
+    "Shabti of Horemakhbit. Faience. Third Intermediate Period, 21st Dynasty (1076-944 BC). Deir el-Bahari, Second Cachette.. Drovetti collection (1824). C. 2724/a": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "Period from 1189 to 1077 BCE"
+      }
+    }
+  },
+  "Deir el-Bahari": {
+    "Shabti of Horemakhbit. Faience. Third Intermediate Period, 21st Dynasty (1076-944 BC). Deir el-Bahari, Second Cachette.. Drovetti collection (1824). C. 2724/a": {
+      "gpt-4o-mini": {
+        "id": "Q373909",
+        "description": "archaeological site"
+      },
+      "qwen3:8b": {
+        "id": "Q373909",
+        "description": "archaeological site",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Khonsu": {
+    "Shabti of Khonsu. Wood. New Kingdom, 19th-20th Dynasty (1292-1076 BC). Deir el-Medina.. Acquired before 1882. C. 2737 v.n. 915": {
+      "gpt-4o-mini": {
+        "id": "Q190521",
+        "description": "Egyptian deity"
+      },
+      "qwen3:8b": {
+        "id": "Q56509044",
+        "description": "statuette of Khonsu as a falcon-headed man crowned with a lunar disc",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Tuthmosis III": {
+    "Ointment jar with the cartouche of Tuthmosis III and an indication of its capacity, probably from the grave-goods of the overseer of foreign lands Djehuty. Calcite (alabaster). New Kingdom, 18th Dynasty, reign of Tuthmosi III (1458-1425 a.C.).. Drovetti ": {
+      "gpt-4o-mini": {
+        "id": "Q157899",
+        "description": "sixth Egyptian Pharaoh of the Eighteenth Dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157899",
+        "description": "sixth Egyptian Pharaoh of the Eighteenth Dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Model brick stamp with the cartouche of Tuthmosis III “beloved of Hathor, mistress of Gebelein”. Wood. New Kingdom, reign of Tuthmosis III (1458-1425 BC). Gebelein, temple of Hathor, under the foundations.. Schiaparelli excavations (1910). S. 12445": {
+      "gpt-4o-mini": {
+        "id": "Q157899",
+        "description": "sixth Egyptian Pharaoh of the Eighteenth Dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157899",
+        "description": "sixth Egyptian Pharaoh of the Eighteenth Dynasty",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Djehuty": {
+    "Ointment jar with the cartouche of Tuthmosis III and an indication of its capacity, probably from the grave-goods of the overseer of foreign lands Djehuty. Calcite (alabaster). New Kingdom, 18th Dynasty, reign of Tuthmosi III (1458-1425 a.C.).. Drovetti ": {
+      "gpt-4o-mini": {
+        "id": "Q912046",
+        "description": "general under the ancient Egyptian king Thutmose III (reigned 1479–1425 BC) in the 18th Dynasty, main hero of the tale of the tale \"The Taking of Joppa\""
+      },
+      "qwen3:8b": {
+        "id": "Q912046",
+        "description": "general under the ancient Egyptian king Thutmose III (reigned 1479–1425 BC) in the 18th Dynasty, main hero of the tale of the tale \"The Taking of Joppa\"",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Tuthmosi III": {
+    "Ointment jar with the cartouche of Tuthmosis III and an indication of its capacity, probably from the grave-goods of the overseer of foreign lands Djehuty. Calcite (alabaster). New Kingdom, 18th Dynasty, reign of Tuthmosi III (1458-1425 a.C.).. Drovetti ": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "general under the ancient Egyptian king Thutmose III (reigned 1479–1425 BC) in the 18th Dynasty, main hero of the tale of the tale \"The Taking of Joppa\""
+      }
+    }
+  },
+  "Amennakht": {
+    "Dummy jar of Amennakht. Limestone. New Kingdom, 19th-20th Dynasty (1292-1076 BC).. Drovetti collection (1824). C. 3325": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "Italian diplomat, explorer and scholar"
+      },
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Wadjren": {
+    "Lid of canopic jar of Wadjren, overseer of the two granaries. Baked clay. New Kingdom, 18th Dynasty, ca. 1450-1400 BC.. Acquired before 1882. C. 3459/b": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "period from 1550 to 1077 BC in ancient Egypt"
+      },
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Cyprus": {
+    "Double juglet of the “Base Ring I” type, imported from Cyprus. Baked clay. New Kingdom, 18th Dynasty (1539-1292 BC).. Acquired before 1888. C. 3673": {
+      "gpt-4o-mini": {
+        "id": "Q229",
+        "description": "Mediterranean island country in West Asia"
+      },
+      "qwen3:8b": {
+        "id": "Q229",
+        "description": "Mediterranean island country in West Asia",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "1888": {
+    "Scarab. Faience. Late Period – Ptolemaic Period (722-30 BC).. Acquired before 1888. C. 6098": {
+      "gpt-4o-mini": {
+        "id": "Q7829",
+        "description": "year"
+      }
+    }
+  },
+  "Amenemope": {
+    "Royal cubit rod of Amenemope, overseer of the two granaries. Wood. New Kingdom, 18th Dynasty, reign of Horemheb (1319-1292 BC). Saqqara (?).. Drovetti collection (1824). C. 6347": {
+      "gpt-4o-mini": {
+        "id": "Q2844817",
+        "description": "ancient Egyptian writer"
+      },
+      "qwen3:8b": {
+        "id": "Q2844817",
+        "description": "ancient Egyptian writer",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Horemheb": {
+    "Royal cubit rod of Amenemope, overseer of the two granaries. Wood. New Kingdom, 18th Dynasty, reign of Horemheb (1319-1292 BC). Saqqara (?).. Drovetti collection (1824). C. 6347": {
+      "gpt-4o-mini": {
+        "id": "Q157995",
+        "description": "final pharaoh of the 18th dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q157995",
+        "description": "final pharaoh of the 18th dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Saqqara": {
+    "Royal cubit rod of Amenemope, overseer of the two granaries. Wood. New Kingdom, 18th Dynasty, reign of Horemheb (1319-1292 BC). Saqqara (?).. Drovetti collection (1824). C. 6347": {
+      "gpt-4o-mini": {
+        "id": "Q192134",
+        "description": "village in Giza Governorate, Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q192134",
+        "description": "village in Giza Governorate, Egypt",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Roman Period": {
+    "Loom weight. Baked clay. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1888. C. 6391": {
+      "gpt-4o-mini": {
+        "id": "Q125510349",
+        "description": "period of Rome's political and cultural supremacy in much of Europe, North Africa and the Near East"
+      }
+    },
+    "Mold for amulets depicting the benu bird (phoenix). Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1888. C. 7067": {
+      "gpt-4o-mini": {
+        "id": "Q125510349",
+        "description": "period of Rome's political and cultural supremacy in much of Europe, North Africa and the Near East"
+      }
+    },
+    "Lid. Glass. Roman Period (30 BC-AD 395).. P. 5178": {
+      "gpt-4o-mini": {
+        "id": "Q125510349",
+        "description": "period of Rome's political and cultural supremacy in much of Europe, North Africa and the Near East"
+      }
+    }
+  },
+  "deity": {
+    "Amulet depicting a hybrid deity": {
+      "gpt-4o-mini": {
+        "id": "Q178885",
+        "description": "natural or supernatural god or goddess, divine being"
+      }
+    }
+  },
+  "heart": {
+    "Amulet depicting the heart": {
+      "gpt-4o-mini": {
+        "id": "Q1072",
+        "description": "inner organ for the circulation of blood"
+      }
+    }
+  },
+  "Attis": {
+    "Statuette of the Near Eastern god Attis, god of fertility, wearing a Phrygian cap. Baked clay. Roman Period (30 BC-AD 395).. Acquired before 1888. C. 7238": {
+      "gpt-4o-mini": {
+        "id": "Q262016",
+        "description": "Phrygian and Greek mythological figure"
+      }
+    }
+  },
+  "Nephthys": {
+    "Amulet depicting the goddess Nephthys": {
+      "gpt-4o-mini": {
+        "id": "Q169040",
+        "description": "Egyptian deity"
+      },
+      "qwen3:8b": {
+        "id": "Q169040",
+        "description": "Egyptian deity",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Calcite": {
+    "Dish. Calcite (alabaster). Early Dynastic Period, 1st-2nd Dynasty (3000-2590 BC).. P. 795": {
+      "gpt-4o-mini": {
+        "id": "Q171917",
+        "description": "carbonate mineral"
+      }
+    }
+  },
+  "Tamit": {
+    "Pendant in rock crystal forming part of a necklace with other eleven perforated shells (P. 3539/1-11). Rock crystal. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome": {
+      "gpt-4o-mini": {
+        "id": "Q16023139",
+        "description": "human settlement in Onezhsky District, Arkhangelsk Oblast, Russia"
+      },
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    },
+    "Globular vessel with a grey washing. Backed clay. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome in Nubia (1964) (on loan). P. 3645": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "Italian university founded in Rome in 1303"
+      },
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Egyptian Nubia": {
+    "Pendant in rock crystal forming part of a necklace with other eleven perforated shells (P. 3539/1-11). Rock crystal. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "human settlement in Onezhsky District, Arkhangelsk Oblast, Russia"
+      },
+      "qwen3:8b": {
+        "id": "Q125517012",
+        "description": "journal article from 'Current Anthropology' published in 1973",
+        "model": "qwen3:8b"
+      }
+    },
+    "Globular vessel with a grey washing. Backed clay. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome in Nubia (1964) (on loan). P. 3645": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "Italian university founded in Rome in 1303"
+      },
+      "qwen3:8b": {
+        "id": "Q125517012",
+        "description": "journal article from 'Current Anthropology' published in 1973",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Istituto Egittologia": {
+    "Pendant in rock crystal forming part of a necklace with other eleven perforated shells (P. 3539/1-11). Rock crystal. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome": {
+      "gpt-4o-mini": {
+        "id": "Q134385372",
+        "description": "Egyptological studies institution of the University of Rome \"La Sapienza\", Italy"
+      }
+    },
+    "Globular vessel with a grey washing. Backed clay. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome in Nubia (1964) (on loan). P. 3645": {
+      "gpt-4o-mini": {
+        "id": "Q134385372",
+        "description": "Egyptological studies institution of the University of Rome \"La Sapienza\", Italy"
+      }
+    }
+  },
+  "University of Rome": {
+    "Pendant in rock crystal forming part of a necklace with other eleven perforated shells (P. 3539/1-11). Rock crystal. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome": {
+      "gpt-4o-mini": {
+        "id": "Q209344",
+        "description": "Italian university founded in Rome in 1303"
+      },
+      "qwen3:8b": {
+        "id": "Q209344",
+        "description": "Italian university founded in Rome in 1303",
+        "model": "qwen3:8b"
+      }
+    },
+    "Globular vessel with a grey washing. Backed clay. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome in Nubia (1964) (on loan). P. 3645": {
+      "gpt-4o-mini": {
+        "id": "Q209344",
+        "description": "Italian university founded in Rome in 1303"
+      },
+      "qwen3:8b": {
+        "id": "Q209344",
+        "description": "Italian university founded in Rome in 1303",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "worshiper": {
+    "Statuette of a worshiper. Bronze. Late Period (722-332 BC).. P. 3552": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "Italian university founded in Rome in 1303"
+      }
+    }
+  },
+  "Nubia": {
+    "Globular vessel with a grey washing. Backed clay. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome in Nubia (1964) (on loan). P. 3645": {
+      "gpt-4o-mini": {
+        "id": "Q135028",
+        "description": "region along the Nile river, which is located in northern Sudan and southern Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q135028",
+        "description": "region along the Nile river, which is located in northern Sudan and southern Egypt",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Amulet": {
+    "Amulet depicting the god Nefertum": {
+      "gpt-4o-mini": {
+        "id": "Q131557",
+        "description": "object that is typically worn on one's person, and is alleged to have the magical power to protect its holder"
+      }
+    }
+  },
+  "Nefertum": {
+    "Amulet depicting the god Nefertum": {
+      "gpt-4o-mini": {
+        "id": "Q464227",
+        "description": "Egyptian deity"
+      }
+    }
+  },
+  "Shabti": {
+    "Shabti. Alabaster. New Kingdom (1539-1076 BC).. Museo Kircheriano (1896). S. 166": {
+      "gpt-4o-mini": {
+        "id": "Q117424738",
+        "description": "alabaster shabti of the Egyptian New Kingdom, 1539–1076 BCE, in the collection of Museo Egizio, Turin, Italy"
+      }
+    },
+    "Shabti of Nespayherhat. Baked clay. Third Intermediate Period, 21st- 22nd Dynasty (1076-746 BC). Deir el-Medina.. Schiaparelli excavations (1909). S. 10437": {
+      "gpt-4o-mini": {
+        "id": "Q726826",
+        "description": "funerary figurine used in ancient Egyptian religion"
+      }
+    }
+  },
+  "Alabaster": {
+    "Shabti. Alabaster. New Kingdom (1539-1076 BC).. Museo Kircheriano (1896). S. 166": {
+      "gpt-4o-mini": {
+        "id": "Q143447",
+        "description": "gypsum variety"
+      }
+    }
+  },
+  "Museo Kircheriano": {
+    "Shabti. Alabaster. New Kingdom (1539-1076 BC).. Museo Kircheriano (1896). S. 166": {
+      "gpt-4o-mini": {
+        "id": "Q1530830",
+        "description": "former museum in Rome, Italy"
+      },
+      "qwen3:8b": {
+        "id": "Q1530830",
+        "description": "former museum in Rome, Italy",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Naqada": {
+    "Mace head. Granodiorite. Predynastic Period, Naqada I-IIB (3900-3550 BC).. Purchased by Schiaparelli (1900-1901). S. 569": {
+      "gpt-4o-mini": {
+        "id": "Q753391",
+        "description": "archaeological culture of pre-dynastic Egypt"
+      }
+    },
+    "Animal-shaped tag. Bone, ivory. Predynastic Period, Naqada I-IIA (3900-3600 BC).. Purchased by Schiaparelli (1900-1901). S. 1121": {
+      "gpt-4o-mini": {
+        "id": "Q753391",
+        "description": "archaeological culture of pre-dynastic Egypt"
+      }
+    },
+    "Wavy-handled jar (W-ware). Baked clay. Predynastic Period, Naqada IIC (3500-3400 BC). Hammamiya.. Schiaparelli excavations (1905). S. 4721": {
+      "gpt-4o-mini": {
+        "id": "Q753391",
+        "description": "archaeological culture of pre-dynastic Egypt"
+      }
+    }
+  },
+  "Schiaparelli": {
+    "Mace head. Granodiorite. Predynastic Period, Naqada I-IIB (3900-3550 BC).. Purchased by Schiaparelli (1900-1901). S. 569": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Animal-shaped tag. Bone, ivory. Predynastic Period, Naqada I-IIA (3900-3600 BC).. Purchased by Schiaparelli (1900-1901). S. 1121": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q107835110",
+        "description": "French fashion house",
+        "model": "qwen3:8b"
+      }
+    },
+    "Animal-shaped amulet. Serpentine. Predynastic Period, Naqada II (3700-3300 BC).. Purchased by Schiaparelli (1900-1901). S. 1166/1": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Boat model with oarsmen and a coffin under a canopy. Wood. Middle Kingdom, 11th Dynasty (1980-1939 BC). Asyut (?).. Purchased by Schiaparelli (1900-1901). S. 1208": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Stela of Inheretnakht. Limestone. First Intermediate Period, 8th-11th Dynasty (2118-1980 BC).. Purchased by Schiaparelli (1900-1901). S. 1264": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Cosmetic palette. Limestone. Predynastic Period, Naqada IIC-IIIA (3500-3200 BC). Heliopolis.. Schiaparelli excavations (1906). S. 4034/1": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Wavy-handled jar (W-ware). Baked clay. Predynastic Period, Naqada IIC (3500-3400 BC). Hammamiya.. Schiaparelli excavations (1905). S. 4721": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Two scarabs. Faïence. Late Period, 25th-31st Dynasty (722-332 BC). Valley of the Queens.. Schiaparelli excavations (1903-1905). S. 5329/1-2": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Jar. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6994": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352": {
+      "gpt-4o-mini": {
+        "id": "Q2234103",
+        "description": "lunar crater"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364": {
+      "gpt-4o-mini": {
+        "id": "Q617030",
+        "description": "crater on Mars"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Decorated ware. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8368": {
+      "gpt-4o-mini": {
+        "id": "Q2234103",
+        "description": "lunar crater"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410": {
+      "gpt-4o-mini": {
+        "id": "Q2234103",
+        "description": "lunar crater"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414": {
+      "gpt-4o-mini": {
+        "id": "Q617030",
+        "description": "crater on Mars"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Inner coffin of Kha. Wood, stucco, gold, bronze, glass. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8429": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Cup. Baked clay. Middle Kingdom, 12th Dynasty, reign of Sesostris I (1920-1875 BC). Asyut, Tomb of Shemes.. Schiaparelli excavations (1908). S. 8676": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Jar. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8812": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Cup. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8853": {
+      "gpt-4o-mini": {
+        "id": "Q2234103",
+        "description": "lunar crater"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Hieratic ostracon with a testimony in court by the workman Menna. Limestone. New Kingdom, 20th Dynasty, reign of Ramesses III (1187-1157 BC). Deir el-Medina.. Schiaparelli excavations (1909-1912). S. 9611 = CGT 57381": {
+      "gpt-4o-mini": {
+        "id": "Q2234103",
+        "description": "lunar crater"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Shabti of Nespayherhat. Baked clay. Third Intermediate Period, 21st- 22nd Dynasty (1076-746 BC). Deir el-Medina.. Schiaparelli excavations (1909). S. 10437": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Black-topped vase (B-ware). Baked clay. Predynastic Period, Naqada I-IIA (3900-3600 BC). Gebelein.. Schiaparelli excavations (1910). S. 11113/2": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Wavy-handled jar (W-ware). Baked clay. Protodynastic Period, Naqada IIIA1 (3300-3200 BC). Gebelein.. Schiaparelli excavations (1910). S. 11170": {
+      "gpt-4o-mini": {
+        "id": "Q2234103",
+        "description": "lunar crater"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Model brick stamp with the cartouche of Tuthmosis III “beloved of Hathor, mistress of Gebelein”. Wood. New Kingdom, reign of Tuthmosis III (1458-1425 BC). Gebelein, temple of Hathor, under the foundations.. Schiaparelli excavations (1910). S. 12445": {
+      "gpt-4o-mini": {
+        "id": "Q3061991",
+        "description": "ExoMars 2016 lander module"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Jar with lid. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13054": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13066": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Shell. Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13084": {
+      "gpt-4o-mini": {
+        "id": "Q3061991",
+        "description": "ExoMars 2016 lander module"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Jar. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13165": {
+      "gpt-4o-mini": {
+        "id": "Q3061991",
+        "description": "ExoMars 2016 lander module"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bowl. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13254": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Mummy of Ini. Organic remains. Early First Intermediate Period (ca. 2090 BC). Gebelein, Northern Cemetery, Tomb of Ini.. Schiaparelli excavations (1911). S. 13268": {
+      "gpt-4o-mini": {
+        "id": "None",
+        "description": "female given name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Jug. Baked clay. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, “Tomba Grande”.. Schiaparelli excavations (1911). S. 13991": {
+      "gpt-4o-mini": {
+        "id": "Q3061991",
+        "description": "ExoMars 2016 lander module"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Pittura parietale: offering bearers and a sacrifice scene. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/12": {
+      "gpt-4o-mini": {
+        "id": "Q3061991",
+        "description": "ExoMars 2016 lander module"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Offering basin of Perim and Shepset. Limestone. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, mastaba of Perim.. Schiaparelli excavations (1914). S. 15736": {
+      "gpt-4o-mini": {
+        "id": "Q47495517",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Decoration for tunic cuffs with geometric design on purple background. Linen, wool. Byzantine Period, 5th – 6th century AD.. Purchased by Schiaparelli or gift by the Museum of Cairo (1900-1901). S. 17486": {
+      "gpt-4o-mini": {
+        "id": "Q107835110",
+        "description": "French fashion house"
+      },
+      "qwen3:8b": {
+        "id": "Q107835110",
+        "description": "French fashion house",
+        "model": "qwen3:8b"
+      }
+    },
+    "Painted ostracon with the head of an African man with short curly hair and an earring. Limestone, black ink. New Kingdom, 20th Dynasty (1186–1069 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6295": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Illustrated ostracon showing animals performing the parody of a religious procession. Limestone. New Kingdom, 19th-20th Dynasty (1292-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6333": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Decorated jar. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7013": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bowl. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7074": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Brush. Vegetable fibers. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7660": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Funerary basket. Wood, vegetable fibers. Old Kingdom, 5th-6th Dynasty (2435-2118 BC). Asyut, burial shaft in front of Djefahapi’s tomb.. Schiaparelli excavations (1906). S. 7932/1": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Offering tray. Baked clay. First Intermediate Period, 8th-11th Dynasty (2118-1980 BC). Asyut.. Schiaparelli excavations (1906). S. 8141": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bowl containing fishes dried in salt. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8321": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Basket. Wood, vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8424": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Tunic with multicolored borders. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8530": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Kohl tube with linen stopper. Vegetable fibers, linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8606": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Two chisels. Wood, bronze. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1909-1912). S. 09964 e 09965": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Mummy of an ibis. Organic remains, linen. Ptolemaic Period - Roman Period (3rd century BC - 3rd century AD). Asyut.. Schiaparelli excavations (1910). S. 11029": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Flask. Glazed clay. New Kingdom (1539-1076 BC) (?). Gebelein, found inside the tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13111": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13255": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Wall painting: Iti with greyhound. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/01": {
+      "qwen3:8b": {
+        "id": "Q47495517",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Predynastic Period": {
+    "Animal-shaped amulet. Serpentine. Predynastic Period, Naqada II (3700-3300 BC).. Purchased by Schiaparelli (1900-1901). S. 1166/1": {
+      "gpt-4o-mini": {
+        "id": "Q714601",
+        "description": "period of ancient Egyptian history"
+      }
+    }
+  },
+  "Naqada II": {
+    "Animal-shaped amulet. Serpentine. Predynastic Period, Naqada II (3700-3300 BC).. Purchased by Schiaparelli (1900-1901). S. 1166/1": {
+      "gpt-4o-mini": {
+        "id": "Q721840",
+        "description": "last phase of the Naqada culture of ancient Egyptian prehistory"
+      },
+      "qwen3:8b": {
+        "id": "Q721840",
+        "description": "last phase of the Naqada culture of ancient Egyptian prehistory",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "oarsmen": {
+    "Boat model with oarsmen and a coffin under a canopy. Wood. Middle Kingdom, 11th Dynasty (1980-1939 BC). Asyut (?).. Purchased by Schiaparelli (1900-1901). S. 1208": {
+      "gpt-4o-mini": {
+        "id": "Q12957220",
+        "description": "Oarsmen on a galley"
+      }
+    }
+  },
+  "Asyut": {
+    "Boat model with oarsmen and a coffin under a canopy. Wood. Middle Kingdom, 11th Dynasty (1980-1939 BC). Asyut (?).. Purchased by Schiaparelli (1900-1901). S. 1208": {
+      "gpt-4o-mini": {
+        "id": "Q29962",
+        "description": "City in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q29962",
+        "description": "City in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Funerary basket. Wood, vegetable fibers. Old Kingdom, 5th-6th Dynasty (2435-2118 BC). Asyut, burial shaft in front of Djefahapi’s tomb.. Schiaparelli excavations (1906). S. 7932/1": {
+      "gpt-4o-mini": {
+        "id": "Q29962",
+        "description": "City in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q29962",
+        "description": "City in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Offering tray. Baked clay. First Intermediate Period, 8th-11th Dynasty (2118-1980 BC). Asyut.. Schiaparelli excavations (1906). S. 8141": {
+      "gpt-4o-mini": {
+        "id": "Q29962",
+        "description": "City in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q29962",
+        "description": "City in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Cup. Baked clay. Middle Kingdom, 12th Dynasty, reign of Sesostris I (1920-1875 BC). Asyut, Tomb of Shemes.. Schiaparelli excavations (1908). S. 8676": {
+      "gpt-4o-mini": {
+        "id": "Q29962",
+        "description": "City in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q29962",
+        "description": "City in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Jar. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8812": {
+      "gpt-4o-mini": {
+        "id": "Q29962",
+        "description": "City in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q29962",
+        "description": "City in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Mummy of an ibis. Organic remains, linen. Ptolemaic Period - Roman Period (3rd century BC - 3rd century AD). Asyut.. Schiaparelli excavations (1910). S. 11029": {
+      "gpt-4o-mini": {
+        "id": "Q29962",
+        "description": "City in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q29962",
+        "description": "City in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Cup. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8853": {
+      "qwen3:8b": {
+        "id": "Q29962",
+        "description": "City in Egypt",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Stela of Inheretnakht": {
+    "Stela of Inheretnakht. Limestone. First Intermediate Period, 8th-11th Dynasty (2118-1980 BC).. Purchased by Schiaparelli (1900-1901). S. 1264": {
+      "gpt-4o-mini": {
+        "id": "Q117424268",
+        "description": "limestone stela of the Egyptian First Intermediate Period, 2118–1980 BCE, in the collection of Museo Egizio, Turin, Italy (S.1264)"
+      }
+    }
+  },
+  "Hammamiya": {
+    "Wavy-handled jar (W-ware). Baked clay. Predynastic Period, Naqada IIC (3500-3400 BC). Hammamiya.. Schiaparelli excavations (1905). S. 4721": {
+      "gpt-4o-mini": {
+        "id": "Q1604678",
+        "description": "human settlement"
+      },
+      "qwen3:8b": {
+        "id": "Q1604678",
+        "description": "human settlement",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Valley of the Queens": {
+    "Two scarabs. Faïence. Late Period, 25th-31st Dynasty (722-332 BC). Valley of the Queens.. Schiaparelli excavations (1903-1905). S. 5329/1-2": {
+      "gpt-4o-mini": {
+        "id": "Q260386",
+        "description": "ancient Egyptian necropolis"
+      },
+      "qwen3:8b": {
+        "id": "Q260386",
+        "description": "ancient Egyptian necropolis",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "African man": {
+    "Painted ostracon with the head of an African man with short curly hair and an earring. Limestone, black ink. New Kingdom, 20th Dynasty (1186–1069 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6295": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "family name"
+      }
+    }
+  },
+  "Djefahapi": {
+    "Funerary basket. Wood, vegetable fibers. Old Kingdom, 5th-6th Dynasty (2435-2118 BC). Asyut, burial shaft in front of Djefahapi’s tomb.. Schiaparelli excavations (1906). S. 7932/1": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "City in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Amenhotep II": {
+    "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
+      "gpt-4o-mini": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bowl containing fishes dried in salt. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8321": {
+      "gpt-4o-mini": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352": {
+      "gpt-4o-mini": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364": {
+      "gpt-4o-mini": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Decorated ware. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8368": {
+      "gpt-4o-mini": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410": {
+      "gpt-4o-mini": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414": {
+      "gpt-4o-mini": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Basket. Wood, vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8424": {
+      "gpt-4o-mini": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Inner coffin of Kha. Wood, stucco, gold, bronze, glass. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8429": {
+      "gpt-4o-mini": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Tunic with multicolored borders. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8530": {
+      "gpt-4o-mini": {
+        "id": "Q42606",
+        "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Kohl tube with linen stopper. Vegetable fibers, linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8606": {
+      "gpt-4o-mini": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Loincloth. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8613/10": {
+      "gpt-4o-mini": {
+        "id": "Q158052",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    }
+  },
+  "Tuthmosis IV": {
+    "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
+      "gpt-4o-mini": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bowl containing fishes dried in salt. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8321": {
+      "gpt-4o-mini": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352": {
+      "gpt-4o-mini": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364": {
+      "gpt-4o-mini": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Decorated ware. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8368": {
+      "gpt-4o-mini": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410": {
+      "gpt-4o-mini": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414": {
+      "gpt-4o-mini": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Basket. Wood, vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8424": {
+      "gpt-4o-mini": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Inner coffin of Kha. Wood, stucco, gold, bronze, glass. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8429": {
+      "gpt-4o-mini": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Tunic with multicolored borders. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8530": {
+      "gpt-4o-mini": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Kohl tube with linen stopper. Vegetable fibers, linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8606": {
+      "gpt-4o-mini": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Loincloth. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8613/10": {
+      "gpt-4o-mini": {
+        "id": "Q157985",
+        "description": "Egyptian Pharaoh of the 18th dynasty"
+      }
+    }
+  },
+  "Bowl": {
+    "Bowl containing fishes dried in salt. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8321": {
+      "gpt-4o-mini": {
+        "id": "Q153988",
+        "description": "circular, open-top container frequently used as tableware"
+      }
+    },
+    "Bowl. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13254": {
+      "gpt-4o-mini": {
+        "id": "Q153988",
+        "description": "circular, open-top container frequently used as tableware"
+      }
+    }
+  },
+  "Kha": {
+    "Bowl containing fishes dried in salt. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8321": {
+      "gpt-4o-mini": {
+        "id": "Q16277895",
+        "description": "male given name"
+      },
+      "qwen3:8b": {
+        "id": "Q16277895",
+        "description": "male given name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352": {
+      "gpt-4o-mini": {
+        "id": "Q16277895",
+        "description": "male given name"
+      }
+    },
+    "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364": {
+      "gpt-4o-mini": {
+        "id": "Q16277895",
+        "description": "male given name"
+      }
+    },
+    "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410": {
+      "gpt-4o-mini": {
+        "id": "Q16277895",
+        "description": "male given name"
+      },
+      "qwen3:8b": {
+        "id": "Q2740671",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414": {
+      "gpt-4o-mini": {
+        "id": "Q16277895",
+        "description": "male given name"
+      },
+      "qwen3:8b": {
+        "id": "Q16277895",
+        "description": "male given name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Inner coffin of Kha. Wood, stucco, gold, bronze, glass. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8429": {
+      "gpt-4o-mini": {
+        "id": "Q16277895",
+        "description": "male given name"
+      },
+      "qwen3:8b": {
+        "id": "Q16277895",
+        "description": "male given name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Tunic with multicolored borders. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8530": {
+      "gpt-4o-mini": {
+        "id": "Q2740671",
+        "description": "family name"
+      }
+    },
+    "Decorated ware. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8368": {
+      "qwen3:8b": {
+        "id": "Q16277895",
+        "description": "male given name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Kohl tube with linen stopper. Vegetable fibers, linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8606": {
+      "qwen3:8b": {
+        "id": "Q16277895",
+        "description": "male given name",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Persea": {
+    "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352": {
+      "gpt-4o-mini": {
+        "id": "Q132039",
+        "description": "genus of plants"
+      }
+    }
+  },
+  "papyrus": {
+    "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352": {
+      "gpt-4o-mini": {
+        "id": "Q158808",
+        "description": "species of aquatic flowering plant"
+      }
+    },
+    "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364": {
+      "gpt-4o-mini": {
+        "id": "Q125576",
+        "description": "writing and painting material"
+      }
+    }
+  },
+  "Pestle": {
+    "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364": {
+      "gpt-4o-mini": {
+        "id": "Q907209",
+        "description": "Blunt tool to grind things in a mortar"
+      }
+    }
+  },
+  "18th Dynasty": {
+    "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410": {
+      "gpt-4o-mini": {
+        "id": "Q146055",
+        "description": "Dynasty of Egypt between 1550 BCE and 1295 BCE, notably comprising Akenaten and Hatshepsut"
+      }
+    },
+    "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414": {
+      "gpt-4o-mini": {
+        "id": "Q146055",
+        "description": "Dynasty of Egypt between 1550 BCE and 1295 BCE, notably comprising Akenaten and Hatshepsut"
+      }
+    },
+    "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
+      "qwen3:8b": {
+        "id": "Q146055",
+        "description": "Dynasty of Egypt between 1550 BCE and 1295 BCE, notably comprising Akenaten and Hatshepsut",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Lidded basket": {
+    "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414": {
+      "gpt-4o-mini": {
+        "id": "Q117429170",
+        "description": "plant fiber basket of the Eighteenth Dynasty of Egypt (Egyptian New Kingdom), 1425–1353 BCE, in the collection of Museo Egizio, Turin, Italy (S.8414)"
+      }
+    }
+  },
+  "juniper berries": {
+    "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "plant fiber basket of the Eighteenth Dynasty of Egypt (Egyptian New Kingdom), 1425–1353 BCE, in the collection of Museo Egizio, Turin, Italy (S.8414)"
+      }
+    }
+  },
+  "Vegetable fibers": {
+    "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414": {
+      "gpt-4o-mini": {
+        "id": "Q117233367",
+        "description": "plant fibers of the Eighteenth Dynasty of Egypt (Egyptian New Kingdom), 1425–1353 BCE, in the collection of Museo Egizio, Turin, Italy"
+      }
+    }
+  },
+  "Tunic": {
+    "Tunic with multicolored borders. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8530": {
+      "gpt-4o-mini": {
+        "id": "Q201714",
+        "description": "simple T-shaped or sleeveless garment, usually unfitted, of archaic origin"
+      }
+    }
+  },
+  "Kohl tube": {
+    "Kohl tube with linen stopper. Vegetable fibers, linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8606": {
+      "gpt-4o-mini": {
+        "id": "Q116273799",
+        "description": "kohl tube, papyrus column at the Metropolitan Museum of Art (MET, 91.1.1351)"
+      }
+    }
+  },
+  "Cup": {
+    "Cup. Baked clay. Middle Kingdom, 12th Dynasty, reign of Sesostris I (1920-1875 BC). Asyut, Tomb of Shemes.. Schiaparelli excavations (1908). S. 8676": {
+      "gpt-4o-mini": {
+        "id": "Q81727",
+        "description": "vessel for liquids"
+      }
+    },
+    "Cup. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8853": {
+      "gpt-4o-mini": {
+        "id": "Q81727",
+        "description": "vessel for liquids"
+      }
+    }
+  },
+  "Baked clay": {
+    "Cup. Baked clay. Middle Kingdom, 12th Dynasty, reign of Sesostris I (1920-1875 BC). Asyut, Tomb of Shemes.. Schiaparelli excavations (1908). S. 8676": {
+      "gpt-4o-mini": {
+        "id": "Q42302",
+        "description": "soft rock based compound often used for sculpture and tools"
+      }
+    }
+  },
+  "Middle Kingdom": {
+    "Cup. Baked clay. Middle Kingdom, 12th Dynasty, reign of Sesostris I (1920-1875 BC). Asyut, Tomb of Shemes.. Schiaparelli excavations (1908). S. 8676": {
+      "gpt-4o-mini": {
+        "id": "Q191324",
+        "description": "period in the history of ancient Egypt between about 2000 BC and 1700 BC"
+      }
+    }
+  },
+  "12th Dynasty": {
+    "Cup. Baked clay. Middle Kingdom, 12th Dynasty, reign of Sesostris I (1920-1875 BC). Asyut, Tomb of Shemes.. Schiaparelli excavations (1908). S. 8676": {
+      "gpt-4o-mini": {
+        "id": "Q719639",
+        "description": "Egyptian dynasty from 1991 to 1802 BCE"
+      }
+    }
+  },
+  "Sesostris I": {
+    "Cup. Baked clay. Middle Kingdom, 12th Dynasty, reign of Sesostris I (1920-1875 BC). Asyut, Tomb of Shemes.. Schiaparelli excavations (1908). S. 8676": {
+      "gpt-4o-mini": {
+        "id": "Q18763",
+        "description": "pharaoh of Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q18763",
+        "description": "pharaoh of Egypt",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Shemes": {
+    "Cup. Baked clay. Middle Kingdom, 12th Dynasty, reign of Sesostris I (1920-1875 BC). Asyut, Tomb of Shemes.. Schiaparelli excavations (1908). S. 8676": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "City in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Tomb of Minhotep": {
+    "Jar. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8812": {
+      "gpt-4o-mini": {
+        "id": "Q134283924",
+        "description": "ancient egyptian tomb in Asyut, Egypt"
+      }
+    },
+    "Cup. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8853": {
+      "qwen3:8b": {
+        "id": "Q134283924",
+        "description": "ancient egyptian tomb in Asyut, Egypt",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Tomb": {
+    "Cup. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8853": {
+      "gpt-4o-mini": {
+        "id": "Q381885",
+        "description": "burial place"
+      }
+    }
+  },
+  "Minhotep": {
+    "Cup. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8853": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "burial place"
+      }
+    },
+    "Jar. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8812": {
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Menna": {
+    "Hieratic ostracon with a testimony in court by the workman Menna. Limestone. New Kingdom, 20th Dynasty, reign of Ramesses III (1187-1157 BC). Deir el-Medina.. Schiaparelli excavations (1909-1912). S. 9611 = CGT 57381": {
+      "gpt-4o-mini": {
+        "id": "Q6817163",
+        "description": "ancient Egyptian scribe"
+      },
+      "qwen3:8b": {
+        "id": "Q6817163",
+        "description": "ancient Egyptian scribe",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Ramesses III": {
+    "Hieratic ostracon with a testimony in court by the workman Menna. Limestone. New Kingdom, 20th Dynasty, reign of Ramesses III (1187-1157 BC). Deir el-Medina.. Schiaparelli excavations (1909-1912). S. 9611 = CGT 57381": {
+      "gpt-4o-mini": {
+        "id": "Q1528",
+        "description": "Egyptian pharaoh of the 20th dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q1528",
+        "description": "Egyptian pharaoh of the 20th dynasty",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Nespayherhat": {
+    "Shabti of Nespayherhat. Baked clay. Third Intermediate Period, 21st- 22nd Dynasty (1076-746 BC). Deir el-Medina.. Schiaparelli excavations (1909). S. 10437": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "funerary figurine used in ancient Egyptian religion"
+      },
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Gebelein": {
+    "Black-topped vase (B-ware). Baked clay. Predynastic Period, Naqada I-IIA (3900-3600 BC). Gebelein.. Schiaparelli excavations (1910). S. 11113/2": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Wavy-handled jar (W-ware). Baked clay. Protodynastic Period, Naqada IIIA1 (3300-3200 BC). Gebelein.. Schiaparelli excavations (1910). S. 11170": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Model brick stamp with the cartouche of Tuthmosis III “beloved of Hathor, mistress of Gebelein”. Wood. New Kingdom, reign of Tuthmosis III (1458-1425 BC). Gebelein, temple of Hathor, under the foundations.. Schiaparelli excavations (1910). S. 12445": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Jar with lid. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13054": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13066": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Shell. Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13084": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Model bag. Vegetable fibers. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13108": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Flask. Glazed clay. New Kingdom (1539-1076 BC) (?). Gebelein, found inside the tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13111": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Jar. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13165": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bowl. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13254": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13255": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Mummy of Ini. Organic remains. Early First Intermediate Period (ca. 2090 BC). Gebelein, Northern Cemetery, Tomb of Ini.. Schiaparelli excavations (1911). S. 13268": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Jug. Baked clay. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, “Tomba Grande”.. Schiaparelli excavations (1911). S. 13991": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Wall painting: Iti with greyhound. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/01": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Pittura parietale: offering bearers and a sacrifice scene. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/12": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    },
+    "Offering basin of Perim and Shepset. Limestone. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, mastaba of Perim.. Schiaparelli excavations (1914). S. 15736": {
+      "gpt-4o-mini": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q1496830",
+        "description": "village and archaeological site in Egypt",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Hathor": {
+    "Model brick stamp with the cartouche of Tuthmosis III “beloved of Hathor, mistress of Gebelein”. Wood. New Kingdom, reign of Tuthmosis III (1458-1425 BC). Gebelein, temple of Hathor, under the foundations.. Schiaparelli excavations (1910). S. 12445": {
+      "gpt-4o-mini": {
+        "id": "Q133343",
+        "description": "major goddess in ancient Egyptian religion"
+      }
+    }
+  },
+  "Iti": {
+    "Jar with lid. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13054": {
+      "gpt-4o-mini": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q105067186",
+        "description": "female given name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13066": {
+      "gpt-4o-mini": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q105067186",
+        "description": "female given name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Shell. Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13084": {
+      "gpt-4o-mini": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      }
+    },
+    "Model bag. Vegetable fibers. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13108": {
+      "gpt-4o-mini": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Flask. Glazed clay. New Kingdom (1539-1076 BC) (?). Gebelein, found inside the tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13111": {
+      "gpt-4o-mini": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q105067186",
+        "description": "female given name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Jar. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13165": {
+      "gpt-4o-mini": {
+        "id": "Q130380013",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q105067186",
+        "description": "female given name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bowl. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13254": {
+      "gpt-4o-mini": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q105067186",
+        "description": "female given name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Wall painting: Iti with greyhound. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/01": {
+      "gpt-4o-mini": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty",
+        "model": "qwen3:8b"
+      }
+    },
+    "Pittura parietale: offering bearers and a sacrifice scene. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/12": {
+      "gpt-4o-mini": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q105067186",
+        "description": "female given name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13255": {
+      "qwen3:8b": {
+        "id": "Q152375",
+        "description": "ancient Egyptian pharaoh of the First Dynasty",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Neferu": {
+    "Jar with lid. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13054": {
+      "gpt-4o-mini": {
+        "id": "Q277524",
+        "description": "ancient Egyptian queen consort"
+      },
+      "qwen3:8b": {
+        "id": "Q277524",
+        "description": "ancient Egyptian queen consort",
+        "model": "qwen3:8b"
+      }
+    },
+    "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13066": {
+      "gpt-4o-mini": {
+        "id": "Q277524",
+        "description": "ancient Egyptian queen consort"
+      },
+      "qwen3:8b": {
+        "id": "Q228951",
+        "description": "Egyptian queen regnant",
+        "model": "qwen3:8b"
+      }
+    },
+    "Shell. Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13084": {
+      "gpt-4o-mini": {
+        "id": "Q1218434",
+        "description": "given name"
+      }
+    },
+    "Model bag. Vegetable fibers. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13108": {
+      "gpt-4o-mini": {
+        "id": "Q1218434",
+        "description": "given name"
+      },
+      "qwen3:8b": {
+        "id": "Q277524",
+        "description": "ancient Egyptian queen consort",
+        "model": "qwen3:8b"
+      }
+    },
+    "Flask. Glazed clay. New Kingdom (1539-1076 BC) (?). Gebelein, found inside the tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13111": {
+      "gpt-4o-mini": {
+        "id": "Q277524",
+        "description": "ancient Egyptian queen consort"
+      },
+      "qwen3:8b": {
+        "id": "Q277524",
+        "description": "ancient Egyptian queen consort",
+        "model": "qwen3:8b"
+      }
+    },
+    "Jar. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13165": {
+      "gpt-4o-mini": {
+        "id": "Q277524",
+        "description": "ancient Egyptian queen consort"
+      },
+      "qwen3:8b": {
+        "id": "Q277524",
+        "description": "ancient Egyptian queen consort",
+        "model": "qwen3:8b"
+      }
+    },
+    "Bowl. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13254": {
+      "gpt-4o-mini": {
+        "id": "Q277524",
+        "description": "ancient Egyptian queen consort"
+      },
+      "qwen3:8b": {
+        "id": "Q277524",
+        "description": "ancient Egyptian queen consort",
+        "model": "qwen3:8b"
+      }
+    },
+    "Wall painting: Iti with greyhound. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/01": {
+      "gpt-4o-mini": {
+        "id": "Q1218434",
+        "description": "given name"
+      },
+      "qwen3:8b": {
+        "id": "Q277524",
+        "description": "ancient Egyptian queen consort",
+        "model": "qwen3:8b"
+      }
+    },
+    "Pittura parietale: offering bearers and a sacrifice scene. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/12": {
+      "gpt-4o-mini": {
+        "id": "Q1218434",
+        "description": "given name"
+      },
+      "qwen3:8b": {
+        "id": "Q277524",
+        "description": "ancient Egyptian queen consort",
+        "model": "qwen3:8b"
+      }
+    },
+    "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13255": {
+      "qwen3:8b": {
+        "id": "Q228951",
+        "description": "Egyptian queen regnant",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Mummy": {
+    "Mummy of Ini. Organic remains. Early First Intermediate Period (ca. 2090 BC). Gebelein, Northern Cemetery, Tomb of Ini.. Schiaparelli excavations (1911). S. 13268": {
+      "gpt-4o-mini": {
+        "id": "Q43616",
+        "description": "human or animal, whose skin and organs have been preserved"
+      }
+    }
+  },
+  "Ini": {
+    "Mummy of Ini. Organic remains. Early First Intermediate Period (ca. 2090 BC). Gebelein, Northern Cemetery, Tomb of Ini.. Schiaparelli excavations (1911). S. 13268": {
+      "gpt-4o-mini": {
+        "id": "Q23661445",
+        "description": "female given name"
+      },
+      "qwen3:8b": {
+        "id": "Q23661445",
+        "description": "female given name",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Old Kingdom": {
+    "Jug. Baked clay. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, “Tomba Grande”.. Schiaparelli excavations (1911). S. 13991": {
+      "gpt-4o-mini": {
+        "id": "Q177819",
+        "description": "period of Ancient Egypt in the 3rd millennium BC"
+      }
+    }
+  },
+  "5th Dynasty": {
+    "Jug. Baked clay. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, “Tomba Grande”.. Schiaparelli excavations (1911). S. 13991": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "period of Ancient Egypt in the 3rd millennium BC"
+      }
+    }
+  },
+  "1911": {
+    "Jug. Baked clay. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, “Tomba Grande”.. Schiaparelli excavations (1911). S. 13991": {
+      "gpt-4o-mini": {
+        "id": "Q2076",
+        "description": "year"
+      }
+    }
+  },
+  "greyhound": {
+    "Wall painting: Iti with greyhound. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/01": {
+      "gpt-4o-mini": {
+        "id": "Q38571",
+        "description": "dog breed"
+      }
+    }
+  },
+  "Perim": {
+    "Offering basin of Perim and Shepset. Limestone. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, mastaba of Perim.. Schiaparelli excavations (1914). S. 15736": {
+      "gpt-4o-mini": {
+        "id": "Q1160017",
+        "description": "island"
+      },
+      "qwen3:8b": {
+        "id": "Q1160017",
+        "description": "island",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Shepset": {
+    "Offering basin of Perim and Shepset. Limestone. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, mastaba of Perim.. Schiaparelli excavations (1914). S. 15736": {
+      "gpt-4o-mini": {
+        "id": "Q84959355",
+        "description": "ancient Egyptian princess"
+      },
+      "qwen3:8b": {
+        "id": "Q22936404",
+        "description": "ancient Egyptian princess",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Fayum": {
+    "Gilded covering for a female mummy. Gilt cartonnage. Roman Period, 2nd century AD. Fayum, Hawara (?).. Gift of Garré. S. 17134": {
+      "gpt-4o-mini": {
+        "id": "Q203299",
+        "description": "city in Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q30656",
+        "description": "Egyptian governorate",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Hawara": {
+    "Gilded covering for a female mummy. Gilt cartonnage. Roman Period, 2nd century AD. Fayum, Hawara (?).. Gift of Garré. S. 17134": {
+      "gpt-4o-mini": {
+        "id": "Q26237",
+        "description": "necropolis in Faiyum Governorate, Egypt"
+      },
+      "qwen3:8b": {
+        "id": "Q26237",
+        "description": "necropolis in Faiyum Governorate, Egypt",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Garré": {
+    "Gilded covering for a female mummy. Gilt cartonnage. Roman Period, 2nd century AD. Fayum, Hawara (?).. Gift of Garré. S. 17134": {
+      "gpt-4o-mini": {
+        "id": "Q37560026",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q37560026",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Byzantine Period": {
+    "Decoration for tunic cuffs with geometric design on purple background. Linen, wool. Byzantine Period, 5th – 6th century AD.. Purchased by Schiaparelli or gift by the Museum of Cairo (1900-1901). S. 17486": {
+      "gpt-4o-mini": {
+        "id": "Q117423418",
+        "description": "clay bowl of the Byzantine Egypt, 395–642 CE, in the collection of Museo Egizio, Turin, Italy (S.2106)"
+      }
+    }
+  },
+  "Museum of Cairo": {
+    "Decoration for tunic cuffs with geometric design on purple background. Linen, wool. Byzantine Period, 5th – 6th century AD.. Purchased by Schiaparelli or gift by the Museum of Cairo (1900-1901). S. 17486": {
+      "gpt-4o-mini": {
+        "id": "Q201219",
+        "description": "museum in Cairo"
+      },
+      "qwen3:8b": {
+        "id": "Q201219",
+        "description": "museum in Cairo",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Akhenaten": {
+    "Talatat. Limestone. New Kingdom, 18th Dynasty, reign of Akhenaten (1353-1336 BC).. Purchased in Munich (1970), gift of the Turin Rotary Club. S. 18143": {
+      "gpt-4o-mini": {
+        "id": "Q81794",
+        "description": "Egyptian pharaoh in 18th Dynasty"
+      },
+      "qwen3:8b": {
+        "id": "Q81794",
+        "description": "Egyptian pharaoh in 18th Dynasty",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Munich": {
+    "Talatat. Limestone. New Kingdom, 18th Dynasty, reign of Akhenaten (1353-1336 BC).. Purchased in Munich (1970), gift of the Turin Rotary Club. S. 18143": {
+      "gpt-4o-mini": {
+        "id": "Q1726",
+        "description": "capital and most populous city of Bavaria, Germany"
+      },
+      "qwen3:8b": {
+        "id": "Q1726",
+        "description": "capital and most populous city of Bavaria, Germany",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Turin Rotary Club": {
+    "Talatat. Limestone. New Kingdom, 18th Dynasty, reign of Akhenaten (1353-1336 BC).. Purchased in Munich (1970), gift of the Turin Rotary Club. S. 18143": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "capital and most populous city of Bavaria, Germany"
+      }
+    }
+  },
+  "Tebtynis": {
+    "Colored glass inlay. Glass. Ptolemaic Period (332-30 BC). Tebtynis.. Anti and Bagnani excavations (1930-1935). S. 18556/03": {
+      "gpt-4o-mini": {
+        "id": "Q1500580",
+        "description": "archaeological site in the Egyptian depression of el-Faiyum"
+      },
+      "qwen3:8b": {
+        "id": "Q1500580",
+        "description": "archaeological site in the Egyptian depression of el-Faiyum",
+        "model": "qwen3:8b"
+      }
+    },
+    "Anthropoid coffin with remains of a painted decoration. Wood. Ptolemaic Period - Roman Period (332 BC-AD 395). Tebtynis ?. Anti and Bagnani excavations (1930-1935). S. 19691": {
+      "gpt-4o-mini": {
+        "id": "Q1500580",
+        "description": "archaeological site in the Egyptian depression of el-Faiyum"
+      }
+    }
+  },
+  "Anti": {
+    "Colored glass inlay. Glass. Ptolemaic Period (332-30 BC). Tebtynis.. Anti and Bagnani excavations (1930-1935). S. 18556/03": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "archaeological site in the Egyptian depression of el-Faiyum"
+      },
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    },
+    "Anthropoid coffin with remains of a painted decoration. Wood. Ptolemaic Period - Roman Period (332 BC-AD 395). Tebtynis ?. Anti and Bagnani excavations (1930-1935). S. 19691": {
+      "gpt-4o-mini": {
+        "id": "[]",
+        "description": "archaeological site in the Egyptian depression of el-Faiyum"
+      }
+    }
+  },
+  "Bagnani": {
+    "Colored glass inlay. Glass. Ptolemaic Period (332-30 BC). Tebtynis.. Anti and Bagnani excavations (1930-1935). S. 18556/03": {
+      "gpt-4o-mini": {
+        "id": "Q106632612",
+        "description": "family name"
+      },
+      "qwen3:8b": {
+        "id": "Q107193373",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    },
+    "Anthropoid coffin with remains of a painted decoration. Wood. Ptolemaic Period - Roman Period (332 BC-AD 395). Tebtynis ?. Anti and Bagnani excavations (1930-1935). S. 19691": {
+      "gpt-4o-mini": {
+        "id": "Q106632612",
+        "description": "family name"
+      }
+    }
+  },
+  "Anubis": {
+    "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
+      "gpt-4o-mini": {
+        "id": "Q47534",
+        "description": "Egyptian deity of mummification and the afterlife, usually depicted as a man with a canine head"
+      }
+    }
+  },
+  "Tom": {
+    "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
+      "qwen3:0.6b": {
+        "id": "Q1238720",
+        "description": "book in a series, typically identified sequentially (e.g. Volume 3)",
+        "model": "qwen3:0.6b"
+      }
+    }
+  },
+  "Egyptian Museum": {
+    "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115": {
+      "qwen3:0.6b": {
+        "id": "Q201219",
+        "description": "museum in Cairo",
+        "model": "qwen3:0.6b"
+      }
+    }
+  },
+  "Meh": {
+    "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor": {
+      "qwen3:8b": {
+        "id": "Q19817828",
+        "description": "male given name",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Merenptah": {
+    "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor": {
+      "qwen3:8b": {
+        "id": "Q158059",
+        "description": "Penultimate Pharaoh of the 19th dynasty",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Aaner": {
+    "Book of the Dead of Aaner, priest of Mut. Cyperus papyrus. Third Intermediate Period, 21st Dynasty (1076-944 BC). Thebes.. Drovetti collection (1824). C. 1771": {
+      "qwen3:8b": {
+        "id": "Q37470770",
+        "description": "family name",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Iuefankh": {
+    "Book of the Dead of Iuefankh. Cyperus papyrus. Ptolemaic period (332-30 BC).. Thebes (?). Drovetti collection (1824). C. 1791": {
+      "qwen3:8b": {
+        "id": "Q125422532",
+        "description": "antico egizio",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Coffin of Tamutmutef": {
+    "Coffin of Tamutmutef. Wood. Third Intermediate Period, 21st-22nd Dynasty (1076-746 BC). Thebes (?).. Drovetti collection (1824). C. 2228/1": {
+      "qwen3:8b": {
+        "id": "Q134774234",
+        "description": "wooden sarcophagus of the Twenty–first – Twenty–second Dynasty of Egypt (Egyptian Third Intermediate Period), 1076–746 BCE, in the collection of Museo Egizio, Turin, Italy (Cat.2228/01)",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "construction worker Mesmeni": {
+    "Shabti of the construction worker Mesmeni. Baked clay. New Kingdom, 20th Dynasty (1190-1076 BC).. Acquired before 1882. C. 2646": {
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Shabti of Horemakhbit": {
+    "Shabti of Horemakhbit. Faience. Third Intermediate Period, 21st Dynasty (1076-944 BC). Deir el-Bahari, Second Cachette.. Drovetti collection (1824). C. 2724/a": {
+      "qwen3:8b": {
+        "id": "Q117396490",
+        "description": "faience shabti of the Twenty–first Dynasty of Egypt (Egyptian Third Intermediate Period), 1076–944 BCE, in the collection of Museo Egizio, Turin, Italy (Cat.2724/a)",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Tomb N. 1": {
+    "Pendant in rock crystal forming part of a necklace with other eleven perforated shells (P. 3539/1-11). Rock crystal. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome": {
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    },
+    "Globular vessel with a grey washing. Backed clay. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome in Nubia (1964) (on loan). P. 3645": {
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Naqada I-IIB": {
+    "Mace head. Granodiorite. Predynastic Period, Naqada I-IIB (3900-3550 BC).. Purchased by Schiaparelli (1900-1901). S. 569": {
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Inheretnakht": {
+    "Stela of Inheretnakht. Limestone. First Intermediate Period, 8th-11th Dynasty (2118-1980 BC).. Purchased by Schiaparelli (1900-1901). S. 1264": {
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Naqada IIC": {
+    "Wavy-handled jar (W-ware). Baked clay. Predynastic Period, Naqada IIC (3500-3400 BC). Hammamiya.. Schiaparelli excavations (1905). S. 4721": {
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Bread loaf": {
+    "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
+      "qwen3:8b": {
+        "id": "Q134774562",
+        "description": "bread of the Eighteenth Dynasty of Egypt (Egyptian New Kingdom), 1425–1353 BCE, in the collection of Museo Egizio, Turin, Italy (S.8278)",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Vegetable organic remains": {
+    "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Tomb of Kha": {
+    "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
+      "qwen3:8b": {
+        "id": "Q648960",
+        "description": "ancient Egyptian tomb in the Valley of the Queens",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "S. 8273": {
+    "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Jug": {
+    "Jug. Baked clay. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, “Tomba Grande”.. Schiaparelli excavations (1911). S. 13991": {
+      "qwen3:8b": {
+        "id": "Q2413314",
+        "description": "container used to hold liquid",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Tomba Grande": {
+    "Jug. Baked clay. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, “Tomba Grande”.. Schiaparelli excavations (1911). S. 13991": {
+      "qwen3:8b": {
+        "id": "",
+        "description": "",
+        "model": "qwen3:8b"
+      }
+    }
+  },
+  "Turin": {
+    "Talatat. Limestone. New Kingdom, 18th Dynasty, reign of Akhenaten (1353-1336 BC).. Purchased in Munich (1970), gift of the Turin Rotary Club. S. 18143": {
+      "qwen3:8b": {
+        "id": "Q495",
+        "description": "city and commune in Italy",
+        "model": "qwen3:8b"
+      }
+    }
+  }
+}
