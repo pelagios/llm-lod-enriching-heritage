@@ -14,7 +14,8 @@
   "Thebes": {
     "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
       "gpt-4o-mini": "7.",
-      "qwen3:0.6b": "6"
+      "qwen3:0.6b": "6",
+      "qwen3:8b": "7"
     },
     "Book of the Dead of Aaner, priest of Mut. Cyperus papyrus. Third Intermediate Period, 21st Dynasty (1076-944 BC). Thebes.. Drovetti collection (1824). C. 1771": {
       "gpt-4o-mini": "7"
@@ -29,7 +30,8 @@
   "Amenhotep III": {
     "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
       "gpt-4o-mini": "5",
-      "qwen3:0.6b": "5. the entity is a person that in power during the period of the creation of the artefact"
+      "qwen3:0.6b": "5. the entity is a person that in power during the period of the creation of the artefact",
+      "qwen3:8b": "5"
     },
     "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273": {
       "gpt-4o-mini": "5"
@@ -75,18 +77,33 @@
   },
   "Drovetti": {
     "Statuette of the goddess Bastet. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 271": {
-      "gpt-4o-mini": "4"
+      "gpt-4o-mini": "4",
+      "qwen3:8b": "4"
     },
     "Statuette of the god Apis. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 0815": {
-      "gpt-4o-mini": "4"
+      "gpt-4o-mini": "4",
+      "qwen3:8b": "4"
     },
     "Ointment jar with the cartouche of Tuthmosis III and an indication of its capacity, probably from the grave-goods of the overseer of foreign lands Djehuty. Calcite (alabaster). New Kingdom, 18th Dynasty, reign of Tuthmosi III (1458-1425 a.C.).. Drovetti ": {
       "gpt-4o-mini": "3"
+    },
+    "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
+      "qwen3:8b": "4"
+    },
+    "Statuette of the goddess Satet. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 515": {
+      "qwen3:8b": "4"
+    },
+    "Magic stela of Horus on crocodiles. Limestone. Late Period - Ptolemaic Period (722-30 BC).. Drovetti collection (1824). C. 775": {
+      "qwen3:8b": "4"
+    },
+    "Cult statue of Amenhotep I. Limestone. New Kingdom, 19th Dynasty (1292–1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1372": {
+      "qwen3:8b": "4"
     }
   },
   "Harpocrates": {
     "Amulet depicting the god Harpocrates": {
-      "gpt-4o-mini": "1"
+      "gpt-4o-mini": "1",
+      "qwen3:8b": "1"
     }
   },
   "Satet": {
@@ -119,7 +136,8 @@
   },
   "Horus": {
     "Magic stela of Horus on crocodiles. Limestone. Late Period - Ptolemaic Period (722-30 BC).. Drovetti collection (1824). C. 775": {
-      "gpt-4o-mini": "1"
+      "gpt-4o-mini": "1",
+      "qwen3:8b": "1"
     }
   },
   "Apis": {
@@ -134,12 +152,14 @@
   },
   "Amenhotep I": {
     "Cult statue of Amenhotep I. Limestone. New Kingdom, 19th Dynasty (1292–1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1372": {
-      "gpt-4o-mini": "1"
+      "gpt-4o-mini": "1",
+      "qwen3:8b": "1. the entity is a person depicted on or by the artefact"
     }
   },
   "Deir el-Medina": {
     "Cult statue of Amenhotep I. Limestone. New Kingdom, 19th Dynasty (1292–1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1372": {
-      "gpt-4o-mini": "7"
+      "gpt-4o-mini": "7",
+      "qwen3:8b": "7. the entity is a location where the artefact was created"
     },
     "Stela dedicated by Huy to Amun-Re. Limestone. New Kingdom, 19th Dynasty (1292-1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1607": {
       "gpt-4o-mini": "7"
@@ -213,7 +233,8 @@
   },
   "Ramesses II": {
     "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor": {
-      "gpt-4o-mini": "5"
+      "gpt-4o-mini": "5",
+      "qwen3:8b": "5"
     }
   },
   "Re": {
@@ -223,7 +244,8 @@
   },
   "Heliopolis": {
     "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor": {
-      "gpt-4o-mini": "7"
+      "gpt-4o-mini": "7",
+      "qwen3:8b": "7. the entity is a location where the artefact was created"
     },
     "Cosmetic palette. Limestone. Predynastic Period, Naqada IIC-IIIA (3500-3200 BC). Heliopolis.. Schiaparelli excavations (1906). S. 4034/1": {
       "gpt-4o-mini": "9"
@@ -231,12 +253,14 @@
   },
   "Abydos": {
     "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor": {
-      "gpt-4o-mini": "9"
+      "gpt-4o-mini": "9",
+      "qwen3:8b": "9. the entity is a location where the artefact was discovered"
     }
   },
   "Huy": {
     "Stela dedicated by Huy to Amun-Re. Limestone. New Kingdom, 19th Dynasty (1292-1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1607": {
-      "gpt-4o-mini": "2"
+      "gpt-4o-mini": "2",
+      "qwen3:8b": "2"
     }
   },
   "Amun-Re": {
@@ -1162,6 +1186,16 @@
   "New York": {
     "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256": {
       "qwen3:0.6b": "6"
+    }
+  },
+  "Meh": {
+    "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor": {
+      "qwen3:8b": "1"
+    }
+  },
+  "Merenptah": {
+    "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor": {
+      "qwen3:8b": "5"
     }
   }
 }
