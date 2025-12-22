@@ -1,3 +1,4 @@
+import copy
 import hashlib
 import importlib
 from IPython.display import clear_output, display, HTML
@@ -72,8 +73,8 @@ def mark_entities_in_text(texts_input, entities, linking_model=""):
         entity_label = entity["label"] if entity["label"] in COLORS.keys() else "OTHER"
         if "wikidata_id" in entity:
             label_text = entity['wikidata_id'][list(entity['wikidata_id'].keys())[0]]
-            if "link" in entity and linking_model in entity["link"]:
-                label_text += "," + regex.sub(r"^(\d+).*$", r"\1", entity["link"][linking_model])
+            if "link_id" in entity and linking_model in entity["link_id"]:
+                label_text += "," + regex.sub(r"^(\d+).*$", r"\1", entity["link_id"][linking_model])
             texts_input = texts_input[:entity["end_char"]] + f"<sup>{label_text}</sup>" + texts_input[entity["end_char"]:]
         texts_input = texts_input[:entity["end_char"]] + "</span>" + texts_input[entity["end_char"]:]
         texts_input = (texts_input[:entity["start_char"]] + 
@@ -100,11 +101,8 @@ def save_data_to_json_file(json_data, file_name, in_colab):
 
 
 def extract_entities_from_ner_input(texts_input):
-    """For each entity in the input text return the entity text, context text and context text id""" 
-    return [{"entity_text": entity["text"],
-             "text_id": index,
-             "text": text["text_cleaned"]} 
-            for index, text in enumerate(texts_input) for entity in text["entities"]]
+    """For each entity in the input text return the entity text, context text and context text id"""
+    return [entity for text in texts_input for entity in text["entities"]]
 
 
 def detect_text_language(text: str) -> Dict[str, Any]:
@@ -168,12 +166,12 @@ def save_entities_as_table(file_name, texts_output):
     entities_table = []
     for text_id, text in enumerate(texts_output):
         for entity in text["entities"]:
-            entities_table.append({key: entity[key] for key in ["text", "label", "start_char", "end_char"]})
+            entities_table.append({key: entity[key] for key in ["entity_text", "label", "start_char", "end_char"]})
             entities_table[-1]["text_id"] = text_id
             if "wikidata_id" in entity:
                 entities_table[-1]["wikidata_id"] = entity["wikidata_id"][list(entity["wikidata_id"].keys())[0]]
-            if "link" in entity:
-                entities_table[-1]["link"] = entity["link"][list(entity["link"].keys())[0]]
+            if "link_id" in entity:
+                entities_table[-1]["link_id"] = entity["link_id"][list(entity["link_id"].keys())[0]]
     pl.DataFrame(entities_table).write_csv(file_name)
     print(f"️{CHAR_SUCCESS} Saved data to file {file_name}")
 
@@ -282,11 +280,11 @@ def get_char_offsets_of_entities(text_id, text, raw_entities):
     """lookup list of entities in original text and return list with character offsets"""
     cleaned_entities = []
     for raw_entity in raw_entities:
-        char_offsets = get_char_offsets_of_entity(text, raw_entity["text"])
+        char_offsets = get_char_offsets_of_entity(text, raw_entity["entity_text"])
         if not char_offsets:
             print(f"raw entity not found in text! text_id: {text_id}; entity: {raw_entity['text']}")
             continue
-        cleaned_entities.extend([char_offset | {"text": raw_entity["text"], "label": raw_entity["label"]} 
+        cleaned_entities.extend([char_offset | {"entity_text": raw_entity["entity_text"], "label": raw_entity["label"]} 
                                for char_offset in char_offsets])
     return cleaned_entities
 
@@ -323,22 +321,25 @@ def add_cleaned_entities_to_tokens(text_tokens, cleaned_entities, text_id):
             entity["label"] = "LOCATION"
         if entity["label"] not in ["LOCATION", "PERSON"]:
             continue
-        while token_id < len(text_tokens) and text_tokens[token_id]["start"] < entity["start_char"]:
+        while token_id < len(text_tokens) and text_tokens[token_id]["start_char"] < entity["start_char"]:
             tokens_with_machine_tags.append(text_tokens[token_id] | {"machine_tag": "O"})
+            tokens_with_machine_tags[-1]["text_id"] = text_id
             token_id += 1
         if token_id < len(text_tokens):
-            if text_tokens[token_id]["start"] != entity["start_char"]:
+            if text_tokens[token_id]["start_char"] != entity["start_char"]:
                 print(f"clean entity not found in text! text_id: {text_id}; entity: {entity}; token: {text_tokens[token_id]}")
             else:
                 iob = "B"
-                while token_id < len(text_tokens) and text_tokens[token_id]["end"] <= entity["end_char"]:
+                while token_id < len(text_tokens) and text_tokens[token_id]["end_char"] <= entity["end_char"]:
                     tokens_with_machine_tags.append(text_tokens[token_id] | {"machine_tag": f"{iob}-{entity['label']}"})
+                    tokens_with_machine_tags[-1]["text_id"] = text_id
                     token_id += 1
                     iob = "I"
-                if abs(text_tokens[token_id - 1]["end"] - entity["end_char"]) > 1:
+                if abs(text_tokens[token_id - 1]["end_char"] - entity["end_char"]) > 1:
                     print(f"warning: machine token boundary error: text_id = {text_id}; entity: {entity}; token: {text_tokens[token_id - 1]}")
     while token_id < len(text_tokens):
         tokens_with_machine_tags.append(text_tokens[token_id] | {"machine_tag": "O"})
+        tokens_with_machine_tags[-1]["text_id"] = text_id
         token_id += 1
     return tokens_with_machine_tags
 
@@ -371,8 +372,8 @@ def add_gold_entities_to_tokens(lines, text_tokens):
         if line == "" or line == f"{DOC_SEPARATOR} {DOC_SEPARATOR}":
             continue
         label, token = line.split()
-        if token != text_tokens[text_tokens_text_index][text_tokens_token_index]["text"]:
-            print(f"token mismatch!: annotation: {token}; machine: {text_tokens[text_tokens_text_index][text_tokens_token_index]['text']}")
+        if token != text_tokens[text_tokens_text_index][text_tokens_token_index]["entity_text"]:
+            print(f"token mismatch!: annotation: {token}; machine: {text_tokens[text_tokens_text_index][text_tokens_token_index]['entity_text']}")
             break
         elif label not in ["p", "l"]:
             text_tokens[text_tokens_text_index][text_tokens_token_index]["gold_tag"] = "O"
@@ -408,7 +409,7 @@ def save_data_to_file(text_tokens, data_column_name, file_name):
                 if token["sent_id"] != sent_id:
                     print("-\tO\tO\tO", file=hipe_file)
                     sent_id = token["sent_id"]
-                print(token["text"], token[data_column_name], token[data_column_name], "O", sep="\t", file=hipe_file)
+                print(token["entity_text"], token[data_column_name], token[data_column_name], "O", sep="\t", file=hipe_file)
             print("-\tO\tO\tO", file=hipe_file)
         hipe_file.close()
 
@@ -432,10 +433,10 @@ def run_scorer(clef_evaluation, args):
 
 SCORER_DIR = "HIPE-scorer"
 
-def evaluate(text_tokens, clef_evaluation):
+def hipe_evaluate(text_tokens, clef_evaluation):
     """Evaluate the data present in text tokens: save them, run the scorer and show the results"""
     BASE_DIR = os.getcwd()
-    save_data_for_evaluation(text_tokens)
+    save_data_for_evaluation([text for text in text_tokens])
     os.chdir(os.path.join(BASE_DIR, SCORER_DIR))
     run_scorer(clef_evaluation, 
                args={"--ref": os.path.join("..", HIPE_GOLD_FILE),
@@ -443,12 +444,12 @@ def evaluate(text_tokens, clef_evaluation):
                      "--task": "nerc_coarse",
                      "--outdir": "."})
     os.chdir(BASE_DIR)
-    show_scores()
+    show_hipe_scores()
 
 
-LABELS = ["PERSON", "LOCATION"]
+LABELS = ["PERSON", "LOCATION", "ALL"]
 
-def show_scores(labels=LABELS):
+def show_hipe_scores(labels=LABELS):
     """Extract relevant evaluation scores from the output file of the scorer and show them"""
     hipe_scores = read_json_file(os.path.join(SCORER_DIR, HIPE_MACHINE_FILE))
     print(colored("HIPE Analysis", attrs=["bold"]))
@@ -481,11 +482,7 @@ def insert_machine_entities_in_tokens(input_data):
     """Insert machine entities in tokens and return as text_tokens data structure"""
     text_tokens = []
     for text_id, text in enumerate(input_data):
-        cleaned_entities = get_char_offsets_of_entities(text_id, text["text_cleaned"], text["entities"])
-        cleaned_entities = remove_overlapping_entities(sorted(cleaned_entities,
-                                                       key=lambda entity: (entity["start_char"],
-                                                                           -entity["end_char"])))
-        text_tokens.append(add_cleaned_entities_to_tokens(text["tokens"], cleaned_entities, text_id))
+        text_tokens.append(add_cleaned_entities_to_tokens(text["tokens"], text["entities"], text_id))
     return text_tokens
     
 
@@ -494,19 +491,28 @@ def add_gold_linking_entities_to_text_tokens(text_tokens, gold_entities):
     text_tokens_token_id = 0
     for gold_entities_text in gold_entities:
         for gold_entity in gold_entities_text:
-            while text_tokens[text_tokens_text_id][text_tokens_token_id]["start"] < gold_entity["start"]:
+            while text_tokens[text_tokens_text_id][text_tokens_token_id]["start_char"] < gold_entity["start_char"]:
                 text_tokens[text_tokens_text_id][text_tokens_token_id]["wikidata_id"] = "_"
+                text_tokens[text_tokens_text_id][text_tokens_token_id]["link_id"] = "_"
+                text_tokens[text_tokens_text_id][text_tokens_token_id]["text_id"] = text_tokens_text_id
                 text_tokens_token_id += 1
                 if text_tokens_token_id >= len(text_tokens[text_tokens_text_id]):
                     break
-            while text_tokens_token_id < len(text_tokens[text_tokens_text_id]) and text_tokens[text_tokens_text_id][text_tokens_token_id]["end"] <= gold_entity["end"]:
+            while text_tokens_token_id < len(text_tokens[text_tokens_text_id]) and text_tokens[text_tokens_text_id][text_tokens_token_id]["end_char"] <= gold_entity["end_char"]:
                 if "wikidata_id" not in gold_entity:
                     text_tokens[text_tokens_text_id][text_tokens_token_id]["wikidata_id"] = "_"
                 else:
                    text_tokens[text_tokens_text_id][text_tokens_token_id]["wikidata_id"] = gold_entity["wikidata_id"]["id"]
+                if "link_id" not in gold_entity:
+                    text_tokens[text_tokens_text_id][text_tokens_token_id]["link_id"] = "_"
+                else:
+                    text_tokens[text_tokens_text_id][text_tokens_token_id]["link_id"] = gold_entity["link_id"]["id"]
+                text_tokens[text_tokens_text_id][text_tokens_token_id]["text_id"] = text_tokens_text_id
                 text_tokens_token_id += 1
         while text_tokens_token_id < len(text_tokens[text_tokens_text_id]):
             text_tokens[text_tokens_text_id][text_tokens_token_id]["wikidata_id"] = "_"
+            text_tokens[text_tokens_text_id][text_tokens_token_id]["link_id"] = "_"
+            text_tokens[text_tokens_text_id][text_tokens_token_id]["text_id"] = text_tokens_text_id
             text_tokens_token_id += 1
         text_tokens_text_id += 1
         text_tokens_token_id = 0
@@ -517,11 +523,11 @@ def get_char_offsets_of_entities_linking(text_id, text, raw_entities):
     """lookup list of entities in original text and return list with character offsets"""
     cleaned_entities = []
     for raw_entity in raw_entities:
-        char_offsets = get_char_offsets_of_entity(text, raw_entity["text"])
+        char_offsets = get_char_offsets_of_entity(text, raw_entity["entity_text"])
         if not char_offsets:
             print(f"raw entity not found in text! text_id: {text_id}; entity: {raw_entity['text']}")
             continue
-        cleaned_entities.extend([char_offset | {"text": raw_entity["text"], "wikidata_id": raw_entity["wikidata_id"]} 
+        cleaned_entities.extend([char_offset | {"entity_text": raw_entity["entity_text"], "wikidata_id": raw_entity["wikidata_id"]} 
                                for char_offset in char_offsets])
     return cleaned_entities
 
@@ -535,8 +541,8 @@ def get_machine_entities(file_name):
                                                               key=lambda entity: (entity["start_char"], 
                                                                                   -entity["end_char"])))
         for cleaned_entity in cleaned_entities:
-            cleaned_entity["start"] = cleaned_entity.pop("start_char")
-            cleaned_entity["end"] = cleaned_entity.pop("end_char")
+            cleaned_entity["start_char"] = cleaned_entity.pop("start_char")
+            cleaned_entity["end_char"] = cleaned_entity.pop("end_char")
         machine_entities.append(cleaned_entities)
     return machine_entities
 
@@ -545,20 +551,19 @@ HIPE_MACHINE_FILE = "HIPE_machine.txt"
 HIPE_GOLD_FILE = "HIPE_gold.txt"
 
 
-def save_linking_data_to_file(text_tokens, data_column_name, file_name):
+def save_linking_data_to_file(text_tokens, data_column_name, file_name, target_field):
     """Save the data for evaluation to a single specified file"""
     with open(file_name, "w") as hipe_file:
         print("TOKEN\tNE-COARSE-LIT\tNE-COARSE-METO\tNEL-LIT\tNEL-METO\tMISC", file=hipe_file)
-        for text in text_tokens:
+        for text_id, text in enumerate(text_tokens):
             sent_id = 0
             for token in text:
                 if token["sent_id"] != sent_id:
                     print("-\tO\tO\t_\t_\tO", file=hipe_file)
                     sent_id = token["sent_id"]
-                if "wikidata_id" not in token:
-                    token["wikidata_id"] = {"id": "_", "description": ""}
-                print(token["text"], token[data_column_name], token[data_column_name], 
-                                     token["wikidata_id"], token["wikidata_id"], "O", sep="\t", file=hipe_file)
+                target_value = token[target_field] if target_field in token else "_"
+                print(token["entity_text"], token[data_column_name], token[data_column_name], 
+                                     target_value, target_value, "O", sep="\t", file=hipe_file)
             print("-\tO\tO\t_\t_\tO", file=hipe_file)
         hipe_file.close()
 
@@ -566,11 +571,11 @@ def save_linking_data_to_file(text_tokens, data_column_name, file_name):
 SCORER_DIR = "HIPE-scorer"
 
 
-def evaluate_linking(text_tokens_gold, text_tokens_machine, clef_evaluation):
+def hipe_evaluate_linking(text_tokens_gold, text_tokens_machine, clef_evaluation, target_field):
     """Evaluate the data present in text tokens: save them, run the scorer and show the results"""
     BASE_DIR = os.getcwd()
-    save_linking_data_to_file(text_tokens_gold, "gold_tag", HIPE_GOLD_FILE)
-    save_linking_data_to_file(text_tokens_machine, "machine_tag", HIPE_MACHINE_FILE)
+    save_linking_data_to_file(text_tokens_gold, "gold_tag", HIPE_GOLD_FILE, target_field)
+    save_linking_data_to_file(text_tokens_machine, "machine_tag", HIPE_MACHINE_FILE, target_field)
     os.chdir(os.path.join(BASE_DIR, SCORER_DIR))
     run_scorer(clef_evaluation,
                args={"--ref": os.path.join("..", HIPE_GOLD_FILE),
@@ -578,10 +583,10 @@ def evaluate_linking(text_tokens_gold, text_tokens_machine, clef_evaluation):
                      "--task": "nel",
                      "--outdir": "."})
     os.chdir(BASE_DIR)
-    show_scores_linking()
+    show_hipe_scores_linking()
 
 
-def show_scores_linking(labels=["ALL"]):
+def show_hipe_scores_linking(labels=["ALL", "9", "3", "1"]):
     """Extract relevant evaluation scores from the output file of the scorer and show them"""
     hipe_scores = read_json_file(os.path.join(SCORER_DIR, HIPE_MACHINE_FILE))
     print(colored("HIPE Analysis", attrs=["bold"]))
@@ -601,8 +606,8 @@ def add_char_offsets_to_processed_entities(processed_entities):
     for entity in processed_entities:
         char_offsets = get_char_offsets_of_entities(entity["text_id"], 
                                                     entity["text"], 
-                                                    [{"text": entity["entity_text"], 
-                                                            "label": "PERSON"}])
+                                                    [{"entity_text": entity["entity_text"], 
+                                                      "label": "PERSON"}])
         while len(machine_entities) <= entity["text_id"]:
             machine_entities.append([])
         for char_offset in char_offsets:
@@ -614,6 +619,173 @@ def add_char_offsets_to_processed_entities(processed_entities):
                         for entities in machine_entities]
     for entities in cleaned_entities:
         for entity in entities:
-            entity["start"] = entity.pop("start_char")
-            entity["end"] = entity.pop("end_char")
+            entity["start_char"] = entity.pop("start_char")
+            entity["end_char"] = entity.pop("end_char")
     return cleaned_entities
+
+
+def add_char_offsets_to_entities_per_text(entities_in):
+    """Add missing character offsets to machine entities per text"""
+    entities_out = []
+    for entity in entities_in:
+        char_offsets = get_char_offsets_of_entities(entity["text_id"],
+                                                    entity["text"],
+                                                    [{"entity_text": entity["entity_text"],
+                                                      "label": entity["label"]}])
+        for char_offset in char_offsets:
+            entities_out.append(entity | {"start_char": char_offset["start_char"],
+                                          "end_char": char_offset["end_char"]})
+
+    entities_out = remove_overlapping_entities(sorted(entities_out,
+                                                      key=lambda entity: (entity["start_char"],
+                                                                          -entity["end_char"])))
+    return entities_out
+
+
+def current_entity_continues(current_entity, next_token, iob_key):
+    """Check if the currently processed entity is continued by the next token"""
+    if not current_entity or next_token[iob_key] == "O":
+        return False
+    entity_iob, entity_label = current_entity[iob_key].split("-")
+    token_iob, token_label = next_token[iob_key].split("-")
+    return token_label == entity_label and token_iob == "I"
+
+
+def current_entity_ends(current_entity, next_token, iob_key):
+    """Check if the currently processed entity ends before the next token"""
+    return current_entity and not current_entity_continues(current_entity, next_token, iob_key)
+
+    
+def entity_starts(current_entity, next_token, iob_key):
+    """Check if a new entity starts at the next token"""
+    if current_entity:
+        print(f"entity_starts: cannot happen: non-empty current_entity: {current_entity}")
+    return next_token[iob_key] != "O"
+
+
+def continue_current_entity(current_entity, next_token):
+    """Add the next token to the currently processed entity"""
+    current_entity["end_char"] = next_token["end_char"]
+    current_entity["entity_text"] += " " + next_token["entity_text"]
+    return current_entity
+
+    
+def finish_current_entity(entities_list, current_entity):
+    """Add the currently processed entity to the entity list"""
+    entities_list.append(current_entity)
+    current_entity = {}
+    return entities_list, current_entity
+    
+
+def get_entities_from_token_lists(text_tokens, iob_key):
+    """Extract lists of entities per sentence from lists of tokens per sentence"""
+    entities_list = []
+    for tokens_per_sentence in text_tokens:
+        current_entity = {}
+        for next_token in tokens_per_sentence:
+            if current_entity_continues(current_entity, next_token, iob_key):
+                current_entity = continue_current_entity(current_entity, next_token)
+                continue
+            if current_entity_ends(current_entity, next_token, iob_key):
+                entities_list, current_entity = finish_current_entity(entities_list, current_entity)
+            if entity_starts(current_entity, next_token, iob_key):
+                current_entity = copy.deepcopy(next_token)
+        if current_entity:
+            entities_list, current_entity = finish_current_entity(entities_list, current_entity)
+    return entities_list
+
+
+def sort_entities(entities):
+    return [e for e in sorted(entities, key=lambda e: (e["text_id"], e["start_char"], -e["end_char"]))]
+
+
+def test_equal_spans(entity_1, entity_2):
+    """Test if the two entities have the same spans in the same texts"""
+    return (entity_1["text_id"] == entity_2["text_id"] and
+            entity_1["start_char"] == entity_2["start_char"] and
+            entity_1["end_char"] == entity_2["end_char"])
+
+
+def test_preceeding_span(entity_1, entity_2):
+    """Test if the first entity preceedes the second in the text"""
+    return (entity_1["text_id"] < entity_2["text_id"] or
+            (entity_1["text_id"] == entity_2["text_id"] and 
+             entity_1["start_char"] < entity_2["start_char"]) or
+            (entity_1["text_id"] == entity_2["text_id"] and 
+             entity_1["start_char"] == entity_2["start_char"] and
+             entity_1["end_char"] > entity_2["end_char"]))
+
+ 
+def increase_scores(evaluation_dict, label):
+    if "ALL" not in evaluation_dict:
+        evaluation_dict["ALL"] = 0
+    if label not in evaluation_dict:
+        evaluation_dict[label] = 0
+    evaluation_dict["ALL"] += 1
+    evaluation_dict[label] += 1
+
+def cleanup_keys(score_dict):
+    """Remove iob prefix from keys in score_dict"""
+    return {regex.sub("^B-", "", str(key)): score_dict[key] for key in score_dict}
+
+
+def show_scores(correct, missed, wrong, print_labels):
+    """Show the task scores of the local evaluate function"""
+    data = []
+    correct = cleanup_keys(correct)
+    missed = cleanup_keys(missed)
+    wrong = cleanup_keys(wrong)
+    for key in print_labels:
+        correct[key] = correct[key] if key in correct else 0
+        missed[key] = missed[key] if key in missed else 0
+        wrong[key] = wrong[key] if key in wrong else 0
+        try:
+            precision = 100*correct[key]/(correct[key] + wrong[key])
+        except Exception as e:
+            precision = 0
+        try:
+            recall = 100*correct[key]/(correct[key] + missed[key])
+        except Exception as e:
+            recall = 0
+        try:
+            f1 = 2 * precision * recall /(precision + recall)
+        except Exception as e:
+            f1 = 0
+        data.append([key, round(precision, 1), round(recall, 1), round(f1, 1)])
+    headers = ["Label", "Precision", "Recall", "F1"]
+    print(tabulate.tabulate(data, headers=headers, tablefmt="fancy_grid"))
+ 
+
+def evaluate(gold_entities, machine_entities, gold_label_key, machine_label_key="", print_labels=["ALL"]):
+    """Evaluate tasks with local code rather than with the hipe scorer"""
+    gold_entities = sort_entities(gold_entities)
+    machine_entities = sort_entities(machine_entities)
+    machine_label_key = machine_label_key if machine_label_key else gold_label_key
+    gold_index, machine_index = (0, 0)
+    correct, missed, wrong = ({}, {}, {})
+    while gold_index < len(gold_entities) and machine_index < len(machine_entities):
+        if gold_index >= len(gold_entities):
+            wrong += len(machine_entities) - machine_index
+            machine_index = len(machine_entities)
+        elif machine_index >= len(machine_entities):
+            missed += len(gold_entities) - gold_index
+            gold_index = len(gold_entities)
+        else:
+            gold_label = gold_entities[gold_index][gold_label_key] 
+            machine_label = machine_entities[machine_index][machine_label_key]
+            if test_equal_spans(gold_entities[gold_index], machine_entities[machine_index]):
+                if gold_label == machine_label:
+                    increase_scores(correct, gold_label)
+                else:
+                    increase_scores(missed, gold_label)
+                    increase_scores(wrong, machine_label)
+                gold_index += 1
+                machine_index += 1
+            elif test_preceeding_span(gold_entities[gold_index], machine_entities[machine_index]):
+                increase_scores(missed, gold_label)
+                gold_index += 1
+            else:
+                increase_scores(wrong, machine_label)
+                machine_index += 1
+    show_scores(correct, missed, wrong, print_labels)
+    return correct, missed, wrong
