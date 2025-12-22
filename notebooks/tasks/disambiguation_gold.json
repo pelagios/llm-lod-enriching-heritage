@@ -1,617 +1,971 @@
 [
   [
     {
-      "text": "Anubis",
-      "start": 21,
-      "end": 27,
+      "entity_text": "Anubis",
+      "start_char": 21,
+      "end_char": 27,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q47534",
         "description": "Egyptian deity of mummification and the afterlife, usually depicted as a man with a canine head"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 0,
+      "text": "Statuette of the god Anubis. Bronze. Late Period (722-332 BC).. Acquired before 1882. C. 115"
     }
   ],
   [
     {
-      "text": "Sekhmet",
-      "start": 22,
-      "end": 29,
+      "entity_text": "Sekhmet",
+      "start_char": 22,
+      "end_char": 29,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q146104",
         "description": "Egyptian deity"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 1,
+      "text": "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256"
     },
     {
-      "text": "Amenhotep III",
-      "start": 81,
-      "end": 94,
+      "entity_text": "Amenhotep III",
+      "start_char": 81,
+      "end_char": 94,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 1,
+      "text": "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256"
     },
     {
-      "text": "Thebes",
-      "start": 111,
-      "end": 117,
+      "entity_text": "Thebes",
+      "start_char": 111,
+      "end_char": 117,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q101583",
         "description": "ancient Egyptian city"
-      }
+      },
+      "link_id": {
+        "id": 7,
+        "description": "the entity is a location where the artefact was created"
+      },
+      "text_id": 1,
+      "text": "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256"
     },
     {
-      "text": "Drovetti",
-      "start": 120,
-      "end": 128,
+      "entity_text": "Drovetti",
+      "start_char": 120,
+      "end_char": 128,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 1,
+      "text": "Statue of the goddess Sekhmet. Granodiorite. New Kingdom, 18th Dynasty, reign of Amenhotep III (1390-1353 BC). Thebes.. Drovetti collection (1824). C. 256"
     }
   ],
   [
     {
-      "text": "Bastet",
-      "start": 25,
-      "end": 31,
+      "entity_text": "Bastet",
+      "start_char": 25,
+      "end_char": 31,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q129106",
         "description": "Egyptian cat deity"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 2,
+      "text": "Statuette of the goddess Bastet. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 271"
     },
     {
-      "text": "Drovetti",
-      "start": 68,
-      "end": 76,
+      "entity_text": "Drovetti",
+      "start_char": 68,
+      "end_char": 76,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 2,
+      "text": "Statuette of the goddess Bastet. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 271"
     }
   ],
   [
     {
-      "text": "Harpocrates",
-      "start": 25,
-      "end": 36,
+      "entity_text": "Harpocrates",
+      "start_char": 25,
+      "end_char": 36,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q787492",
         "description": "God-child in Egyptian mythology"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 3,
+      "text": "Amulet depicting the god Harpocrates"
     }
   ],
   [
     {
-      "text": "Satet",
-      "start": 25,
-      "end": 30,
+      "entity_text": "Satet",
+      "start_char": 25,
+      "end_char": 30,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q843206",
         "description": "ancient Egyptian goddess"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 4,
+      "text": "Statuette of the goddess Satet. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 515"
     },
     {
-      "text": "Drovetti",
-      "start": 67,
-      "end": 75,
+      "entity_text": "Drovetti",
+      "start_char": 67,
+      "end_char": 75,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 4,
+      "text": "Statuette of the goddess Satet. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 515"
     }
   ],
   [
     {
-      "text": "Bes",
-      "start": 18,
-      "end": 21,
+      "entity_text": "Bes",
+      "start_char": 18,
+      "end_char": 21,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q188931",
         "description": "Egyptian deity"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 5,
+      "text": "Statue of the god Bes. Limestone. Ptolemaic Period - Roman Period (332 BC - AD 395).. Acquired before 1882. C. 638"
     }
   ],
   [
     {
-      "text": "Horus",
-      "start": 15,
-      "end": 20,
+      "entity_text": "Horus",
+      "start_char": 15,
+      "end_char": 20,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q84122",
         "description": "Egyptian sky deity"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 6,
+      "text": "Magic stela of Horus on crocodiles. Limestone. Late Period - Ptolemaic Period (722-30 BC).. Drovetti collection (1824). C. 775"
     },
     {
-      "text": "Drovetti",
-      "start": 92,
-      "end": 100,
+      "entity_text": "Drovetti",
+      "start_char": 92,
+      "end_char": 100,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 6,
+      "text": "Magic stela of Horus on crocodiles. Limestone. Late Period - Ptolemaic Period (722-30 BC).. Drovetti collection (1824). C. 775"
     }
   ],
   [
     {
-      "text": "Apis",
-      "start": 21,
-      "end": 25,
+      "entity_text": "Apis",
+      "start_char": 21,
+      "end_char": 25,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q208150",
         "description": "sacred bull in Egyptian mythology"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 7,
+      "text": "Statuette of the god Apis. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 0815"
     },
     {
-      "text": "Drovetti",
-      "start": 62,
-      "end": 70,
+      "entity_text": "Drovetti",
+      "start_char": 62,
+      "end_char": 70,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 7,
+      "text": "Statuette of the god Apis. Bronze. Late Period (722-332 BC).. Drovetti collection (1824). C. 0815"
     }
   ],
   [],
   [
     {
-      "text": "Amenhotep I.",
-      "start": 15,
-      "end": 27,
+      "entity_text": "Amenhotep I.",
+      "start_char": 15,
+      "end_char": 27,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157966",
         "description": "second Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 9,
+      "text": "Cult statue of Amenhotep I. Limestone. New Kingdom, 19th Dynasty (1292–1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1372"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 81,
-      "end": 95,
+      "entity_text": "Deir el - Medina",
+      "start_char": 81,
+      "end_char": 95,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 9,
+      "text": "Cult statue of Amenhotep I. Limestone. New Kingdom, 19th Dynasty (1292–1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1372"
     },
     {
-      "text": "Drovetti",
-      "start": 98,
-      "end": 106,
+      "entity_text": "Drovetti",
+      "start_char": 98,
+      "end_char": 106,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 9,
+      "text": "Cult statue of Amenhotep I. Limestone. New Kingdom, 19th Dynasty (1292–1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1372"
     }
   ],
   [
     {
-      "text": "Meh",
-      "start": 9,
-      "end": 12,
-      "gold_label": "PERSON"
+      "entity_text": "Meh",
+      "start_char": 9,
+      "end_char": 12,
+      "gold_label": "PERSON",
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 10,
+      "text": "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor"
     },
     {
-      "text": "Ramesses II",
-      "start": 54,
-      "end": 65,
+      "entity_text": "Ramesses II",
+      "start_char": 54,
+      "end_char": 65,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1523",
         "description": "Egyptian third pharaoh of the Nineteenth Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 10,
+      "text": "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor"
     },
     {
-      "text": "Re",
-      "start": 86,
-      "end": 88,
+      "entity_text": "Re",
+      "start_char": 86,
+      "end_char": 88,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1252904",
         "description": "ancient Egyptian solar deity"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 10,
+      "text": "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor"
     },
     {
-      "text": "Heliopolis",
-      "start": 93,
-      "end": 103,
+      "entity_text": "Heliopolis",
+      "start_char": 93,
+      "end_char": 103,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q191687",
         "description": "city of ancient Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 10,
+      "text": "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor"
     },
     {
-      "text": "Ramesses II",
-      "start": 172,
-      "end": 183,
+      "entity_text": "Ramesses II",
+      "start_char": 172,
+      "end_char": 183,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1523",
         "description": "Egyptian third pharaoh of the Nineteenth Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 10,
+      "text": "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor"
     },
     {
-      "text": "Merenptah",
-      "start": 199,
-      "end": 208,
+      "entity_text": "Merenptah",
+      "start_char": 199,
+      "end_char": 208,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q158043",
         "description": "fourth pharaoh of the 19th Dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 10,
+      "text": "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor"
     },
     {
-      "text": "Abydos",
-      "start": 228,
-      "end": 234,
+      "entity_text": "Abydos",
+      "start_char": 228,
+      "end_char": 234,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q192268",
         "description": "city in ancient Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 10,
+      "text": "Stela of Meh, scribe of the treasury in the temple of Ramesses II in the sanctuary of Re (in Heliopolis). Limestone. New Kingdom, 19th Dynasty, second half of the reign of Ramesses II-early reign of Merenptah, ca. 1240-1210 BC. Abydos (?).. Acquired befor"
     }
   ],
   [
     {
-      "text": "Huy",
-      "start": 19,
-      "end": 22,
+      "entity_text": "Huy",
+      "start_char": 19,
+      "end_char": 22,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q5951403",
         "description": "ancient Egyptian high priest"
-      }
+      },
+      "link_id": {
+        "id": 2,
+        "description": "the entity is a person that created the artefact"
+      },
+      "text_id": 11,
+      "text": "Stela dedicated by Huy to Amun-Re. Limestone. New Kingdom, 19th Dynasty (1292-1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1607"
     },
     {
-      "text": "Amun - Re",
-      "start": 26,
-      "end": 33,
+      "entity_text": "Amun - Re",
+      "start_char": 26,
+      "end_char": 33,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q481554",
         "description": "ancient Egyptian deity"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 11,
+      "text": "Stela dedicated by Huy to Amun-Re. Limestone. New Kingdom, 19th Dynasty (1292-1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1607"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 88,
-      "end": 102,
+      "entity_text": "Deir el - Medina",
+      "start_char": 88,
+      "end_char": 102,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 11,
+      "text": "Stela dedicated by Huy to Amun-Re. Limestone. New Kingdom, 19th Dynasty (1292-1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1607"
     },
     {
-      "text": "Drovetti",
-      "start": 105,
-      "end": 113,
+      "entity_text": "Drovetti",
+      "start_char": 105,
+      "end_char": 113,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 11,
+      "text": "Stela dedicated by Huy to Amun-Re. Limestone. New Kingdom, 19th Dynasty (1292-1190 BC). Deir el-Medina.. Drovetti collection (1824). C. 1607"
     }
   ],
   [
     {
-      "text": "Aaner",
-      "start": 20,
-      "end": 25,
-      "gold_label": "PERSON"
+      "entity_text": "Aaner",
+      "start_char": 20,
+      "end_char": 25,
+      "gold_label": "PERSON",
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 12,
+      "text": "Book of the Dead of Aaner, priest of Mut. Cyperus papyrus. Third Intermediate Period, 21st Dynasty (1076-944 BC). Thebes.. Drovetti collection (1824). C. 1771"
     },
     {
-      "text": "Mut",
-      "start": 37,
-      "end": 40,
+      "entity_text": "Mut",
+      "start_char": 37,
+      "end_char": 40,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q14215956",
         "description": "town in the Egyptian depression of el-Dakhla"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 12,
+      "text": "Book of the Dead of Aaner, priest of Mut. Cyperus papyrus. Third Intermediate Period, 21st Dynasty (1076-944 BC). Thebes.. Drovetti collection (1824). C. 1771"
     },
     {
-      "text": "Thebes",
-      "start": 114,
-      "end": 120,
+      "entity_text": "Thebes",
+      "start_char": 114,
+      "end_char": 120,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q101583",
         "description": "ancient Egyptian city"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 12,
+      "text": "Book of the Dead of Aaner, priest of Mut. Cyperus papyrus. Third Intermediate Period, 21st Dynasty (1076-944 BC). Thebes.. Drovetti collection (1824). C. 1771"
     },
     {
-      "text": "Drovetti",
-      "start": 123,
-      "end": 131,
+      "entity_text": "Drovetti",
+      "start_char": 123,
+      "end_char": 131,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 12,
+      "text": "Book of the Dead of Aaner, priest of Mut. Cyperus papyrus. Third Intermediate Period, 21st Dynasty (1076-944 BC). Thebes.. Drovetti collection (1824). C. 1771"
     }
   ],
   [
     {
-      "text": "Iuefankh",
-      "start": 20,
-      "end": 28,
+      "entity_text": "Iuefankh",
+      "start_char": 20,
+      "end_char": 28,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "",
         "description": "antico egizio (human)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 13,
+      "text": "Book of the Dead of Iuefankh. Cyperus papyrus. Ptolemaic period (332-30 BC).. Thebes (?). Drovetti collection (1824). C. 1791"
     },
     {
-      "text": "Thebes",
-      "start": 78,
-      "end": 84,
+      "entity_text": "Thebes",
+      "start_char": 78,
+      "end_char": 84,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q101583",
         "description": "ancient Egyptian city"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 13,
+      "text": "Book of the Dead of Iuefankh. Cyperus papyrus. Ptolemaic period (332-30 BC).. Thebes (?). Drovetti collection (1824). C. 1791"
     },
     {
-      "text": "Drovetti",
-      "start": 90,
-      "end": 98,
+      "entity_text": "Drovetti",
+      "start_char": 90,
+      "end_char": 98,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 13,
+      "text": "Book of the Dead of Iuefankh. Cyperus papyrus. Ptolemaic period (332-30 BC).. Thebes (?). Drovetti collection (1824). C. 1791"
     }
   ],
   [
     {
-      "text": "Tamutmutef",
-      "start": 10,
-      "end": 20,
-      "gold_label": "PERSON"
+      "entity_text": "Tamutmutef",
+      "start_char": 10,
+      "end_char": 20,
+      "gold_label": "PERSON",
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 14,
+      "text": "Coffin of Tamutmutef. Wood. Third Intermediate Period, 21st-22nd Dynasty (1076-746 BC). Thebes (?).. Drovetti collection (1824). C. 2228/1"
     },
     {
-      "text": "Thebes",
-      "start": 88,
-      "end": 94,
+      "entity_text": "Thebes",
+      "start_char": 88,
+      "end_char": 94,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q101583",
         "description": "ancient Egyptian city"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 14,
+      "text": "Coffin of Tamutmutef. Wood. Third Intermediate Period, 21st-22nd Dynasty (1076-746 BC). Thebes (?).. Drovetti collection (1824). C. 2228/1"
     },
     {
-      "text": "Drovetti",
-      "start": 101,
-      "end": 109,
+      "entity_text": "Drovetti",
+      "start_char": 101,
+      "end_char": 109,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 14,
+      "text": "Coffin of Tamutmutef. Wood. Third Intermediate Period, 21st-22nd Dynasty (1076-746 BC). Thebes (?).. Drovetti collection (1824). C. 2228/1"
     }
   ],
   [],
   [
     {
-      "text": "Asiatic",
-      "start": 26,
-      "end": 33,
+      "entity_text": "Asiatic",
+      "start_char": 26,
+      "end_char": 33,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q48",
         "description": "biggest continent in the world"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 16,
+      "text": "Mummy soles picturing two Asiatic prisoners, symbolizing the trampling of the enemy. Linen. Late Period (722-332 BC).. Acquired before 1882. C. 2328"
     }
   ],
   [],
   [],
   [
     {
-      "text": "Mesmeni",
-      "start": 34,
-      "end": 41,
-      "gold_label": "PERSON"
+      "entity_text": "Mesmeni",
+      "start_char": 34,
+      "end_char": 41,
+      "gold_label": "PERSON",
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 19,
+      "text": "Shabti of the construction worker Mesmeni. Baked clay. New Kingdom, 20th Dynasty (1190-1076 BC).. Acquired before 1882. C. 2646"
     }
   ],
   [
     {
-      "text": "Horemakhbit",
-      "start": 10,
-      "end": 21,
-      "gold_label": "PERSON"
+      "entity_text": "Horemakhbit",
+      "start_char": 10,
+      "end_char": 21,
+      "gold_label": "PERSON",
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 20,
+      "text": "Shabti of Horemakhbit. Faience. Third Intermediate Period, 21st Dynasty (1076-944 BC). Deir el-Bahari, Second Cachette.. Drovetti collection (1824). C. 2724/a"
     },
     {
-      "text": "Deir el - Bahari",
-      "start": 87,
-      "end": 101,
+      "entity_text": "Deir el - Bahari",
+      "start_char": 87,
+      "end_char": 101,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q373909",
         "description": "archaeological site"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 20,
+      "text": "Shabti of Horemakhbit. Faience. Third Intermediate Period, 21st Dynasty (1076-944 BC). Deir el-Bahari, Second Cachette.. Drovetti collection (1824). C. 2724/a"
     },
     {
-      "text": "Drovetti",
-      "start": 121,
-      "end": 129,
+      "entity_text": "Drovetti",
+      "start_char": 121,
+      "end_char": 129,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 20,
+      "text": "Shabti of Horemakhbit. Faience. Third Intermediate Period, 21st Dynasty (1076-944 BC). Deir el-Bahari, Second Cachette.. Drovetti collection (1824). C. 2724/a"
     }
   ],
   [
     {
-      "text": "Khonsu",
-      "start": 10,
-      "end": 16,
+      "entity_text": "Khonsu",
+      "start_char": 10,
+      "end_char": 16,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q190521",
         "description": "Egyptian deity"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 21,
+      "text": "Shabti of Khonsu. Wood. New Kingdom, 19th-20th Dynasty (1292-1076 BC). Deir el-Medina.. Acquired before 1882. C. 2737 v.n. 915"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 71,
-      "end": 85,
+      "entity_text": "Deir el - Medina",
+      "start_char": 71,
+      "end_char": 85,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 21,
+      "text": "Shabti of Khonsu. Wood. New Kingdom, 19th-20th Dynasty (1292-1076 BC). Deir el-Medina.. Acquired before 1882. C. 2737 v.n. 915"
     }
   ],
   [
     {
-      "text": "Drovetti",
-      "start": 62,
-      "end": 70,
+      "entity_text": "Drovetti",
+      "start_char": 62,
+      "end_char": 70,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 22,
+      "text": "Male statue. Wood. New Kingdom, 19th Dynasty (1292-1190 BC).. Drovetti collection (1824). C. 3100"
     }
   ],
   [
     {
-      "text": "Tuthmosis III",
-      "start": 35,
-      "end": 48,
+      "entity_text": "Tuthmosis III",
+      "start_char": 35,
+      "end_char": 48,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157899",
         "description": "sixth Egyptian Pharaoh of the Eighteenth Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 23,
+      "text": "Ointment jar with the cartouche of Tuthmosis III and an indication of its capacity, probably from the grave-goods of the overseer of foreign lands Djehuty. Calcite (alabaster). New Kingdom, 18th Dynasty, reign of Tuthmosi III (1458-1425 a.C.).. Drovetti "
     },
     {
-      "text": "Djehuty",
-      "start": 147,
-      "end": 154,
+      "entity_text": "Djehuty",
+      "start_char": 147,
+      "end_char": 154,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q912046",
         "description": "general under the ancient Egyptian king Thutmose III (reigned 1479–1425 BC) in the 18th Dynasty, main hero of the tale of the tale \"The Taking of Joppa\""
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 23,
+      "text": "Ointment jar with the cartouche of Tuthmosis III and an indication of its capacity, probably from the grave-goods of the overseer of foreign lands Djehuty. Calcite (alabaster). New Kingdom, 18th Dynasty, reign of Tuthmosi III (1458-1425 a.C.).. Drovetti "
     },
     {
-      "text": "Tuthmosi III",
-      "start": 213,
-      "end": 225,
+      "entity_text": "Tuthmosi III",
+      "start_char": 213,
+      "end_char": 225,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157899",
         "description": "sixth Egyptian Pharaoh of the Eighteenth Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 23,
+      "text": "Ointment jar with the cartouche of Tuthmosis III and an indication of its capacity, probably from the grave-goods of the overseer of foreign lands Djehuty. Calcite (alabaster). New Kingdom, 18th Dynasty, reign of Tuthmosi III (1458-1425 a.C.).. Drovetti "
     },
     {
-      "text": "Drovetti",
-      "start": 245,
-      "end": 253,
+      "entity_text": "Drovetti",
+      "start_char": 245,
+      "end_char": 253,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 23,
+      "text": "Ointment jar with the cartouche of Tuthmosis III and an indication of its capacity, probably from the grave-goods of the overseer of foreign lands Djehuty. Calcite (alabaster). New Kingdom, 18th Dynasty, reign of Tuthmosi III (1458-1425 a.C.).. Drovetti "
     }
   ],
   [
     {
-      "text": "Amennakht",
-      "start": 13,
-      "end": 22,
-      "gold_label": "PERSON"
+      "entity_text": "Amennakht",
+      "start_char": 13,
+      "end_char": 22,
+      "gold_label": "PERSON",
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 24,
+      "text": "Dummy jar of Amennakht. Limestone. New Kingdom, 19th-20th Dynasty (1292-1076 BC).. Drovetti collection (1824). C. 3325"
     },
     {
-      "text": "Drovetti",
-      "start": 83,
-      "end": 91,
+      "entity_text": "Drovetti",
+      "start_char": 83,
+      "end_char": 91,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 24,
+      "text": "Dummy jar of Amennakht. Limestone. New Kingdom, 19th-20th Dynasty (1292-1076 BC).. Drovetti collection (1824). C. 3325"
     }
   ],
   [
     {
-      "text": "Wadjren",
-      "start": 22,
-      "end": 29,
-      "gold_label": "PERSON"
+      "entity_text": "Wadjren",
+      "start_char": 22,
+      "end_char": 29,
+      "gold_label": "PERSON",
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 25,
+      "text": "Lid of canopic jar of Wadjren, overseer of the two granaries. Baked clay. New Kingdom, 18th Dynasty, ca. 1450-1400 BC.. Acquired before 1882. C. 3459/b"
     }
   ],
   [
     {
-      "text": "Cyprus",
-      "start": 55,
-      "end": 61,
+      "entity_text": "Cyprus",
+      "start_char": 55,
+      "end_char": 61,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q229",
         "description": "Mediterranean island country in West Asia"
-      }
+      },
+      "link_id": {
+        "id": 7,
+        "description": "the entity is a location where the artefact was created"
+      },
+      "text_id": 26,
+      "text": "Double juglet of the “Base Ring I” type, imported from Cyprus. Baked clay. New Kingdom, 18th Dynasty (1539-1292 BC).. Acquired before 1888. C. 3673"
     }
   ],
   [],
   [
     {
-      "text": "Amenemope",
-      "start": 19,
-      "end": 28,
+      "entity_text": "Amenemope",
+      "start_char": 19,
+      "end_char": 28,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q2844817",
         "description": "ancient Egyptian writer"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 28,
+      "text": "Royal cubit rod of Amenemope, overseer of the two granaries. Wood. New Kingdom, 18th Dynasty, reign of Horemheb (1319-1292 BC). Saqqara (?).. Drovetti collection (1824). C. 6347"
     },
     {
-      "text": "Horemheb",
-      "start": 103,
-      "end": 111,
+      "entity_text": "Horemheb",
+      "start_char": 103,
+      "end_char": 111,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157995",
         "description": "final pharaoh of the 18th dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 28,
+      "text": "Royal cubit rod of Amenemope, overseer of the two granaries. Wood. New Kingdom, 18th Dynasty, reign of Horemheb (1319-1292 BC). Saqqara (?).. Drovetti collection (1824). C. 6347"
     },
     {
-      "text": "Saqqara",
-      "start": 128,
-      "end": 135,
+      "entity_text": "Saqqara",
+      "start_char": 128,
+      "end_char": 135,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q192134",
         "description": "village in Giza Governorate, Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 28,
+      "text": "Royal cubit rod of Amenemope, overseer of the two granaries. Wood. New Kingdom, 18th Dynasty, reign of Horemheb (1319-1292 BC). Saqqara (?).. Drovetti collection (1824). C. 6347"
     },
     {
-      "text": "Drovetti",
-      "start": 142,
-      "end": 150,
+      "entity_text": "Drovetti",
+      "start_char": 142,
+      "end_char": 150,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q822895",
         "description": "Italian diplomat, explorer and scholar"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 28,
+      "text": "Royal cubit rod of Amenemope, overseer of the two granaries. Wood. New Kingdom, 18th Dynasty, reign of Horemheb (1319-1292 BC). Saqqara (?).. Drovetti collection (1824). C. 6347"
     }
   ],
   [],
@@ -621,2166 +975,3420 @@
   [],
   [
     {
-      "text": "Near Eastern",
-      "start": 17,
-      "end": 29,
-      "gold_label": "LOCATION"
+      "entity_text": "Near Eastern",
+      "start_char": 17,
+      "end_char": 29,
+      "gold_label": "LOCATION",
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 34,
+      "text": "Statuette of the Near Eastern god Attis, god of fertility, wearing a Phrygian cap. Baked clay. Roman Period (30 BC-AD 395).. Acquired before 1888. C. 7238"
     },
     {
-      "text": "Attis",
-      "start": 34,
-      "end": 39,
+      "entity_text": "Attis",
+      "start_char": 34,
+      "end_char": 39,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q262016",
         "description": "Phrygian and Greek mythological figure"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 34,
+      "text": "Statuette of the Near Eastern god Attis, god of fertility, wearing a Phrygian cap. Baked clay. Roman Period (30 BC-AD 395).. Acquired before 1888. C. 7238"
     }
   ],
   [],
   [],
   [
     {
-      "text": "Tamit",
-      "start": 161,
-      "end": 166,
-      "gold_label": "LOCATION"
+      "entity_text": "Tamit",
+      "start_char": 161,
+      "end_char": 166,
+      "gold_label": "LOCATION",
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 37,
+      "text": "Pendant in rock crystal forming part of a necklace with other eleven perforated shells (P. 3539/1-11). Rock crystal. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome"
     },
     {
-      "text": "Egyptian Nubia",
-      "start": 168,
-      "end": 182,
-      "gold_label": "LOCATION"
+      "entity_text": "Egyptian Nubia",
+      "start_char": 168,
+      "end_char": 182,
+      "gold_label": "LOCATION",
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 37,
+      "text": "Pendant in rock crystal forming part of a necklace with other eleven perforated shells (P. 3539/1-11). Rock crystal. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome"
     }
   ],
   [],
   [
     {
-      "text": "Tamit",
-      "start": 94,
-      "end": 99,
-      "gold_label": "LOCATION"
+      "entity_text": "Tamit",
+      "start_char": 94,
+      "end_char": 99,
+      "gold_label": "LOCATION",
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 39,
+      "text": "Globular vessel with a grey washing. Backed clay. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome in Nubia (1964) (on loan). P. 3645"
     },
     {
-      "text": "Egyptian Nubia",
-      "start": 101,
-      "end": 115,
-      "gold_label": "LOCATION"
+      "entity_text": "Egyptian Nubia",
+      "start_char": 101,
+      "end_char": 115,
+      "gold_label": "LOCATION",
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 39,
+      "text": "Globular vessel with a grey washing. Backed clay. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome in Nubia (1964) (on loan). P. 3645"
     },
     {
-      "text": "Nubia",
-      "start": 192,
-      "end": 197,
+      "entity_text": "Nubia",
+      "start_char": 192,
+      "end_char": 197,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q135028",
         "description": "region along the Nile river, which is located in northern Sudan and southern Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 39,
+      "text": "Globular vessel with a grey washing. Backed clay. Predynastic Period, late 4th millennium BC. Tamit, Egyptian Nubia, Tomb N. 1.. Excavations of the Istituto Egittologia, University of Rome in Nubia (1964) (on loan). P. 3645"
     }
   ],
   [],
   [],
   [
     {
-      "text": "Nefertum",
-      "start": 25,
-      "end": 33,
+      "entity_text": "Nefertum",
+      "start_char": 25,
+      "end_char": 33,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q464227",
         "description": "Egyptian deity"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 42,
+      "text": "Amulet depicting the god Nefertum"
     }
   ],
   [],
   [
     {
-      "text": "Schiaparelli",
-      "start": 88,
-      "end": 100,
+      "entity_text": "Schiaparelli",
+      "start_char": 88,
+      "end_char": 100,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 44,
+      "text": "Mace head. Granodiorite. Predynastic Period, Naqada I-IIB (3900-3550 BC).. Purchased by Schiaparelli (1900-1901). S. 569"
     }
   ],
   [
     {
-      "text": "Schiaparelli",
-      "start": 95,
-      "end": 107,
+      "entity_text": "Schiaparelli",
+      "start_char": 95,
+      "end_char": 107,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 45,
+      "text": "Animal-shaped tag. Bone, ivory. Predynastic Period, Naqada I-IIA (3900-3600 BC).. Purchased by Schiaparelli (1900-1901). S. 1121"
     }
   ],
   [
     {
-      "text": "Schiaparelli",
-      "start": 94,
-      "end": 106,
+      "entity_text": "Schiaparelli",
+      "start_char": 94,
+      "end_char": 106,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 46,
+      "text": "Animal-shaped amulet. Serpentine. Predynastic Period, Naqada II (3700-3300 BC).. Purchased by Schiaparelli (1900-1901). S. 1166/1"
     }
   ],
   [
     {
-      "text": "Asyut",
-      "start": 104,
-      "end": 109,
+      "entity_text": "Asyut",
+      "start_char": 104,
+      "end_char": 109,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q29962",
         "description": "City in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 47,
+      "text": "Boat model with oarsmen and a coffin under a canopy. Wood. Middle Kingdom, 11th Dynasty (1980-1939 BC). Asyut (?).. Purchased by Schiaparelli (1900-1901). S. 1208"
     },
     {
-      "text": "Schiaparelli",
-      "start": 129,
-      "end": 141,
+      "entity_text": "Schiaparelli",
+      "start_char": 129,
+      "end_char": 141,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 47,
+      "text": "Boat model with oarsmen and a coffin under a canopy. Wood. Middle Kingdom, 11th Dynasty (1980-1939 BC). Asyut (?).. Purchased by Schiaparelli (1900-1901). S. 1208"
     }
   ],
   [
     {
-      "text": "Inheretnakht",
-      "start": 9,
-      "end": 21,
-      "gold_label": "PERSON"
+      "entity_text": "Inheretnakht",
+      "start_char": 9,
+      "end_char": 21,
+      "gold_label": "PERSON",
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 48,
+      "text": "Stela of Inheretnakht. Limestone. First Intermediate Period, 8th-11th Dynasty (2118-1980 BC).. Purchased by Schiaparelli (1900-1901). S. 1264"
     },
     {
-      "text": "Schiaparelli",
-      "start": 108,
-      "end": 120,
+      "entity_text": "Schiaparelli",
+      "start_char": 108,
+      "end_char": 120,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 48,
+      "text": "Stela of Inheretnakht. Limestone. First Intermediate Period, 8th-11th Dynasty (2118-1980 BC).. Purchased by Schiaparelli (1900-1901). S. 1264"
     }
   ],
   [
     {
-      "text": "Heliopolis",
-      "start": 81,
-      "end": 91,
+      "entity_text": "Heliopolis",
+      "start_char": 81,
+      "end_char": 91,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q191687",
         "description": "city of ancient Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 49,
+      "text": "Cosmetic palette. Limestone. Predynastic Period, Naqada IIC-IIIA (3500-3200 BC). Heliopolis.. Schiaparelli excavations (1906). S. 4034/1"
     },
     {
-      "text": "Schiaparelli",
-      "start": 94,
-      "end": 106,
+      "entity_text": "Schiaparelli",
+      "start_char": 94,
+      "end_char": 106,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 49,
+      "text": "Cosmetic palette. Limestone. Predynastic Period, Naqada IIC-IIIA (3500-3200 BC). Heliopolis.. Schiaparelli excavations (1906). S. 4034/1"
     }
   ],
   [
     {
-      "text": "Hammamiya",
-      "start": 86,
-      "end": 95,
+      "entity_text": "Hammamiya",
+      "start_char": 86,
+      "end_char": 95,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1604678",
         "description": "human settlement"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 50,
+      "text": "Wavy-handled jar (W-ware). Baked clay. Predynastic Period, Naqada IIC (3500-3400 BC). Hammamiya.. Schiaparelli excavations (1905). S. 4721"
     },
     {
-      "text": "Schiaparelli",
-      "start": 98,
-      "end": 110,
+      "entity_text": "Schiaparelli",
+      "start_char": 98,
+      "end_char": 110,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 50,
+      "text": "Wavy-handled jar (W-ware). Baked clay. Predynastic Period, Naqada IIC (3500-3400 BC). Hammamiya.. Schiaparelli excavations (1905). S. 4721"
     }
   ],
   [
     {
-      "text": "Valley of the Queens",
-      "start": 67,
-      "end": 87,
+      "entity_text": "Valley of the Queens",
+      "start_char": 67,
+      "end_char": 87,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q260386",
         "description": "ancient Egyptian necropolis"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 51,
+      "text": "Two scarabs. Faïence. Late Period, 25th-31st Dynasty (722-332 BC). Valley of the Queens.. Schiaparelli excavations (1903-1905). S. 5329/1-2"
     },
     {
-      "text": "Schiaparelli",
-      "start": 90,
-      "end": 102,
+      "entity_text": "Schiaparelli",
+      "start_char": 90,
+      "end_char": 102,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 51,
+      "text": "Two scarabs. Faïence. Late Period, 25th-31st Dynasty (722-332 BC). Valley of the Queens.. Schiaparelli excavations (1903-1905). S. 5329/1-2"
     }
   ],
   [
     {
-      "text": "African",
-      "start": 37,
-      "end": 44,
+      "entity_text": "African",
+      "start_char": 37,
+      "end_char": 44,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q15",
         "description": "continent"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 52,
+      "text": "Painted ostracon with the head of an African man with short curly hair and an earring. Limestone, black ink. New Kingdom, 20th Dynasty (1186–1069 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6295"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 151,
-      "end": 165,
+      "entity_text": "Deir el - Medina",
+      "start_char": 151,
+      "end_char": 165,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 52,
+      "text": "Painted ostracon with the head of an African man with short curly hair and an earring. Limestone, black ink. New Kingdom, 20th Dynasty (1186–1069 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6295"
     },
     {
-      "text": "Schiaparelli",
-      "start": 168,
-      "end": 180,
+      "entity_text": "Schiaparelli",
+      "start_char": 168,
+      "end_char": 180,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 52,
+      "text": "Painted ostracon with the head of an African man with short curly hair and an earring. Limestone, black ink. New Kingdom, 20th Dynasty (1186–1069 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6295"
     }
   ],
   [
     {
-      "text": "Deir el - Medina",
-      "start": 144,
-      "end": 158,
+      "entity_text": "Deir el - Medina",
+      "start_char": 144,
+      "end_char": 158,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 53,
+      "text": "Illustrated ostracon showing animals performing the parody of a religious procession. Limestone. New Kingdom, 19th-20th Dynasty (1292-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6333"
     },
     {
-      "text": "Schiaparelli",
-      "start": 161,
-      "end": 173,
+      "entity_text": "Schiaparelli",
+      "start_char": 161,
+      "end_char": 173,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 53,
+      "text": "Illustrated ostracon showing animals performing the parody of a religious procession. Limestone. New Kingdom, 19th-20th Dynasty (1292-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6333"
     }
   ],
   [
     {
-      "text": "Deir el - Medina",
-      "start": 64,
-      "end": 78,
+      "entity_text": "Deir el - Medina",
+      "start_char": 64,
+      "end_char": 78,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 54,
+      "text": "Jar. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6994"
     },
     {
-      "text": "Schiaparelli",
-      "start": 81,
-      "end": 93,
+      "entity_text": "Schiaparelli",
+      "start_char": 81,
+      "end_char": 93,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 54,
+      "text": "Jar. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 6994"
     }
   ],
   [
     {
-      "text": "Deir el - Medina",
-      "start": 74,
-      "end": 88,
+      "entity_text": "Deir el - Medina",
+      "start_char": 74,
+      "end_char": 88,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 55,
+      "text": "Decorated jar. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7013"
     },
     {
-      "text": "Schiaparelli",
-      "start": 91,
-      "end": 103,
+      "entity_text": "Schiaparelli",
+      "start_char": 91,
+      "end_char": 103,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 55,
+      "text": "Decorated jar. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7013"
     }
   ],
   [
     {
-      "text": "Deir el - Medina",
-      "start": 65,
-      "end": 79,
+      "entity_text": "Deir el - Medina",
+      "start_char": 65,
+      "end_char": 79,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 56,
+      "text": "Bowl. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7074"
     },
     {
-      "text": "Schiaparelli",
-      "start": 82,
-      "end": 94,
+      "entity_text": "Schiaparelli",
+      "start_char": 82,
+      "end_char": 94,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 56,
+      "text": "Bowl. Baked clay. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7074"
     }
   ],
   [
     {
-      "text": "Deir el - Medina",
-      "start": 72,
-      "end": 86,
+      "entity_text": "Deir el - Medina",
+      "start_char": 72,
+      "end_char": 86,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 57,
+      "text": "Brush. Vegetable fibers. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7660"
     },
     {
-      "text": "Schiaparelli",
-      "start": 89,
-      "end": 101,
+      "entity_text": "Schiaparelli",
+      "start_char": 89,
+      "end_char": 101,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 57,
+      "text": "Brush. Vegetable fibers. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1905). S. 7660"
     }
   ],
   [
     {
-      "text": "Asyut",
-      "start": 86,
-      "end": 91,
+      "entity_text": "Asyut",
+      "start_char": 86,
+      "end_char": 91,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q29962",
         "description": "City in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 58,
+      "text": "Funerary basket. Wood, vegetable fibers. Old Kingdom, 5th-6th Dynasty (2435-2118 BC). Asyut, burial shaft in front of Djefahapi’s tomb.. Schiaparelli excavations (1906). S. 7932/1"
     },
     {
-      "text": "Djefahapi",
-      "start": 118,
-      "end": 127,
-      "gold_label": "PERSON"
+      "entity_text": "Djefahapi",
+      "start_char": 118,
+      "end_char": 127,
+      "gold_label": "PERSON",
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 58,
+      "text": "Funerary basket. Wood, vegetable fibers. Old Kingdom, 5th-6th Dynasty (2435-2118 BC). Asyut, burial shaft in front of Djefahapi’s tomb.. Schiaparelli excavations (1906). S. 7932/1"
     },
     {
-      "text": "Schiaparelli",
-      "start": 137,
-      "end": 149,
+      "entity_text": "Schiaparelli",
+      "start_char": 137,
+      "end_char": 149,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 58,
+      "text": "Funerary basket. Wood, vegetable fibers. Old Kingdom, 5th-6th Dynasty (2435-2118 BC). Asyut, burial shaft in front of Djefahapi’s tomb.. Schiaparelli excavations (1906). S. 7932/1"
     }
   ],
   [
     {
-      "text": "Asyut",
-      "start": 87,
-      "end": 92,
+      "entity_text": "Asyut",
+      "start_char": 87,
+      "end_char": 92,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q29962",
         "description": "City in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 59,
+      "text": "Offering tray. Baked clay. First Intermediate Period, 8th-11th Dynasty (2118-1980 BC). Asyut.. Schiaparelli excavations (1906). S. 8141"
     },
     {
-      "text": "Schiaparelli",
-      "start": 95,
-      "end": 107,
+      "entity_text": "Schiaparelli",
+      "start_char": 95,
+      "end_char": 107,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 59,
+      "text": "Offering tray. Baked clay. First Intermediate Period, 8th-11th Dynasty (2118-1980 BC). Asyut.. Schiaparelli excavations (1906). S. 8141"
     }
   ],
   [
     {
-      "text": "Amenhotep II",
-      "start": 76,
-      "end": 88,
+      "entity_text": "Amenhotep II",
+      "start_char": 76,
+      "end_char": 88,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q158052",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 60,
+      "text": "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273"
     },
     {
-      "text": "Tuthmosis IV",
-      "start": 90,
-      "end": 102,
+      "entity_text": "Tuthmosis IV",
+      "start_char": 90,
+      "end_char": 102,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157985",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 60,
+      "text": "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273"
     },
     {
-      "text": "Amenhotep III",
-      "start": 107,
-      "end": 120,
+      "entity_text": "Amenhotep III",
+      "start_char": 107,
+      "end_char": 120,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 60,
+      "text": "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 137,
-      "end": 151,
+      "entity_text": "Deir el - Medina",
+      "start_char": 137,
+      "end_char": 151,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 60,
+      "text": "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273"
     },
     {
-      "text": "Tomb of Kha",
-      "start": 153,
-      "end": 164,
+      "entity_text": "Tomb of Kha",
+      "start_char": 153,
+      "end_char": 164,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q744424",
         "description": "ancient Egyptian tomb"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 60,
+      "text": "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273"
     },
     {
-      "text": "Schiaparelli",
-      "start": 174,
-      "end": 186,
+      "entity_text": "Schiaparelli",
+      "start_char": 174,
+      "end_char": 186,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 60,
+      "text": "Bread loaf. Vegetable organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8273"
     }
   ],
   [
     {
-      "text": "Amenhotep II",
-      "start": 87,
-      "end": 99,
+      "entity_text": "Amenhotep II",
+      "start_char": 87,
+      "end_char": 99,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q158052",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 61,
+      "text": "Bowl containing fishes dried in salt. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8321"
     },
     {
-      "text": "Tuthmosis IV",
-      "start": 101,
-      "end": 113,
+      "entity_text": "Tuthmosis IV",
+      "start_char": 101,
+      "end_char": 113,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157985",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 61,
+      "text": "Bowl containing fishes dried in salt. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8321"
     },
     {
-      "text": "Amenhotep III",
-      "start": 118,
-      "end": 131,
+      "entity_text": "Amenhotep III",
+      "start_char": 118,
+      "end_char": 131,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 61,
+      "text": "Bowl containing fishes dried in salt. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8321"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 148,
-      "end": 162,
+      "entity_text": "Deir el - Medina",
+      "start_char": 148,
+      "end_char": 162,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 61,
+      "text": "Bowl containing fishes dried in salt. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8321"
     },
     {
-      "text": "Tomb of Kha",
-      "start": 164,
-      "end": 175,
+      "entity_text": "Tomb of Kha",
+      "start_char": 164,
+      "end_char": 175,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q744424",
         "description": "ancient Egyptian tomb"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 61,
+      "text": "Bowl containing fishes dried in salt. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8321"
     },
     {
-      "text": "Schiaparelli",
-      "start": 185,
-      "end": 197,
+      "entity_text": "Schiaparelli",
+      "start_char": 185,
+      "end_char": 197,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 61,
+      "text": "Bowl containing fishes dried in salt. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8321"
     }
   ],
   [
     {
-      "text": "Amenhotep II",
-      "start": 81,
-      "end": 93,
+      "entity_text": "Amenhotep II",
+      "start_char": 81,
+      "end_char": 93,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q158052",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 62,
+      "text": "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352"
     },
     {
-      "text": "Tuthmosis IV",
-      "start": 95,
-      "end": 107,
+      "entity_text": "Tuthmosis IV",
+      "start_char": 95,
+      "end_char": 107,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157985",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 62,
+      "text": "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352"
     },
     {
-      "text": "Amenhotep III",
-      "start": 112,
-      "end": 125,
+      "entity_text": "Amenhotep III",
+      "start_char": 112,
+      "end_char": 125,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 62,
+      "text": "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 142,
-      "end": 156,
+      "entity_text": "Deir el - Medina",
+      "start_char": 142,
+      "end_char": 156,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 62,
+      "text": "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352"
     },
     {
-      "text": "Tomb of Kha",
-      "start": 158,
-      "end": 169,
+      "entity_text": "Tomb of Kha",
+      "start_char": 158,
+      "end_char": 169,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q744424",
         "description": "ancient Egyptian tomb"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 62,
+      "text": "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352"
     },
     {
-      "text": "Schiaparelli",
-      "start": 179,
-      "end": 191,
+      "entity_text": "Schiaparelli",
+      "start_char": 179,
+      "end_char": 191,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 62,
+      "text": "Persea and papyrus twigs. Vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8352"
     }
   ],
   [
     {
-      "text": "Amenhotep II",
-      "start": 71,
-      "end": 83,
+      "entity_text": "Amenhotep II",
+      "start_char": 71,
+      "end_char": 83,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q158052",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 63,
+      "text": "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364"
     },
     {
-      "text": "Tuthmosis IV",
-      "start": 85,
-      "end": 97,
+      "entity_text": "Tuthmosis IV",
+      "start_char": 85,
+      "end_char": 97,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157985",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 63,
+      "text": "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364"
     },
     {
-      "text": "Amenhotep III",
-      "start": 102,
-      "end": 115,
+      "entity_text": "Amenhotep III",
+      "start_char": 102,
+      "end_char": 115,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 63,
+      "text": "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 132,
-      "end": 146,
+      "entity_text": "Deir el - Medina",
+      "start_char": 132,
+      "end_char": 146,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 63,
+      "text": "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364"
     },
     {
-      "text": "Tomb of Kha",
-      "start": 148,
-      "end": 159,
+      "entity_text": "Tomb of Kha",
+      "start_char": 148,
+      "end_char": 159,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q744424",
         "description": "ancient Egyptian tomb"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 63,
+      "text": "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364"
     },
     {
-      "text": "Schiaparelli",
-      "start": 169,
-      "end": 181,
+      "entity_text": "Schiaparelli",
+      "start_char": 169,
+      "end_char": 181,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 63,
+      "text": "Pestle or papyrus smoother. Wood. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8364"
     }
   ],
   [
     {
-      "text": "Amenhotep II",
-      "start": 65,
-      "end": 77,
+      "entity_text": "Amenhotep II",
+      "start_char": 65,
+      "end_char": 77,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q158052",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 64,
+      "text": "Decorated ware. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8368"
     },
     {
-      "text": "Tuthmosis IV",
-      "start": 79,
-      "end": 91,
+      "entity_text": "Tuthmosis IV",
+      "start_char": 79,
+      "end_char": 91,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157985",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 64,
+      "text": "Decorated ware. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8368"
     },
     {
-      "text": "Amenhotep III",
-      "start": 96,
-      "end": 109,
+      "entity_text": "Amenhotep III",
+      "start_char": 96,
+      "end_char": 109,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 64,
+      "text": "Decorated ware. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8368"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 126,
-      "end": 140,
+      "entity_text": "Deir el - Medina",
+      "start_char": 126,
+      "end_char": 140,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 64,
+      "text": "Decorated ware. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8368"
     },
     {
-      "text": "Tomb of Kha",
-      "start": 142,
-      "end": 153,
+      "entity_text": "Tomb of Kha",
+      "start_char": 142,
+      "end_char": 153,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q744424",
         "description": "ancient Egyptian tomb"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 64,
+      "text": "Decorated ware. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8368"
     },
     {
-      "text": "Schiaparelli",
-      "start": 163,
-      "end": 175,
+      "entity_text": "Schiaparelli",
+      "start_char": 163,
+      "end_char": 175,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 64,
+      "text": "Decorated ware. Baked clay. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8368"
     }
   ],
   [
     {
-      "text": "Amenhotep II",
-      "start": 54,
-      "end": 66,
+      "entity_text": "Amenhotep II",
+      "start_char": 54,
+      "end_char": 66,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q158052",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 65,
+      "text": "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410"
     },
     {
-      "text": "Tuthmosis IV",
-      "start": 68,
-      "end": 80,
+      "entity_text": "Tuthmosis IV",
+      "start_char": 68,
+      "end_char": 80,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157985",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 65,
+      "text": "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410"
     },
     {
-      "text": "Amenhotep III",
-      "start": 85,
-      "end": 98,
+      "entity_text": "Amenhotep III",
+      "start_char": 85,
+      "end_char": 98,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 65,
+      "text": "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 115,
-      "end": 129,
+      "entity_text": "Deir el - Medina",
+      "start_char": 115,
+      "end_char": 129,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 65,
+      "text": "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410"
     },
     {
-      "text": "Tomb of Kha",
-      "start": 131,
-      "end": 142,
+      "entity_text": "Tomb of Kha",
+      "start_char": 131,
+      "end_char": 142,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q744424",
         "description": "ancient Egyptian tomb"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 65,
+      "text": "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410"
     },
     {
-      "text": "Schiaparelli",
-      "start": 152,
-      "end": 164,
+      "entity_text": "Schiaparelli",
+      "start_char": 152,
+      "end_char": 164,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 65,
+      "text": "Salt loaf. Salt. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8410"
     }
   ],
   [
     {
-      "text": "Amenhotep II",
-      "start": 108,
-      "end": 120,
+      "entity_text": "Amenhotep II",
+      "start_char": 108,
+      "end_char": 120,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q158052",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 66,
+      "text": "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414"
     },
     {
-      "text": "Tuthmosis IV",
-      "start": 122,
-      "end": 134,
+      "entity_text": "Tuthmosis IV",
+      "start_char": 122,
+      "end_char": 134,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157985",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 66,
+      "text": "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414"
     },
     {
-      "text": "Amenhotep III",
-      "start": 139,
-      "end": 152,
+      "entity_text": "Amenhotep III",
+      "start_char": 139,
+      "end_char": 152,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 66,
+      "text": "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 169,
-      "end": 183,
+      "entity_text": "Deir el - Medina",
+      "start_char": 169,
+      "end_char": 183,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 66,
+      "text": "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414"
     },
     {
-      "text": "Tomb of Kha",
-      "start": 185,
-      "end": 196,
+      "entity_text": "Tomb of Kha",
+      "start_char": 185,
+      "end_char": 196,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q744424",
         "description": "ancient Egyptian tomb"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 66,
+      "text": "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414"
     },
     {
-      "text": "Schiaparelli",
-      "start": 206,
-      "end": 218,
+      "entity_text": "Schiaparelli",
+      "start_char": 206,
+      "end_char": 218,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 66,
+      "text": "Lidded basket with juniper berries. Vegetable fibers, organic remains. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8414"
     }
   ],
   [
     {
-      "text": "Amenhotep II",
-      "start": 69,
-      "end": 81,
+      "entity_text": "Amenhotep II",
+      "start_char": 69,
+      "end_char": 81,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q158052",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 67,
+      "text": "Basket. Wood, vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8424"
     },
     {
-      "text": "Tuthmosis IV",
-      "start": 83,
-      "end": 95,
+      "entity_text": "Tuthmosis IV",
+      "start_char": 83,
+      "end_char": 95,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157985",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 67,
+      "text": "Basket. Wood, vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8424"
     },
     {
-      "text": "Amenhotep III",
-      "start": 100,
-      "end": 113,
+      "entity_text": "Amenhotep III",
+      "start_char": 100,
+      "end_char": 113,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 67,
+      "text": "Basket. Wood, vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8424"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 130,
-      "end": 144,
+      "entity_text": "Deir el - Medina",
+      "start_char": 130,
+      "end_char": 144,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 67,
+      "text": "Basket. Wood, vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8424"
     },
     {
-      "text": "Tomb of Kha",
-      "start": 146,
-      "end": 157,
+      "entity_text": "Tomb of Kha",
+      "start_char": 146,
+      "end_char": 157,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q744424",
         "description": "ancient Egyptian tomb"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 67,
+      "text": "Basket. Wood, vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8424"
     },
     {
-      "text": "Schiaparelli",
-      "start": 167,
-      "end": 179,
+      "entity_text": "Schiaparelli",
+      "start_char": 167,
+      "end_char": 179,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 67,
+      "text": "Basket. Wood, vegetable fibers. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8424"
     }
   ],
   [
     {
-      "text": "Kha",
-      "start": 16,
-      "end": 19,
-      "gold_label": "PERSON"
+      "entity_text": "Kha",
+      "start_char": 16,
+      "end_char": 19,
+      "gold_label": "PERSON",
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 68,
+      "text": "Inner coffin of Kha. Wood, stucco, gold, bronze, glass. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8429"
     },
     {
-      "text": "Amenhotep II",
-      "start": 93,
-      "end": 105,
+      "entity_text": "Amenhotep II",
+      "start_char": 93,
+      "end_char": 105,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q158052",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 68,
+      "text": "Inner coffin of Kha. Wood, stucco, gold, bronze, glass. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8429"
     },
     {
-      "text": "Tuthmosis IV",
-      "start": 107,
-      "end": 119,
+      "entity_text": "Tuthmosis IV",
+      "start_char": 107,
+      "end_char": 119,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157985",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 68,
+      "text": "Inner coffin of Kha. Wood, stucco, gold, bronze, glass. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8429"
     },
     {
-      "text": "Amenhotep III",
-      "start": 124,
-      "end": 137,
+      "entity_text": "Amenhotep III",
+      "start_char": 124,
+      "end_char": 137,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 68,
+      "text": "Inner coffin of Kha. Wood, stucco, gold, bronze, glass. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8429"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 154,
-      "end": 168,
+      "entity_text": "Deir el - Medina",
+      "start_char": 154,
+      "end_char": 168,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 68,
+      "text": "Inner coffin of Kha. Wood, stucco, gold, bronze, glass. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8429"
     },
     {
-      "text": "Tomb of Kha",
-      "start": 170,
-      "end": 181,
+      "entity_text": "Tomb of Kha",
+      "start_char": 170,
+      "end_char": 181,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q744424",
         "description": "ancient Egyptian tomb"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 68,
+      "text": "Inner coffin of Kha. Wood, stucco, gold, bronze, glass. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8429"
     },
     {
-      "text": "Schiaparelli",
-      "start": 191,
-      "end": 203,
+      "entity_text": "Schiaparelli",
+      "start_char": 191,
+      "end_char": 203,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 68,
+      "text": "Inner coffin of Kha. Wood, stucco, gold, bronze, glass. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8429"
     }
   ],
   [
     {
-      "text": "Amenhotep II",
-      "start": 77,
-      "end": 89,
+      "entity_text": "Amenhotep II",
+      "start_char": 77,
+      "end_char": 89,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q158052",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 69,
+      "text": "Tunic with multicolored borders. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8530"
     },
     {
-      "text": "Tuthmosis IV",
-      "start": 91,
-      "end": 103,
+      "entity_text": "Tuthmosis IV",
+      "start_char": 91,
+      "end_char": 103,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157985",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 69,
+      "text": "Tunic with multicolored borders. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8530"
     },
     {
-      "text": "Amenhotep III",
-      "start": 108,
-      "end": 121,
+      "entity_text": "Amenhotep III",
+      "start_char": 108,
+      "end_char": 121,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 69,
+      "text": "Tunic with multicolored borders. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8530"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 138,
-      "end": 152,
+      "entity_text": "Deir el - Medina",
+      "start_char": 138,
+      "end_char": 152,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 69,
+      "text": "Tunic with multicolored borders. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8530"
     },
     {
-      "text": "Tomb of Kha",
-      "start": 154,
-      "end": 165,
+      "entity_text": "Tomb of Kha",
+      "start_char": 154,
+      "end_char": 165,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q744424",
         "description": "ancient Egyptian tomb"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 69,
+      "text": "Tunic with multicolored borders. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8530"
     },
     {
-      "text": "Schiaparelli",
-      "start": 175,
-      "end": 187,
+      "entity_text": "Schiaparelli",
+      "start_char": 175,
+      "end_char": 187,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 69,
+      "text": "Tunic with multicolored borders. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8530"
     }
   ],
   [
     {
-      "text": "Amenhotep II",
-      "start": 92,
-      "end": 104,
+      "entity_text": "Amenhotep II",
+      "start_char": 92,
+      "end_char": 104,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q158052",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 70,
+      "text": "Kohl tube with linen stopper. Vegetable fibers, linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8606"
     },
     {
-      "text": "Tuthmosis IV",
-      "start": 106,
-      "end": 118,
+      "entity_text": "Tuthmosis IV",
+      "start_char": 106,
+      "end_char": 118,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157985",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 70,
+      "text": "Kohl tube with linen stopper. Vegetable fibers, linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8606"
     },
     {
-      "text": "Amenhotep III",
-      "start": 123,
-      "end": 136,
+      "entity_text": "Amenhotep III",
+      "start_char": 123,
+      "end_char": 136,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 70,
+      "text": "Kohl tube with linen stopper. Vegetable fibers, linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8606"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 153,
-      "end": 167,
+      "entity_text": "Deir el - Medina",
+      "start_char": 153,
+      "end_char": 167,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 70,
+      "text": "Kohl tube with linen stopper. Vegetable fibers, linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8606"
     },
     {
-      "text": "Tomb of Kha",
-      "start": 169,
-      "end": 180,
+      "entity_text": "Tomb of Kha",
+      "start_char": 169,
+      "end_char": 180,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q744424",
         "description": "ancient Egyptian tomb"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 70,
+      "text": "Kohl tube with linen stopper. Vegetable fibers, linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8606"
     },
     {
-      "text": "Schiaparelli",
-      "start": 190,
-      "end": 202,
+      "entity_text": "Schiaparelli",
+      "start_char": 190,
+      "end_char": 202,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 70,
+      "text": "Kohl tube with linen stopper. Vegetable fibers, linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8606"
     }
   ],
   [
     {
-      "text": "Amenhotep II",
-      "start": 55,
-      "end": 67,
+      "entity_text": "Amenhotep II",
+      "start_char": 55,
+      "end_char": 67,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q158052",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 71,
+      "text": "Loincloth. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8613/10"
     },
     {
-      "text": "Tuthmosis IV",
-      "start": 69,
-      "end": 81,
+      "entity_text": "Tuthmosis IV",
+      "start_char": 69,
+      "end_char": 81,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157985",
         "description": "Egyptian Pharaoh of the 18th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 71,
+      "text": "Loincloth. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8613/10"
     },
     {
-      "text": "Amenhotep III",
-      "start": 86,
-      "end": 99,
+      "entity_text": "Amenhotep III",
+      "start_char": 86,
+      "end_char": 99,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q42606",
         "description": "ninth Pharaoh of the Eighteenth dynasty of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 71,
+      "text": "Loincloth. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8613/10"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 116,
-      "end": 130,
+      "entity_text": "Deir el - Medina",
+      "start_char": 116,
+      "end_char": 130,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 71,
+      "text": "Loincloth. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8613/10"
     },
     {
-      "text": "Tomb of Kha",
-      "start": 132,
-      "end": 143,
+      "entity_text": "Tomb of Kha",
+      "start_char": 132,
+      "end_char": 143,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q744424",
         "description": "ancient Egyptian tomb"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 71,
+      "text": "Loincloth. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8613/10"
     },
     {
-      "text": "Schiaparelli",
-      "start": 153,
-      "end": 165,
+      "entity_text": "Schiaparelli",
+      "start_char": 153,
+      "end_char": 165,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 71,
+      "text": "Loincloth. Linen. New Kingdom, 18th Dynasty, reigns of Amenhotep II, Tuthmosis IV and Amenhotep III (1425-1353 BC). Deir el-Medina, Tomb of Kha (TT 8).. Schiaparelli excavations (1906). S. 8613/10"
     }
   ],
   [
     {
-      "text": "Sesostris I",
-      "start": 56,
-      "end": 67,
+      "entity_text": "Sesostris I",
+      "start_char": 56,
+      "end_char": 67,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q18763",
         "description": "pharaoh of Egypt"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 72,
+      "text": "Cup. Baked clay. Middle Kingdom, 12th Dynasty, reign of Sesostris I (1920-1875 BC). Asyut, Tomb of Shemes.. Schiaparelli excavations (1908). S. 8676"
     },
     {
-      "text": "Asyut",
-      "start": 84,
-      "end": 89,
+      "entity_text": "Asyut",
+      "start_char": 84,
+      "end_char": 89,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q29962",
         "description": "City in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 72,
+      "text": "Cup. Baked clay. Middle Kingdom, 12th Dynasty, reign of Sesostris I (1920-1875 BC). Asyut, Tomb of Shemes.. Schiaparelli excavations (1908). S. 8676"
     },
     {
-      "text": "Tomb of Shemes",
-      "start": 91,
-      "end": 105,
+      "entity_text": "Tomb of Shemes",
+      "start_char": 91,
+      "end_char": 105,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q134283912",
         "description": "ancient egyptian tomb in Asyut, Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 72,
+      "text": "Cup. Baked clay. Middle Kingdom, 12th Dynasty, reign of Sesostris I (1920-1875 BC). Asyut, Tomb of Shemes.. Schiaparelli excavations (1908). S. 8676"
     },
     {
-      "text": "Schiaparelli",
-      "start": 108,
-      "end": 120,
+      "entity_text": "Schiaparelli",
+      "start_char": 108,
+      "end_char": 120,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 72,
+      "text": "Cup. Baked clay. Middle Kingdom, 12th Dynasty, reign of Sesostris I (1920-1875 BC). Asyut, Tomb of Shemes.. Schiaparelli excavations (1908). S. 8676"
     }
   ],
   [
     {
-      "text": "Asyut",
-      "start": 68,
-      "end": 73,
+      "entity_text": "Asyut",
+      "start_char": 68,
+      "end_char": 73,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q29962",
         "description": "City in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 73,
+      "text": "Jar. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8812"
     },
     {
-      "text": "Tomb of Minhotep",
-      "start": 75,
-      "end": 91,
+      "entity_text": "Tomb of Minhotep",
+      "start_char": 75,
+      "end_char": 91,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q134283924",
         "description": "ancient egyptian tomb in Asyut, Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 73,
+      "text": "Jar. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8812"
     },
     {
-      "text": "Schiaparelli",
-      "start": 94,
-      "end": 106,
+      "entity_text": "Schiaparelli",
+      "start_char": 94,
+      "end_char": 106,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 73,
+      "text": "Jar. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8812"
     }
   ],
   [
     {
-      "text": "Asyut",
-      "start": 68,
-      "end": 73,
+      "entity_text": "Asyut",
+      "start_char": 68,
+      "end_char": 73,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q29962",
         "description": "City in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 74,
+      "text": "Cup. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8853"
     },
     {
-      "text": "Tomb of Minhotep",
-      "start": 75,
-      "end": 91,
+      "entity_text": "Tomb of Minhotep",
+      "start_char": 75,
+      "end_char": 91,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q134283924",
         "description": "ancient egyptian tomb in Asyut, Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 74,
+      "text": "Cup. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8853"
     },
     {
-      "text": "Schiaparelli",
-      "start": 94,
-      "end": 106,
+      "entity_text": "Schiaparelli",
+      "start_char": 94,
+      "end_char": 106,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 74,
+      "text": "Cup. Baked clay. Middle Kingdom, early 12th Dynasty (1939-1875 BC). Asyut, Tomb of Minhotep.. Schiaparelli excavations (1908). S. 8853"
     }
   ],
   [
     {
-      "text": "Menna",
-      "start": 59,
-      "end": 64,
+      "entity_text": "Menna",
+      "start_char": 59,
+      "end_char": 64,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q6817163",
         "description": "ancient Egyptian scribe"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 75,
+      "text": "Hieratic ostracon with a testimony in court by the workman Menna. Limestone. New Kingdom, 20th Dynasty, reign of Ramesses III (1187-1157 BC). Deir el-Medina.. Schiaparelli excavations (1909-1912). S. 9611 = CGT 57381"
     },
     {
-      "text": "Ramesses III",
-      "start": 113,
-      "end": 125,
+      "entity_text": "Ramesses III",
+      "start_char": 113,
+      "end_char": 125,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1528",
         "description": "Egyptian pharaoh of the 20th dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 75,
+      "text": "Hieratic ostracon with a testimony in court by the workman Menna. Limestone. New Kingdom, 20th Dynasty, reign of Ramesses III (1187-1157 BC). Deir el-Medina.. Schiaparelli excavations (1909-1912). S. 9611 = CGT 57381"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 142,
-      "end": 156,
+      "entity_text": "Deir el - Medina",
+      "start_char": 142,
+      "end_char": 156,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 75,
+      "text": "Hieratic ostracon with a testimony in court by the workman Menna. Limestone. New Kingdom, 20th Dynasty, reign of Ramesses III (1187-1157 BC). Deir el-Medina.. Schiaparelli excavations (1909-1912). S. 9611 = CGT 57381"
     },
     {
-      "text": "Schiaparelli",
-      "start": 159,
-      "end": 171,
+      "entity_text": "Schiaparelli",
+      "start_char": 159,
+      "end_char": 171,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 75,
+      "text": "Hieratic ostracon with a testimony in court by the workman Menna. Limestone. New Kingdom, 20th Dynasty, reign of Ramesses III (1187-1157 BC). Deir el-Medina.. Schiaparelli excavations (1909-1912). S. 9611 = CGT 57381"
     }
   ],
   [
     {
-      "text": "Deir el - Medina",
-      "start": 74,
-      "end": 88,
+      "entity_text": "Deir el - Medina",
+      "start_char": 74,
+      "end_char": 88,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 76,
+      "text": "Two chisels. Wood, bronze. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1909-1912). S. 09964 e 09965"
     },
     {
-      "text": "Schiaparelli",
-      "start": 91,
-      "end": 103,
+      "entity_text": "Schiaparelli",
+      "start_char": 91,
+      "end_char": 103,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 76,
+      "text": "Two chisels. Wood, bronze. New Kingdom, 18th-20th Dynasty (1539-1076 BC). Deir el-Medina.. Schiaparelli excavations (1909-1912). S. 09964 e 09965"
     }
   ],
   [
     {
-      "text": "Nespayherhat",
-      "start": 10,
-      "end": 22,
-      "gold_label": "PERSON"
+      "entity_text": "Nespayherhat",
+      "start_char": 10,
+      "end_char": 22,
+      "gold_label": "PERSON",
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 77,
+      "text": "Shabti of Nespayherhat. Baked clay. Third Intermediate Period, 21st- 22nd Dynasty (1076-746 BC). Deir el-Medina.. Schiaparelli excavations (1909). S. 10437"
     },
     {
-      "text": "Deir el - Medina",
-      "start": 97,
-      "end": 111,
+      "entity_text": "Deir el - Medina",
+      "start_char": 97,
+      "end_char": 111,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q750212",
         "description": "ancient Egyptian village in the Valley of the Kings"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 77,
+      "text": "Shabti of Nespayherhat. Baked clay. Third Intermediate Period, 21st- 22nd Dynasty (1076-746 BC). Deir el-Medina.. Schiaparelli excavations (1909). S. 10437"
     },
     {
-      "text": "Schiaparelli",
-      "start": 114,
-      "end": 126,
+      "entity_text": "Schiaparelli",
+      "start_char": 114,
+      "end_char": 126,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 77,
+      "text": "Shabti of Nespayherhat. Baked clay. Third Intermediate Period, 21st- 22nd Dynasty (1076-746 BC). Deir el-Medina.. Schiaparelli excavations (1909). S. 10437"
     }
   ],
   [
     {
-      "text": "Asyut",
-      "start": 109,
-      "end": 114,
+      "entity_text": "Asyut",
+      "start_char": 109,
+      "end_char": 114,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q29962",
         "description": "City in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 78,
+      "text": "Mummy of an ibis. Organic remains, linen. Ptolemaic Period - Roman Period (3rd century BC - 3rd century AD). Asyut.. Schiaparelli excavations (1910). S. 11029"
     },
     {
-      "text": "Schiaparelli",
-      "start": 117,
-      "end": 129,
+      "entity_text": "Schiaparelli",
+      "start_char": 117,
+      "end_char": 129,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 78,
+      "text": "Mummy of an ibis. Organic remains, linen. Ptolemaic Period - Roman Period (3rd century BC - 3rd century AD). Asyut.. Schiaparelli excavations (1910). S. 11029"
     }
   ],
   [
     {
-      "text": "Gebelein",
-      "start": 89,
-      "end": 97,
+      "entity_text": "Gebelein",
+      "start_char": 89,
+      "end_char": 97,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 79,
+      "text": "Black-topped vase (B-ware). Baked clay. Predynastic Period, Naqada I-IIA (3900-3600 BC). Gebelein.. Schiaparelli excavations (1910). S. 11113/2"
     },
     {
-      "text": "Schiaparelli",
-      "start": 100,
-      "end": 112,
+      "entity_text": "Schiaparelli",
+      "start_char": 100,
+      "end_char": 112,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 79,
+      "text": "Black-topped vase (B-ware). Baked clay. Predynastic Period, Naqada I-IIA (3900-3600 BC). Gebelein.. Schiaparelli excavations (1910). S. 11113/2"
     }
   ],
   [
     {
-      "text": "Gebelein",
-      "start": 90,
-      "end": 98,
+      "entity_text": "Gebelein",
+      "start_char": 90,
+      "end_char": 98,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 80,
+      "text": "Wavy-handled jar (W-ware). Baked clay. Protodynastic Period, Naqada IIIA1 (3300-3200 BC). Gebelein.. Schiaparelli excavations (1910). S. 11170"
     },
     {
-      "text": "Schiaparelli",
-      "start": 101,
-      "end": 113,
+      "entity_text": "Schiaparelli",
+      "start_char": 101,
+      "end_char": 113,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 80,
+      "text": "Wavy-handled jar (W-ware). Baked clay. Protodynastic Period, Naqada IIIA1 (3300-3200 BC). Gebelein.. Schiaparelli excavations (1910). S. 11170"
     }
   ],
   [
     {
-      "text": "Tuthmosis III",
-      "start": 40,
-      "end": 53,
+      "entity_text": "Tuthmosis III",
+      "start_char": 40,
+      "end_char": 53,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157899",
         "description": "sixth Egyptian Pharaoh of the Eighteenth Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 81,
+      "text": "Model brick stamp with the cartouche of Tuthmosis III “beloved of Hathor, mistress of Gebelein”. Wood. New Kingdom, reign of Tuthmosis III (1458-1425 BC). Gebelein, temple of Hathor, under the foundations.. Schiaparelli excavations (1910). S. 12445"
     },
     {
-      "text": "Hathor",
-      "start": 66,
-      "end": 72,
+      "entity_text": "Hathor",
+      "start_char": 66,
+      "end_char": 72,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q133343",
         "description": "major goddess in ancient Egyptian religion"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 81,
+      "text": "Model brick stamp with the cartouche of Tuthmosis III “beloved of Hathor, mistress of Gebelein”. Wood. New Kingdom, reign of Tuthmosis III (1458-1425 BC). Gebelein, temple of Hathor, under the foundations.. Schiaparelli excavations (1910). S. 12445"
     },
     {
-      "text": "Gebelein",
-      "start": 86,
-      "end": 94,
+      "entity_text": "Gebelein",
+      "start_char": 86,
+      "end_char": 94,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 81,
+      "text": "Model brick stamp with the cartouche of Tuthmosis III “beloved of Hathor, mistress of Gebelein”. Wood. New Kingdom, reign of Tuthmosis III (1458-1425 BC). Gebelein, temple of Hathor, under the foundations.. Schiaparelli excavations (1910). S. 12445"
     },
     {
-      "text": "Tuthmosis III",
-      "start": 125,
-      "end": 138,
+      "entity_text": "Tuthmosis III",
+      "start_char": 125,
+      "end_char": 138,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q157899",
         "description": "sixth Egyptian Pharaoh of the Eighteenth Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 81,
+      "text": "Model brick stamp with the cartouche of Tuthmosis III “beloved of Hathor, mistress of Gebelein”. Wood. New Kingdom, reign of Tuthmosis III (1458-1425 BC). Gebelein, temple of Hathor, under the foundations.. Schiaparelli excavations (1910). S. 12445"
     },
     {
-      "text": "Gebelein",
-      "start": 155,
-      "end": 163,
+      "entity_text": "Gebelein",
+      "start_char": 155,
+      "end_char": 163,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 81,
+      "text": "Model brick stamp with the cartouche of Tuthmosis III “beloved of Hathor, mistress of Gebelein”. Wood. New Kingdom, reign of Tuthmosis III (1458-1425 BC). Gebelein, temple of Hathor, under the foundations.. Schiaparelli excavations (1910). S. 12445"
     },
     {
-      "text": "Hathor",
-      "start": 175,
-      "end": 181,
+      "entity_text": "Hathor",
+      "start_char": 175,
+      "end_char": 181,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q133343",
         "description": "major goddess in ancient Egyptian religion"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 81,
+      "text": "Model brick stamp with the cartouche of Tuthmosis III “beloved of Hathor, mistress of Gebelein”. Wood. New Kingdom, reign of Tuthmosis III (1458-1425 BC). Gebelein, temple of Hathor, under the foundations.. Schiaparelli excavations (1910). S. 12445"
     },
     {
-      "text": "Schiaparelli",
-      "start": 207,
-      "end": 219,
+      "entity_text": "Schiaparelli",
+      "start_char": 207,
+      "end_char": 219,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 81,
+      "text": "Model brick stamp with the cartouche of Tuthmosis III “beloved of Hathor, mistress of Gebelein”. Wood. New Kingdom, reign of Tuthmosis III (1458-1425 BC). Gebelein, temple of Hathor, under the foundations.. Schiaparelli excavations (1910). S. 12445"
     }
   ],
   [
     {
-      "text": "Gebelein",
-      "start": 68,
-      "end": 76,
+      "entity_text": "Gebelein",
+      "start_char": 68,
+      "end_char": 76,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 82,
+      "text": "Jar with lid. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13054"
     },
     {
-      "text": "Iti",
-      "start": 86,
-      "end": 89,
+      "entity_text": "Iti",
+      "start_char": 86,
+      "end_char": 89,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q152375",
         "description": "ancient Egyptian pharaoh of the First Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 82,
+      "text": "Jar with lid. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13054"
     },
     {
-      "text": "Neferu",
-      "start": 94,
-      "end": 100,
+      "entity_text": "Neferu",
+      "start_char": 94,
+      "end_char": 100,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q849695",
         "description": "Egyptian queen consort"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 82,
+      "text": "Jar with lid. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13054"
     },
     {
-      "text": "Schiaparelli",
-      "start": 103,
-      "end": 115,
+      "entity_text": "Schiaparelli",
+      "start_char": 103,
+      "end_char": 115,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 82,
+      "text": "Jar with lid. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13054"
     }
   ],
   [
     {
-      "text": "Gebelein",
-      "start": 70,
-      "end": 78,
+      "entity_text": "Gebelein",
+      "start_char": 70,
+      "end_char": 78,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 83,
+      "text": "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13066"
     },
     {
-      "text": "Iti",
-      "start": 88,
-      "end": 91,
+      "entity_text": "Iti",
+      "start_char": 88,
+      "end_char": 91,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q152375",
         "description": "ancient Egyptian pharaoh of the First Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 83,
+      "text": "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13066"
     },
     {
-      "text": "Neferu",
-      "start": 96,
-      "end": 102,
+      "entity_text": "Neferu",
+      "start_char": 96,
+      "end_char": 102,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q849695",
         "description": "Egyptian queen consort"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 83,
+      "text": "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13066"
     },
     {
-      "text": "Schiaparelli",
-      "start": 105,
-      "end": 117,
+      "entity_text": "Schiaparelli",
+      "start_char": 105,
+      "end_char": 117,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 83,
+      "text": "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13066"
     }
   ],
   [
     {
-      "text": "Gebelein",
-      "start": 7,
-      "end": 15,
+      "entity_text": "Gebelein",
+      "start_char": 7,
+      "end_char": 15,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 84,
+      "text": "Shell. Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13084"
     },
     {
-      "text": "Iti",
-      "start": 25,
-      "end": 28,
+      "entity_text": "Iti",
+      "start_char": 25,
+      "end_char": 28,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q152375",
         "description": "ancient Egyptian pharaoh of the First Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 84,
+      "text": "Shell. Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13084"
     },
     {
-      "text": "Neferu",
-      "start": 33,
-      "end": 39,
+      "entity_text": "Neferu",
+      "start_char": 33,
+      "end_char": 39,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q849695",
         "description": "Egyptian queen consort"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 84,
+      "text": "Shell. Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13084"
     },
     {
-      "text": "Schiaparelli",
-      "start": 42,
-      "end": 54,
+      "entity_text": "Schiaparelli",
+      "start_char": 42,
+      "end_char": 54,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 84,
+      "text": "Shell. Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13084"
     }
   ],
   [
     {
-      "text": "Gebelein",
-      "start": 71,
-      "end": 79,
+      "entity_text": "Gebelein",
+      "start_char": 71,
+      "end_char": 79,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 85,
+      "text": "Model bag. Vegetable fibers. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13108"
     },
     {
-      "text": "Iti",
-      "start": 89,
-      "end": 92,
+      "entity_text": "Iti",
+      "start_char": 89,
+      "end_char": 92,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q152375",
         "description": "ancient Egyptian pharaoh of the First Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 85,
+      "text": "Model bag. Vegetable fibers. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13108"
     },
     {
-      "text": "Neferu",
-      "start": 97,
-      "end": 103,
+      "entity_text": "Neferu",
+      "start_char": 97,
+      "end_char": 103,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q849695",
         "description": "Egyptian queen consort"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 85,
+      "text": "Model bag. Vegetable fibers. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13108"
     },
     {
-      "text": "Schiaparelli",
-      "start": 106,
-      "end": 118,
+      "entity_text": "Schiaparelli",
+      "start_char": 106,
+      "end_char": 118,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 85,
+      "text": "Model bag. Vegetable fibers. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13108"
     }
   ],
   [
     {
-      "text": "Gebelein",
-      "start": 52,
-      "end": 60,
+      "entity_text": "Gebelein",
+      "start_char": 52,
+      "end_char": 60,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 86,
+      "text": "Flask. Glazed clay. New Kingdom (1539-1076 BC) (?). Gebelein, found inside the tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13111"
     },
     {
-      "text": "Iti",
-      "start": 87,
-      "end": 90,
+      "entity_text": "Iti",
+      "start_char": 87,
+      "end_char": 90,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q152375",
         "description": "ancient Egyptian pharaoh of the First Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 86,
+      "text": "Flask. Glazed clay. New Kingdom (1539-1076 BC) (?). Gebelein, found inside the tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13111"
     },
     {
-      "text": "Neferu",
-      "start": 95,
-      "end": 101,
+      "entity_text": "Neferu",
+      "start_char": 95,
+      "end_char": 101,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q849695",
         "description": "Egyptian queen consort"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 86,
+      "text": "Flask. Glazed clay. New Kingdom (1539-1076 BC) (?). Gebelein, found inside the tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13111"
     },
     {
-      "text": "Schiaparelli",
-      "start": 104,
-      "end": 116,
+      "entity_text": "Schiaparelli",
+      "start_char": 104,
+      "end_char": 116,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 86,
+      "text": "Flask. Glazed clay. New Kingdom (1539-1076 BC) (?). Gebelein, found inside the tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13111"
     }
   ],
   [
     {
-      "text": "Gebelein",
-      "start": 59,
-      "end": 67,
+      "entity_text": "Gebelein",
+      "start_char": 59,
+      "end_char": 67,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 87,
+      "text": "Jar. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13165"
     },
     {
-      "text": "Iti",
-      "start": 77,
-      "end": 80,
+      "entity_text": "Iti",
+      "start_char": 77,
+      "end_char": 80,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q152375",
         "description": "ancient Egyptian pharaoh of the First Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 87,
+      "text": "Jar. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13165"
     },
     {
-      "text": "Neferu",
-      "start": 85,
-      "end": 91,
+      "entity_text": "Neferu",
+      "start_char": 85,
+      "end_char": 91,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q849695",
         "description": "Egyptian queen consort"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 87,
+      "text": "Jar. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13165"
     },
     {
-      "text": "Schiaparelli",
-      "start": 94,
-      "end": 106,
+      "entity_text": "Schiaparelli",
+      "start_char": 94,
+      "end_char": 106,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 87,
+      "text": "Jar. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13165"
     }
   ],
   [
     {
-      "text": "Gebelein",
-      "start": 60,
-      "end": 68,
+      "entity_text": "Gebelein",
+      "start_char": 60,
+      "end_char": 68,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 88,
+      "text": "Bowl. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13254"
     },
     {
-      "text": "Iti",
-      "start": 78,
-      "end": 81,
+      "entity_text": "Iti",
+      "start_char": 78,
+      "end_char": 81,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q152375",
         "description": "ancient Egyptian pharaoh of the First Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 88,
+      "text": "Bowl. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13254"
     },
     {
-      "text": "Neferu",
-      "start": 86,
-      "end": 92,
+      "entity_text": "Neferu",
+      "start_char": 86,
+      "end_char": 92,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q849695",
         "description": "Egyptian queen consort"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 88,
+      "text": "Bowl. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13254"
     },
     {
-      "text": "Schiaparelli",
-      "start": 95,
-      "end": 107,
+      "entity_text": "Schiaparelli",
+      "start_char": 95,
+      "end_char": 107,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 88,
+      "text": "Bowl. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13254"
     }
   ],
   [
     {
-      "text": "Gebelein",
-      "start": 70,
-      "end": 78,
+      "entity_text": "Gebelein",
+      "start_char": 70,
+      "end_char": 78,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 89,
+      "text": "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13255"
     },
     {
-      "text": "Iti",
-      "start": 88,
-      "end": 91,
+      "entity_text": "Iti",
+      "start_char": 88,
+      "end_char": 91,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q152375",
         "description": "ancient Egyptian pharaoh of the First Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 89,
+      "text": "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13255"
     },
     {
-      "text": "Neferu",
-      "start": 96,
-      "end": 102,
+      "entity_text": "Neferu",
+      "start_char": 96,
+      "end_char": 102,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q849695",
         "description": "Egyptian queen consort"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 89,
+      "text": "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13255"
     },
     {
-      "text": "Schiaparelli",
-      "start": 105,
-      "end": 117,
+      "entity_text": "Schiaparelli",
+      "start_char": 105,
+      "end_char": 117,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 89,
+      "text": "Miniature vase. Baked clay. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 13255"
     }
   ],
   [
     {
-      "text": "Ini",
-      "start": 9,
-      "end": 12,
+      "entity_text": "Ini",
+      "start_char": 9,
+      "end_char": 12,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q325744",
         "description": "Egyptian pharaoh"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 90,
+      "text": "Mummy of Ini. Organic remains. Early First Intermediate Period (ca. 2090 BC). Gebelein, Northern Cemetery, Tomb of Ini.. Schiaparelli excavations (1911). S. 13268"
     },
     {
-      "text": "Gebelein",
-      "start": 78,
-      "end": 86,
+      "entity_text": "Gebelein",
+      "start_char": 78,
+      "end_char": 86,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 90,
+      "text": "Mummy of Ini. Organic remains. Early First Intermediate Period (ca. 2090 BC). Gebelein, Northern Cemetery, Tomb of Ini.. Schiaparelli excavations (1911). S. 13268"
     },
     {
-      "text": "Northern Cemetery",
-      "start": 88,
-      "end": 105,
-      "gold_label": "LOCATION"
+      "entity_text": "Northern Cemetery",
+      "start_char": 88,
+      "end_char": 105,
+      "gold_label": "LOCATION",
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 90,
+      "text": "Mummy of Ini. Organic remains. Early First Intermediate Period (ca. 2090 BC). Gebelein, Northern Cemetery, Tomb of Ini.. Schiaparelli excavations (1911). S. 13268"
     },
     {
-      "text": "Tomb of Ini",
-      "start": 107,
-      "end": 118,
+      "entity_text": "Tomb of Ini",
+      "start_char": 107,
+      "end_char": 118,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q125489574",
         "description": "ancient Egyptian tomb in Gebelein, Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 90,
+      "text": "Mummy of Ini. Organic remains. Early First Intermediate Period (ca. 2090 BC). Gebelein, Northern Cemetery, Tomb of Ini.. Schiaparelli excavations (1911). S. 13268"
     },
     {
-      "text": "Schiaparelli",
-      "start": 121,
-      "end": 133,
+      "entity_text": "Schiaparelli",
+      "start_char": 121,
+      "end_char": 133,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 90,
+      "text": "Mummy of Ini. Organic remains. Early First Intermediate Period (ca. 2090 BC). Gebelein, Northern Cemetery, Tomb of Ini.. Schiaparelli excavations (1911). S. 13268"
     }
   ],
   [
     {
-      "text": "Gebelein",
-      "start": 58,
-      "end": 66,
+      "entity_text": "Gebelein",
+      "start_char": 58,
+      "end_char": 66,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 91,
+      "text": "Jug. Baked clay. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, “Tomba Grande”.. Schiaparelli excavations (1911). S. 13991"
     },
     {
-      "text": "Tomba Grande",
-      "start": 69,
-      "end": 81,
-      "gold_label": "LOCATION"
+      "entity_text": "Tomba Grande",
+      "start_char": 69,
+      "end_char": 81,
+      "gold_label": "LOCATION",
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 91,
+      "text": "Jug. Baked clay. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, “Tomba Grande”.. Schiaparelli excavations (1911). S. 13991"
     },
     {
-      "text": "Schiaparelli",
-      "start": 85,
-      "end": 97,
+      "entity_text": "Schiaparelli",
+      "start_char": 85,
+      "end_char": 97,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 91,
+      "text": "Jug. Baked clay. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, “Tomba Grande”.. Schiaparelli excavations (1911). S. 13991"
     }
   ],
   [
     {
-      "text": "Iti",
-      "start": 15,
-      "end": 18,
+      "entity_text": "Iti",
+      "start_char": 15,
+      "end_char": 18,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q152375",
         "description": "ancient Egyptian pharaoh of the First Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 1,
+        "description": "the entity is a person depicted on or by the artefact"
+      },
+      "text_id": 92,
+      "text": "Wall painting: Iti with greyhound. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/01"
     },
     {
-      "text": "Gebelein",
-      "start": 113,
-      "end": 121,
+      "entity_text": "Gebelein",
+      "start_char": 113,
+      "end_char": 121,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 92,
+      "text": "Wall painting: Iti with greyhound. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/01"
     },
     {
-      "text": "Iti",
-      "start": 131,
-      "end": 134,
+      "entity_text": "Iti",
+      "start_char": 131,
+      "end_char": 134,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q152375",
         "description": "ancient Egyptian pharaoh of the First Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 92,
+      "text": "Wall painting: Iti with greyhound. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/01"
     },
     {
-      "text": "Neferu",
-      "start": 139,
-      "end": 145,
+      "entity_text": "Neferu",
+      "start_char": 139,
+      "end_char": 145,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q849695",
         "description": "Egyptian queen consort"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 92,
+      "text": "Wall painting: Iti with greyhound. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/01"
     },
     {
-      "text": "Schiaparelli",
-      "start": 148,
-      "end": 160,
+      "entity_text": "Schiaparelli",
+      "start_char": 148,
+      "end_char": 160,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 92,
+      "text": "Wall painting: Iti with greyhound. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/01"
     }
   ],
   [
     {
-      "text": "Gebelein",
-      "start": 137,
-      "end": 145,
+      "entity_text": "Gebelein",
+      "start_char": 137,
+      "end_char": 145,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 93,
+      "text": "Pittura parietale: offering bearers and a sacrifice scene. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/12"
     },
     {
-      "text": "Iti",
-      "start": 155,
-      "end": 158,
+      "entity_text": "Iti",
+      "start_char": 155,
+      "end_char": 158,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q152375",
         "description": "ancient Egyptian pharaoh of the First Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 93,
+      "text": "Pittura parietale: offering bearers and a sacrifice scene. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/12"
     },
     {
-      "text": "Neferu",
-      "start": 163,
-      "end": 169,
+      "entity_text": "Neferu",
+      "start_char": 163,
+      "end_char": 169,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q849695",
         "description": "Egyptian queen consort"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 93,
+      "text": "Pittura parietale: offering bearers and a sacrifice scene. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/12"
     },
     {
-      "text": "Schiaparelli",
-      "start": 172,
-      "end": 184,
+      "entity_text": "Schiaparelli",
+      "start_char": 172,
+      "end_char": 184,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 93,
+      "text": "Pittura parietale: offering bearers and a sacrifice scene. Tempera painting on clay and straw. First Intermediate Period (2118-1980 BC). Gebelein, tomb of Iti and Neferu.. Schiaparelli excavations (1911). S. 14354/12"
     }
   ],
   [
     {
-      "text": "Perim",
-      "start": 18,
-      "end": 23,
-      "gold_label": "PERSON"
+      "entity_text": "Perim",
+      "start_char": 18,
+      "end_char": 23,
+      "gold_label": "PERSON",
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 94,
+      "text": "Offering basin of Perim and Shepset. Limestone. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, mastaba of Perim.. Schiaparelli excavations (1914). S. 15736"
     },
     {
-      "text": "Shepset",
-      "start": 28,
-      "end": 35,
+      "entity_text": "Shepset",
+      "start_char": 28,
+      "end_char": 35,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q84959355",
         "description": "ancient Egyptian princess"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 94,
+      "text": "Offering basin of Perim and Shepset. Limestone. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, mastaba of Perim.. Schiaparelli excavations (1914). S. 15736"
     },
     {
-      "text": "Gebelein",
-      "start": 89,
-      "end": 97,
+      "entity_text": "Gebelein",
+      "start_char": 89,
+      "end_char": 97,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1496830",
         "description": "village and archaeological site in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 94,
+      "text": "Offering basin of Perim and Shepset. Limestone. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, mastaba of Perim.. Schiaparelli excavations (1914). S. 15736"
     },
     {
-      "text": "Perim",
-      "start": 110,
-      "end": 115,
-      "gold_label": "PERSON"
+      "entity_text": "Perim",
+      "start_char": 110,
+      "end_char": 115,
+      "gold_label": "PERSON",
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 94,
+      "text": "Offering basin of Perim and Shepset. Limestone. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, mastaba of Perim.. Schiaparelli excavations (1914). S. 15736"
     },
     {
-      "text": "Schiaparelli",
-      "start": 118,
-      "end": 130,
+      "entity_text": "Schiaparelli",
+      "start_char": 118,
+      "end_char": 130,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 94,
+      "text": "Offering basin of Perim and Shepset. Limestone. Old Kingdom, 5th Dynasty (2435-2305 BC). Gebelein, mastaba of Perim.. Schiaparelli excavations (1914). S. 15736"
     }
   ],
   [
     {
-      "text": "Fayum",
-      "start": 83,
-      "end": 88,
+      "entity_text": "Fayum",
+      "start_char": 83,
+      "end_char": 88,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q203299",
         "description": "city in Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 95,
+      "text": "Gilded covering for a female mummy. Gilt cartonnage. Roman Period, 2nd century AD. Fayum, Hawara (?).. Gift of Garré. S. 17134"
     },
     {
-      "text": "Hawara",
-      "start": 90,
-      "end": 96,
+      "entity_text": "Hawara",
+      "start_char": 90,
+      "end_char": 96,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q26237",
         "description": "necropolis in Faiyum Governorate, Egypt"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 95,
+      "text": "Gilded covering for a female mummy. Gilt cartonnage. Roman Period, 2nd century AD. Fayum, Hawara (?).. Gift of Garré. S. 17134"
     }
   ],
   [
     {
-      "text": "Schiaparelli",
-      "start": 138,
-      "end": 150,
+      "entity_text": "Schiaparelli",
+      "start_char": 138,
+      "end_char": 150,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q1356829",
         "description": "Italian egyptologist (1856-1928)"
-      }
+      },
+      "link_id": {
+        "id": 4,
+        "description": "the entity is a person that owned the artefact"
+      },
+      "text_id": 96,
+      "text": "Decoration for tunic cuffs with geometric design on purple background. Linen, wool. Byzantine Period, 5th – 6th century AD.. Purchased by Schiaparelli or gift by the Museum of Cairo (1900-1901). S. 17486"
     }
   ],
   [
     {
-      "text": "Akhenaten",
-      "start": 56,
-      "end": 65,
+      "entity_text": "Akhenaten",
+      "start_char": 56,
+      "end_char": 65,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q81794",
         "description": "Egyptian pharaoh in 18th Dynasty"
-      }
+      },
+      "link_id": {
+        "id": 5,
+        "description": "the entity is a person in power during the period of the creation of the artefact"
+      },
+      "text_id": 97,
+      "text": "Talatat. Limestone. New Kingdom, 18th Dynasty, reign of Akhenaten (1353-1336 BC).. Purchased in Munich (1970), gift of the Turin Rotary Club. S. 18143"
     },
     {
-      "text": "Munich",
-      "start": 96,
-      "end": 102,
+      "entity_text": "Munich",
+      "start_char": 96,
+      "end_char": 102,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1726",
         "description": "capital and most populous city of Bavaria, Germany"
-      }
+      },
+      "link_id": {
+        "id": 11,
+        "description": "other entity type or other relation between entity and artefact"
+      },
+      "text_id": 97,
+      "text": "Talatat. Limestone. New Kingdom, 18th Dynasty, reign of Akhenaten (1353-1336 BC).. Purchased in Munich (1970), gift of the Turin Rotary Club. S. 18143"
     }
   ],
   [
     {
-      "text": "Tebtynis",
-      "start": 58,
-      "end": 66,
+      "entity_text": "Tebtynis",
+      "start_char": 58,
+      "end_char": 66,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1500580",
         "description": "archaeological site in the Egyptian depression of el-Faiyum"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 98,
+      "text": "Colored glass inlay. Glass. Ptolemaic Period (332-30 BC). Tebtynis.. Anti and Bagnani excavations (1930-1935). S. 18556/03"
     },
     {
-      "text": "Anti",
-      "start": 69,
-      "end": 73,
+      "entity_text": "Anti",
+      "start_char": 69,
+      "end_char": 73,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q3659000",
         "description": "Italian archaeologist (1889-1961)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 98,
+      "text": "Colored glass inlay. Glass. Ptolemaic Period (332-30 BC). Tebtynis.. Anti and Bagnani excavations (1930-1935). S. 18556/03"
     },
     {
-      "text": "Bagnani",
-      "start": 78,
-      "end": 85,
+      "entity_text": "Bagnani",
+      "start_char": 78,
+      "end_char": 85,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q21524761",
         "description": "Italian-born Canadian classical archaeologist and historian (1900-1985)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 98,
+      "text": "Colored glass inlay. Glass. Ptolemaic Period (332-30 BC). Tebtynis.. Anti and Bagnani excavations (1930-1935). S. 18556/03"
     }
   ],
   [
     {
-      "text": "Tebtynis",
-      "start": 111,
-      "end": 119,
+      "entity_text": "Tebtynis",
+      "start_char": 111,
+      "end_char": 119,
       "gold_label": "LOCATION",
       "wikidata_id": {
         "id": "Q1500580",
         "description": "archaeological site in the Egyptian depression of el-Faiyum"
-      }
+      },
+      "link_id": {
+        "id": 9,
+        "description": "the entity is a location where the artefact was discovered"
+      },
+      "text_id": 99,
+      "text": "Anthropoid coffin with remains of a painted decoration. Wood. Ptolemaic Period - Roman Period (332 BC-AD 395). Tebtynis ?. Anti and Bagnani excavations (1930-1935). S. 19691"
     },
     {
-      "text": "Anti",
-      "start": 123,
-      "end": 127,
+      "entity_text": "Anti",
+      "start_char": 123,
+      "end_char": 127,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q3659000",
         "description": "Italian archaeologist (1889-1961)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 99,
+      "text": "Anthropoid coffin with remains of a painted decoration. Wood. Ptolemaic Period - Roman Period (332 BC-AD 395). Tebtynis ?. Anti and Bagnani excavations (1930-1935). S. 19691"
     },
     {
-      "text": "Bagnani",
-      "start": 132,
-      "end": 139,
+      "entity_text": "Bagnani",
+      "start_char": 132,
+      "end_char": 139,
       "gold_label": "PERSON",
       "wikidata_id": {
         "id": "Q21524761",
         "description": "Italian-born Canadian classical archaeologist and historian (1900-1985)"
-      }
+      },
+      "link_id": {
+        "id": 3,
+        "description": "the entity is a person that discovered the artefact"
+      },
+      "text_id": 99,
+      "text": "Anthropoid coffin with remains of a painted decoration. Wood. Ptolemaic Period - Roman Period (332 BC-AD 395). Tebtynis ?. Anti and Bagnani excavations (1930-1935). S. 19691"
     }
   ]
 ]
